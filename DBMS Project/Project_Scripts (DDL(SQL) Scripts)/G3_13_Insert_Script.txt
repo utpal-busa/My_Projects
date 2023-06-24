@@ -1,0 +1,3818 @@
+------ Branch -------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Branch VALUES (1, 'Nilkanth', 'Vatsal Busa', 9998555102, 'Rajkot');
+INSERT INTO Branch VALUES (2, 'Sunrise', 'Harsh Shah', 9876543210, 'Ahmedabad');
+INSERT INTO Branch VALUES (3, 'Greenwood', 'Priya Patel', 8563058955, 'Surat');
+INSERT INTO Branch VALUES (4, 'Royal', 'Raj Gupta', 9867731358, 'Vadodara');
+INSERT INTO Branch VALUES (5, 'Paradise', 'Neha Desai', 8563075221, 'Anand');
+INSERT INTO Branch VALUES (6, 'Pristine', 'Kunal Mehta', 9650671358, 'Mumbai');
+INSERT INTO Branch VALUES (7, 'Regal', 'Deepa Sharma', 8552071155, 'Delhi');
+INSERT INTO Branch VALUES (8, 'Sapphire', 'Sahil Shah', 9870080358, 'Chennai');
+INSERT INTO Branch VALUES (9, 'Emerald', 'Nidhi Patel', 8563011205, 'Kolkata');
+INSERT INTO Branch VALUES (10, 'Opulent', 'Jay Shah', 9876501111, 'Bangalore');
+INSERT INTO Branch VALUES (11, 'Khodiyar', 'Nilesh Busa', 8563071234, 'Pune');
+INSERT INTO Branch VALUES (12, 'Majestic', 'Swati Patel', 9867501358, 'Hyderabad');
+INSERT INTO Branch VALUES (13, 'Elite', 'Siddharth Sharma', 8563089898, 'Jaipur');
+INSERT INTO Branch VALUES (14, 'Summit', 'Vikas Shah', 8563001001, 'Lucknow');
+INSERT INTO Branch VALUES (15, 'Grand', 'Shivani Mehta', 9988776655, 'Hydrabad');
+INSERT INTO Branch VALUES (16, 'Supreme', 'Priyanka Patel', 8887001358, 'Chandigarh');
+INSERT INTO Branch VALUES (17, 'Oasis', 'Gaurav Sharma', 9898989898, 'Morbi');
+INSERT INTO Branch VALUES (18, 'Cosmic', 'Karan Shah', 7000001358, 'Coimbatore');
+INSERT INTO Branch VALUES (19, 'Flora', 'Jyoti Patel', 9953686655, 'Indore');
+INSERT INTO Branch VALUES (20, 'Radiant', 'Nirav Mehta', 8563001358, 'Agra');
+INSERT INTO Branch VALUES (21, 'Diamond', 'Rakesh Sharma',8563098989, 'Nagpur');
+INSERT INTO Branch VALUES (22, 'Elegant', 'Nehal Patel', 9996501358, 'Surat');
+INSERT INTO Branch VALUES (23, 'Sahajanand', 'Yogesh Vaghasiya', 8563000255, 'Vadodara');
+INSERT INTO Branch VALUES (24, 'Mystique', 'Raj Patel', 9867695758, 'Valsad');
+INSERT INTO Branch VALUES (25, 'Serenity', 'Kavya Mehta', 8563081297, 'Ludhiyana');
+INSERT INTO Branch VALUES (26, 'Bliss', 'Anuj Sharma', 9876501358, 'Sydney');
+INSERT INTO Branch VALUES (27, 'Harmony', 'Mona Patel', 8563076655, 'Chennai');
+INSERT INTO Branch VALUES (28, 'Swastik', 'Mahesh Akbari', 9988701358, 'Rajkot');
+INSERT INTO Branch VALUES (29, 'Green Valley', 'Amit Patel', 8563076613, 'Ahmedabad');
+INSERT INTO Branch VALUES (30, 'Highway', 'Neha Gupta', 8965472310, 'Surendranagar');
+INSERT INTO Branch VALUES (31, 'Oceanic', 'Rajeev Verma', 8563076615, 'Jamnagar');
+INSERT INTO Branch VALUES (32, 'Meadow', 'Priya Singh', 9988776616, 'Bangalore');
+INSERT INTO Branch VALUES (33, 'Peak', 'Vikram Mehta', 8563076617, 'Newyork');
+INSERT INTO Branch VALUES (34, 'Green Hills', 'Mohan Shah', 7438776503, 'Ahmedabad');
+INSERT INTO Branch VALUES (35, 'River Bank', 'Divya Patel', 8563076619, 'Kolkata');
+INSERT INTO Branch VALUES (36, 'Mountain View', 'Rakesh Gupta', 9988776620, 'Mumbai');
+INSERT INTO Branch VALUES (37, 'Skyline', 'Anjali Sharma', 6938776503, 'Raipur');
+INSERT INTO Branch VALUES (38, 'Sapphire', 'Sandeep Jain', 9988776622, 'Jaipur');
+INSERT INTO Branch VALUES (39, 'Green Acres', 'Sanjay Mehta', 5578776503, 'Morbi');
+INSERT INTO Branch VALUES (40, 'City Centre', 'Nisha Shah', 9988776624, 'Bangalore');
+INSERT INTO Branch VALUES (41, 'Golden', 'Gaurav Verma', 9988776625, 'chikago');
+INSERT INTO Branch VALUES (42, 'Silver', 'Pooja Patel', 6007776503, 'Udaipur');
+INSERT INTO Branch VALUES (43, 'Emerald', 'Rahul Sharma', 9988776627, 'Morbi');
+INSERT INTO Branch VALUES (44, 'Ruby', 'Nitin Gupta', 9988776628, 'Kanpur');
+INSERT INTO Branch VALUES (45, 'Bhagvati', 'Divyesh Patel', 6431256503, 'Chennai');
+INSERT INTO Branch VALUES (46, 'Platinum', 'Abhishek Mehta', 9988776630, 'Ottawa');
+INSERT INTO Branch VALUES (47, 'Pearl', 'Nidhi Jain', 9988776631, 'Patna');
+INSERT INTO Branch VALUES (48, 'Opal', 'Vivek Verma', 6438799773, 'Morbi');
+INSERT INTO Branch VALUES (49, 'Coral', 'Kavita Shah', 9988776633, 'Vapi');
+INSERT INTO Branch VALUES (50, 'Topaz', 'Rohit Sharma', 9988776634, 'Pune');
+INSERT INTO Branch VALUES (51, 'Jade', 'Mukesh Patel', 6430000503, 'Ghandhinagar');
+INSERT INTO Branch VALUES (52, 'Amber', 'Sujata Gupta', 9988776636, 'Morbi');
+INSERT INTO Branch VALUES (53, 'Turquoise', 'Sandeep Mehta', 9988776637, 'Aagra');
+INSERT INTO Branch VALUES (54, 'Granite', 'Ruchi Jain', 6438776503, 'Delhi');
+INSERT INTO Branch VALUES (55, 'Shreeshubh', 'Chandresh Bhanderi', 9988776639, 'Bhopal');
+
+-- select * from Branch;
+
+
+
+
+
+------ Department -------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Department (dep_no, dep_name, mgr_id, branch_no) VALUES 
+(1, 'Production', 'E1001', 1),
+(2, 'Sales', 'E1002', 1),
+(3, 'Marketing', 'E1003', 1),
+(4, 'Finance', 'E1004', 1),
+(5, 'Warehouse', 'E1005', 1),
+(6, 'Shipping', 'E1006', 1),
+(7, 'Product Design', 'E1007', 1),
+(8, 'Testing', 'E1008', 1),
+(9, 'Packaging', 'E1009', 1),
+(10, 'Packaging', 'E1010', 21),
+(11, 'Production', 'E1011', 2),
+(12, 'Sales', 'E1012', 2),
+(13, 'Marketing', 'E1013', 2),
+(14, 'Finance', 'E1014', 2),
+(15, 'Warehouse', 'E1015', 2),
+(16, 'Shipping', 'E1016', 2),
+(17, 'Product Design', 'E1017', 2),
+(18, 'Testing', 'E1018', 2),
+(19, 'Packaging', 'E1019', 2),
+(20, 'Packaging', 'E1020', 22),
+(21, 'Production', 'E1021', 3),
+(22, 'Sales', 'E1022', 3),
+(23, 'Marketing', 'E1023', 3),
+(24, 'Finance', 'E1024', 3),
+(25, 'Warehouse', 'E1025', 3),
+(26, 'Shipping', 'E1026', 3),
+(27, 'Product Design', 'E1027', 3),
+(28, 'Testing', 'E1028', 3),
+(29, 'Packaging', 'E1029', 3),
+(30, 'Packaging', 'E1030', 31),
+(31, 'Production', 'E1031', 4),
+(32, 'Sales', 'E1032', 4),
+(33, 'Marketing', 'E1033', 4),
+(34, 'Finance', 'E1034', 4),
+(35, 'Warehouse', 'E1035', 4),
+(36, 'Shipping', 'E1036', 4),
+(37, 'Product Design', 'E1037', 4),
+(38, 'Testing', 'E1038', 4),
+(39, 'Packaging', 'E1039', 4),
+(40, 'Packaging', 'E1040', 34),
+(41, 'Production', 'E1041', 5),
+(42, 'Sales', 'E1042', 5),
+(43, 'Marketing', 'E1043', 5),
+(44, 'Finance', 'E1044', 5),
+(45, 'Warehouse', 'E1045', 5),
+(46, 'Shipping', 'E1046', 5),
+(47, 'Product Design', 'E1047', 5),
+(48, 'Testing', 'E1048', 5),
+(49, 'Packaging', 'E1049', 5),
+(50, 'Packaging', 'E1050', 36),
+(51, 'Production', 'E1051', 6),
+(52, 'Sales', 'E1052', 6),
+(53, 'Marketing', 'E1053', 6),
+(54, 'Finance', 'E1054', 6),
+(55, 'Warehouse', 'E1055', 6),
+(56, 'Shipping', 'E1056', 6),
+(57, 'Product Design', 'E1057', 6),
+(58, 'Testing', 'E1058', 6),
+(59, 'Packaging', 'E1059', 6),
+(60, 'Packaging', 'E1060', 39),
+(61, 'Production', 'E1061', 7),
+(62, 'Sales', 'E1062', 7),
+(63, 'Marketing', 'E1063', 7),
+(64, 'Finance', 'E1064', 7),
+(65, 'Warehouse', 'E1065', 7),
+(66, 'Shipping', 'E1066', 7),
+(67, 'Product Design', 'E1067', 7),
+(68, 'Testing', 'E1068', 7),
+(69, 'Packaging', 'E1069', 7),
+(70, 'Packaging', 'E1070', 41),
+(71, 'Production', 'E1071', 8),
+(72, 'Sales', 'E1072', 8),
+(73, 'Marketing', 'E1073', 8),
+(74, 'Finance', 'E1074', 8),
+(75, 'Warehouse', 'E1075', 8),
+(76, 'Shipping', 'E1076', 8),
+(77, 'Product Design', 'E1077', 8),
+(78, 'Testing', 'E1078', 8),
+(79, 'Packaging', 'E1079', 8),
+(80, 'Packaging', 'E1080', 51),
+(81, 'Production', 'E1081', 9),
+(82, 'Sales', 'E1082', 9),
+(83, 'Marketing', 'E1083', 9),
+(84, 'Finance', 'E1084', 9),
+(85, 'Warehouse', 'E1085', 9),
+(86, 'Shipping', 'E1086', 9),
+(87, 'Product Design', 'E1087', 9),
+(88, 'Testing', 'E1088', 9),
+(89, 'Packaging', 'E1089', 9),
+(90, 'Packaging', 'E1090', 47),
+(91, 'Production', 'E1091', 10),
+(92, 'Sales', 'E1092', 10),
+(93, 'Marketing', 'E1093', 10),
+(94, 'Finance', 'E1094', 10),
+(95, 'Warehouse', 'E1095', 10),
+(96, 'Shipping', 'E1096', 10),
+(97, 'Product Design', 'E1097', 10),
+(98, 'Testing', 'E1098', 10),
+(99, 'Packaging', 'E1099', 10),
+(100, 'Packaging', 'E1100', 29),
+(101, 'Production', 'E1101', 11),
+(102, 'Sales', 'E1102', 11),
+(103, 'Marketing', 'E1103', 11),
+(104, 'Finance', 'E1104', 11),
+(105, 'Warehouse', 'E1105', 11),
+(106, 'Shipping', 'E1106', 11),
+(107, 'Product Design', 'E1107', 11),
+(108, 'Testing', 'E1108', 11),
+(109, 'Packaging', 'E1109', 11),
+(110, 'Packaging', 'E1110', 16),
+(111, 'Production', 'E1111', 12),
+(112, 'Sales', 'E1112', 12),
+(113, 'Marketing', 'E1113', 12),
+(114, 'Finance', 'E1114', 12),
+(115, 'Warehouse', 'E1115', 12),
+(116, 'Shipping', 'E1116', 12),
+(117, 'Product Design', 'E1117', 12),
+(118, 'Testing', 'E1118', 12),
+(119, 'Packaging', 'E1119', 12),
+(120, 'Packaging', 'E1120', 55)
+
+-- select * from Department;
+
+
+
+
+
+-------- Employee --------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Employee(emp_id, emp_name, email, city, age, gender, emp_contact, salary, dep_no) 
+VALUES 
+('E1001', 'John Doe', 'johndoe@example.com', 'New York', 32, 'Male', '5555551212', 75000, 11),
+('E1002', 'Jane Smith', 'janesmith@example.com', 'Los Angeles', 45, 'Female', '5555551213', 82000, 12),
+('E1003', 'Bob Johnson', 'bobjohnson@example.com', 'Chicago', 28, 'Male', '5555551214', 60000, 13),
+('E1004', 'Samantha Lee', 'samlee@example.com', 'San Francisco', 35, 'Female', '5555551215', 90000, 14),
+('E1005', 'Michael Chen', 'michaelchen@example.com', 'Houston', 41, 'Male', '5555551216', 95000, 15),
+('E1006', 'Emily Rodriguez', 'emilyrodriguez@example.com', 'Miami', 29, 'Female', '5555551217', 62000, 12),
+('E1007', 'David Kim', 'davidkim@example.com', 'Seattle', 38, 'Male', '5555551218', 85000, 13),
+('E1008', 'Julia Martinez', 'juliamartinez@example.com', 'Atlanta', 27, 'Female', '5555551219', 70000, 16),
+('E1009', 'Alex Wong', 'alexwong@example.com', 'Boston', 33, 'Male', '5555551220', 80000, 11),
+('E1010', 'Jessica Nguyen', 'jessicanguyen@example.com', 'San Diego', 25, 'Female', '5555551221', 65000, 17),
+('E1011', 'Ryan Smith', 'ryansmith@example.com', 'New York', 37, 'Male', '5555551222', 88000, 13),
+('E1012', 'Christina Lee', 'christinalee@example.com', 'Los Angeles', 31, 'Female', '5555551223', 71000, 18),
+('E1013', 'Kevin Brown', 'kevinbrown@example.com', 'Chicago', 26, 'Male', '5555551224', 58000, 11),
+('E1014', 'Ashley Davis', 'ashleydavis@example.com', 'San Francisco', 34, 'Female', '5555551225', 92000, 12),
+('E1015', 'Jonathan Perez', 'jonathanperez@example.com', 'Houston', 39, 'Male', '5555551226', 98000, 19),
+('E1016', 'Rachel Kim', 'rachelkim@example.com', 'Miami', 27, 'Female', '5555551227', 67000, 14),
+('E1017', 'Brandon Nguyen', 'brandonnguyen@example.com', 'Seattle', 29, 'Male', '5555551228', 60000, 20),
+
+('E1018', 'Abena Osei', 'abenaosei@example.com', 'Accra', 32, 'Female', '5551234567', 50000, 21),
+('E1019', 'Adjoa Owusu', 'adjoaowusu@example.com', 'Kumasi', 28, 'Female', '5552345678', 45000, 23),
+('E1020', 'Amara Diallo', 'amaradiallo@example.com', 'Dakar', 35, 'Female', '5553456789', 60000, 22),
+('E1021', 'Anwar Mohamed', 'anwarmohamed@example.com', 'Cairo', 27, 'Male', '5554567890', 40000, 26),
+('E1022', 'Asha Abdallah', 'ashaabdallah@example.com', 'Mombasa', 31, 'Female', '5555678901', 55000, 21),
+('E1023', 'Ayo Adeyemi', 'ayoadeyemi@example.com', 'Lagos', 29, 'Male', '5556789012', 48000, 29),
+('E1024', 'Babatunde Olumide', 'babatundeolumide@example.com', 'Ibadan', 33, 'Male', '5557890123', 52000, 23),
+('E1025', 'Binta Camara', 'bintacamara@example.com', 'Conakry', 26, 'Female', '5558901234', 42000, 30),
+('E1026', 'Chiamaka Eze', 'chiamakaeze@example.com', 'Lagos', 30, 'Female', '5559012345', 58000, 21),
+('E1027', 'Cisse Diop', 'cissediop@example.com', 'Dakar', 34, 'Male', '5550123456', 62000, 22),
+('E1028', 'Dada Adeleke', 'dadaadeleke@example.com', 'Lagos', 25, 'Male', '5551234567', 36000, 27),
+('E1029', 'Dineo Mokwena', 'dineomokwena@example.com', 'Johannesburg', 29, 'Female', '5552345678', 47000, 24),
+('E1030', 'Ebele Okonkwo', 'ebeleokonkwo@example.com', 'Abuja', 32, 'Female', '5553456789', 52000, 28),
+('E1031', 'Efe Ojo', 'efeojo@example.com', 'Benin City', 27, 'Male', '5554567890', 41000, 21),
+('E1032', 'Fara Dabo', 'faradabo@example.com', 'Bamako', 31, 'Female', '5555678901', 57000, 25),
+('E1033', 'Fatoumata Traore', 'fatoumatatraore@example.com', 'Bamako', 28, 'Female', '5556789012', 49000, 22),
+('E1034', 'Folake Adeyemi', 'folakeadeyemi@example.com', 'Ibadan', 34, 'Female', '555789012',50000,23),
+
+('E1035', 'Amit Kumar', 'amit@gmail.com', 'Delhi', 27, 'Male', '9876543210', 50000, 31),
+('E1036', 'Priya Singh', 'priya@gmail.com', 'Mumbai', 32, 'Female', '9988776655', 70000, 32),
+('E1037', 'Rahul Sharma', 'rahul@gmail.com', 'Bangalore', 24, 'Male', '9567894321', 45000, 31),
+('E1038', 'Mukesh Patel', 'mukesh@gmail.com', 'Ahmedabad', 29, 'Male', '9876543211', 55000, 33),
+('E1039', 'Neha Gupta', 'neha@gmail.com', 'Jaipur', 26, 'Female', '9787654321', 65000, 32),
+('E1040', 'Aman Verma', 'aman@gmail.com', 'Lucknow', 31, 'Male', '9887766554', 60000, 38),
+('E1041', 'Sakshi Singh', 'sakshi@gmail.com', 'Pune', 28, 'Female', '9898989898', 75000, 39),
+('E1042', 'Arun Sharma', 'arun@gmail.com', 'Hyderabad', 30, 'Male', '9876541234', 85000, 37),
+('E1043', 'Anjali Shah', 'anjali@gmail.com', 'Chennai', 25, 'Female', '9988776654', 50000, 35),
+('E1044', 'Rohit Patel', 'rohit@gmail.com', 'Surat', 33, 'Male', '9898989899', 80000, 36),
+('E1045', 'Pooja Gupta', 'pooja@gmail.com', 'Kanpur', 29, 'Female', '9876541235', 60000, 40),
+('E1046', 'Sanjay Kumar', 'sanjay@gmail.com', 'Delhi', 35, 'Male', '9876543212', 90000, 31),
+('E1047', 'Anjali Singh', 'anjali.singh@gmail.com', 'Mumbai', 28, 'Female', '9988776653', 65000, 32),
+('E1048', 'Aditya Verma', 'aditya@gmail.com', 'Bangalore', 26, 'Male', '9887766553', 55000, 33),
+('E1049', 'Swati Sharma', 'swati@gmail.com', 'Ahmedabad', 30, 'Female', '9876543213', 75000, 31),
+('E1050', 'Rajesh Patel', 'rajesh@gmail.com', 'Jaipur', 27, 'Male', '9765432109', 65000, 46),
+('E1051', 'Simran Gupta', 'simran@gmail.com', 'Lucknow', 32, 'Female', '9876543214', 70000, 32),
+('E1052', 'Akash Singh', 'akash@gmail.com', 'Pune', 28, 'Male', '9988776652', 85000, 48),
+
+
+('E1053', 'David Lee', 'david.lee@example.com', 'Chicago', 25, 'Male', '3456789012', 50000, 43),
+('E1054', 'Sarah Kim', 'sarah.kim@example.com', 'Houston', 28, 'Female', '4567890123', 55000, 44),
+('E1055', 'Robert Brown', 'robert.brown@example.com', 'Phoenix', 40, 'Male', '5678901234', 80000, 45),
+('E1056', 'Jennifer Davis', 'jennifer.davis@example.com', 'New York', 32, 'Female', '6789012345', 65000, 41),
+('E1057', 'Michael Wilson', 'michael.wilson@example.com', 'Los Angeles', 38, 'Male', '7890123456', 75000, 47),
+('E1058', 'Emily Smith', 'emily.smith@example.com', 'Chicago', 29, 'Female', '8901234567', 60000, 43),
+('E1059', 'Christopher Kim', 'christopher.kim@example.com', 'Houston', 33, 'Male', '9012345678', 70000, 46),
+('E1060', 'Jessica Johnson', 'jessica.johnson@example.com', 'Phoenix', 27, 'Female', '0123456789', 55000, 49),
+('E1061', 'Brian Lee', 'brian.lee@example.com', 'New York', 31, 'Male', '1234567890', 65000, 41),
+('E1062', 'Stephanie Kim', 'stephanie.kim@example.com', 'Los Angeles', 36, 'Female', '2345678901', 75000, 50),
+('E1063', 'Daniel Davis', 'daniel.davis@example.com', 'Chicago', 26, 'Male', '3456789012', 55000, 43),
+('E1064', 'Lauren Brown', 'lauren.brown@example.com', 'Houston', 29, 'Female', '4567890123', 60000, 44),
+('E1065', 'Anthony Wilson', 'anthony.wilson@example.com', 'Phoenix', 41, 'Male', '5678901234', 85000, 45),
+('E1066', 'Amanda Smith', 'amanda.smith@example.com', 'New York', 33, 'Female', '6789012345', 70000, 51),
+('E1067', 'Nicholas Johnson', 'nicholas.johnson@example.com', 'Los Angeles', 39, 'Male', '7890123456', 80000, 52),
+('E1068', 'Isabella Williams', 'isabella.williams@example.com', 'Sydney', 30, 'Female', '0412345678', 60000, 51),
+('E1069', 'John Smith', 'john.smith@example.com', 'New York', 30, 'Male', '1234567890', 60000, 51),
+('E1070', 'Mary Johnson', 'mary.johnson@example.com', 'Los Angeles', 35, 'Female', '2345678901', 70000, 52),
+('E1071', 'Johnes Smith', 'johnes.smith@example.com', 'New town', 30, 'Male', '1289567890', 60000, 51),
+('E1072', 'Lachlan Smith', 'lachlan.smith@example.com', 'Melbourne', 35, 'Male', '0423456789', 70000, 52),
+('E1073', 'Ava Brown', 'ava.brown@example.com', 'Brisbane', 25, 'Female', '0434567890', 50000, 53),
+('E1074', 'Cooper Wilson', 'cooper.wilson@example.com', 'Perth', 28, 'Male', '0445678901', 55000, 54),
+('E1075', 'Ella Jones', 'ella.jones@example.com', 'Adelaide', 40, 'Female', '0456789012', 80000, 55),
+('E1076', 'Liam Taylor', 'liam.taylor@example.com', 'Sydney', 32, 'Male', '0467890123', 65000, 61),
+('E1077', 'Mia Martin', 'mia.martin@example.com', 'Melbourne', 38, 'Female', '0478901234', 75000, 62),
+('E1078', 'Noah Thompson', 'noah.thompson@example.com', 'Brisbane', 29, 'Male', '0489012345', 60000, 63),
+('E1079', 'Olivia Davis', 'olivia.davis@example.com', 'Perth', 33, 'Female', '0490123456', 70000, 64),
+('E1080', 'William White', 'william.white@example.com', 'Adelaide', 27, 'Male', '0401234567', 55000, 65),
+('E1081', 'Sophie Martin', 'sophie.martin@example.com', 'Sydney', 31, 'Female', '0412345678', 65000, 71),
+('E1082', 'Jackson Taylor', 'jackson.taylor@example.com', 'Melbourne', 36, 'Male', '0423456789', 75000, 72),
+('E1083', 'Chloe Davis', 'chloe.davis@example.com', 'Brisbane', 26, 'Female', '0434567890', 55000, 73),
+('E1084', 'Thomas Wilson', 'thomas.wilson@example.com', 'Perth', 29, 'Male', '0445678901', 60000, 74),
+('E1085', 'Grace Brown', 'grace.brown@example.com', 'Adelaide', 41, 'Female', '0456789012', 85000, 75),
+('E1086', 'Henry White', 'henry.white@example.com', 'Sydney', 33, 'Male', '0467890123', 70000, 81),
+('E1087', 'Zoe Martin', 'zoe.martin@example.com', 'Melbourne', 35,'Male', '0198759874', 80098, 82),
+('E1088', 'Kaden1 Barnes', 'kaden1.barnes@example.com', 'New York', 28, 'Male', '8192847562', 55000, 82),
+('E1089', 'Kassie2 Ellis', 'kassie2.ellis@example.com', 'Los Angeles', 36, 'Female', '9952348617', 75000, 81),
+('E1090', 'Tobias3 Wilson', 'tobias3.wilson@example.com', 'Chicago', 42, 'Male', '2939475165', 80000, 84),
+
+('E1091', 'Kaden Barnes', 'kaden.barnes@example.com', 'New York', 28, 'Male', '8193847562', 55000, 92),
+('E1092', 'Kassie Ellis', 'kassie.ellis@example.com', 'Los Angeles', 36, 'Female', '6952348617', 75000, 91),
+('E1093', 'Tobias Wilson', 'tobias.wilson@example.com', 'Chicago', 42, 'Male', '2938475165', 80000, 94),
+('E1094', 'Jocelyn Morrison', 'jocelyn.morrison@example.com', 'Houston', 24, 'Female', '4726183950', 45000, 93),
+('E1095', 'Abram Sanders', 'abram.sanders@example.com', 'Phoenix', 33, 'Male', '8392057416', 60000, 101),
+('E1096', 'Sydney Dixon', 'sydney.dixon@example.com', 'Philadelphia', 27, 'Female', '1629845730', 50000, 102),
+('E1097', 'Andy Sutton', 'andy.sutton@example.com', 'San Antonio', 31, 'Male', '9204736158', 65000, 103),
+('E1098', 'Aria Reyes', 'aria.reyes@example.com', 'San Diego', 29, 'Female', '5281946370', 55000, 104),
+('E1099', 'Silas Murray', 'silas.murray@example.com', 'Dallas', 38, 'Male', '7930152648', 70000, 112),
+('E1100', 'Kaliyah Ford', 'kaliyah.ford@example.com', 'San Jose', 25, 'Female', '7461023589', 45000, 111),
+('E1101', 'Keanu Singh', 'keanu.singh@example.com', 'Austin', 30, 'Male', '4108632957', 60000, 114),
+('E1102', 'Addison Jacobs', 'addison.jacobs@example.com', 'Jacksonville', 26, 'Female', '8294163057', 50000, 113),
+('E1103', 'Cristiano Wong', 'cristiano.wong@example.com', 'Fort Worth', 32, 'Male', '2149053768', 65000, 112),
+('E1104', 'Lily Black', 'lily.black@example.com', 'Columbus', 27, 'Female', '7639204185', 55000, 111),
+('E1105', 'Ezekiel Rodriguez', 'ezekiel.rodriguez@example.com', 'San Francisco', 35, 'Male', '3051749268', 80000, 114),
+
+ ('E1106', 'Abhishek Gupta', 'abhishek_gupta@gmail.com', 'Delhi', 31, 'Male', '9856713195', 30000, 95),
+ ('E1107', 'Rohit Singh', 'rohit_singh@gmail.com', 'Jaipur', 28, 'Male', '9856713285', 28000, 56),
+ ('E1108', 'Shreya Sharma', 'shreya_sharma@gmail.com', 'Mumbai', 29, 'Female', '9856713293', 32000, 30),
+ ('E1109', 'Amit Patel', 'amit_patel@gmail.com', 'Ahmedabad', 26, 'Male', '9856713266', 20000, 63),
+ ('E1110', 'Priya Gupta', 'priya_gupta@gmail.com', 'Chennai', 33, 'Female', '9856713337', 35000, 76),
+ ('E1111', 'Ravi Kumar', 'ravi_kumar@gmail.com', 'Pune', 35, 'Male', '9856713351', 38000, 105),
+ ('E1112', 'Nisha Singh', 'nisha_singh@gmail.com', 'Bhopal', 30, 'Female', '9856713307', 32000, 78),
+ ('E1113', 'Ankit Mishra', 'ankit_mishra@gmail.com', 'Lucknow', 27, 'Male', '9856713275', 25000, 52),
+ ('E1114', 'Kavita Gupta', 'kavita_gupta@gmail.com', 'Surat', 26, 'Female', '9856713267', 20000, 70),
+ ('E1115', 'Saurabh Singh', 'saurabh_singh@gmail.com', 'Kolkata', 32, 'Male', '9856713210', 32000, 109),
+ ('E1116', 'Neha Sharma', 'neha_sharma@gmail.com', 'Hyderabad', 28, 'Female', '9856713284', 28000, 47),
+ ('E1117', 'Rajeev Kumar', 'rajeev_kumar@gmail.com', 'Nagpur', 37, 'Male', '9856713379', 45000, 94),
+ ('E1118', 'Divya Patel', 'divya_patel@gmail.com', 'Vadodara', 29, 'Female', '9856713297', 32000, 73),
+ ('E1119', 'Sanjay Gupta', 'sanjay_gupta@gmail.com', 'Indore', 33, 'Male', '9856713338', 35000, 80),
+ ('E1120', 'Kiran Kumari', 'kiran_kumari@gmail.com', 'Bengaluru', 27, 'Female', '9856713274', 25000, 40),
+ ('E1121', 'Umesh Yadav', 'umesh_kumar@gmail.com', 'kanpur', 22, 'Male', '9856712235', 18000, 35),
+ ('E1122', 'Sneha Sharma', 'sneha_sharma@gmail.com', 'Mumbai', 25, 'Female', '9856713536', 19000, 36),
+ ('E1123', 'Rahul Singh', 'rahul_singh@gmail.com', 'Bangalore', 28, 'Male', '9856712837', 21000, 37),
+ ('E1124', 'Amit Kumar', 'amit_kumar@gmail.com', 'Delhi', 24, 'Male', '9856712438', 17000, 38),
+ ('E1125', 'Priya Gupta', 'priya_gupta@gmail.com', 'Jaipur', 27, 'Female', '9856712739', 22000, 39),
+ ('E1126', 'Vikram Patel', 'vikram_patel@gmail.com', 'Ahmedabad', 30, 'Male', '9856713040', 25000, 40),
+ ('E1127', 'Neha Verma', 'neha_verma@gmail.com', 'Kolkata', 23, 'Female', '9856712341', 15000, 41),
+ ('E1128', 'Rajesh Kumar', 'rajesh_kumar@gmail.com', 'Chennai', 26, 'Male', '9856712642', 20000, 42),
+ ('E1129', 'Kavita Singh', 'kavita_singh@gmail.com', 'Lucknow', 29, 'Female', '9856712943', 23000, 43),
+ ('E1130', 'Mohit Gupta', 'mohit_gupta@gmail.com', 'Pune', 31, 'Male', '9856713144', 26000, 44),
+ ('E1131', 'Smita Sharma', 'smita_sharma@gmail.com', 'Hyderabad', 24, 'Female', '9856713445', 17000, 45),
+ ('E1132', 'Ankit Singh', 'ankit_singh@gmail.com', 'Noida', 27, 'Male', '9856712746', 22000, 46),
+ ('E1133', 'Nidhi Gupta', 'nidhi_gupta@gmail.com', 'Bhopal', 30, 'Female', '9856713047', 25000, 47),
+ ('E1134', 'Manish Kumar', 'manish_kumar@gmail.com', 'Gurgaon', 23, 'Male', '9856712348', 15000, 48),
+ ('E1135', 'Sakshi Verma', 'sakshi_verma@gmail.com', 'Chandigarh', 26, 'Female', '9856712649', 20000, 49),
+ 
+ ('E1136', 'Aarti Singh', 'aarti_singh@gmail.com', 'Allahabad', 24, 'Female', '9857132451', 30000, 51),
+ ('E1137', 'Rahul Kumar', 'rahul_kumar@gmail.com', 'Varanasi', 27, 'Male', '9857132753', 22000, 53),
+ ('E1138', 'Jyoti Sharma', 'jyoti_sharma@gmail.com', 'Lucknow', 30, 'Female', '9857133059', 18000, 59),
+ ('E1139', 'Sanjay Singh', 'sanjay_singh@gmail.com', 'Ghaziabad', 29, 'Male', '9857132962', 27000, 62),
+ ('E1140', 'Kavita Pandey', 'kavita_pandey@gmail.com', 'Kanpur', 26, 'Female', '9857132665', 32000, 65),
+ ('E1141', 'Rahul Singh', 'rahul_singh@gmail.com', 'Allahabad', 25, 'Male', '9857132569', 25000, 69),
+ ('E1142', 'Komal Sharma', 'komal_sharma@gmail.com', 'Lucknow', 23, 'Female', '9857132371', 22000, 71),
+ ('E1143', 'Nitin Gupta', 'nitin_gupta@gmail.com', 'Varanasi', 31, 'Male', '9857133173', 28000, 73),
+ ('E1144', 'Pooja Singh', 'pooja_singh@gmail.com', 'Ghaziabad', 27, 'Female', '9857132777', 19000, 77),
+ ('E1145', 'Saurabh Mishra', 'saurabh_mishra@gmail.com', 'Kanpur', 24, 'Male', '9857132479', 31000, 79),
+ ('E1146', 'Nisha Sharma', 'nisha_sharma@gmail.com', 'Allahabad', 28, 'Female', '9857132881', 27000, 81),
+ ('E1147', 'Amit Singh', 'amit_singh@gmail.com', 'Lucknow', 26, 'Male', '9857132683', 18000, 83),
+ ('E1148', 'Anjali Verma', 'anjali_verma@gmail.com', 'Varanasi', 29, 'Female', '9857132989', 22000, 89),
+ ('E1149', 'Sandeep Kumar', 'sandeep_kumar@gmail.com', 'Ghaziabad', 30, 'Male', '9857133091', 30000, 91),
+ ('E1150', 'Ajay Singh', 'ajay_singh@gmail.com', 'Morbi', 26, 'Male', '9857118683', 18000, 83),
+ ('E1151', 'Ankita Verma', 'ankita_verma@gmail.com', 'Ghodhra', 21, 'Female', '9857935989', 12000, 89),
+ ('E1152', 'Sanjay Patel', 'sanjay_patel@gmail.com', 'Santrampur', 20, 'Male', '9857581091', 21500, 91),
+ ('E1153', 'John Smith', 'john_smith@gmail.com', 'New York', 35, 'Male', '9856713351', 25000, 10),
+ ('E1154', 'Sarah Johnson', 'sarah_johnson@gmail.com', 'Los Angeles', 28, 'Female', '9856713281', 30000, 15),
+ ('E1155', 'David Lee', 'david_lee@gmail.com', 'Chicago', 42, 'Male', '9856713422', 35000, 22),
+ ('E1156', 'Karen Davis', 'karen_davis@gmail.com', 'Houston', 31, 'Female', '9856713311', 28000, 12),
+ ('E1157', 'Michael Clark', 'michael_clark@gmail.com', 'Phoenix', 25, 'Male', '9856713257', 15000, 7),
+ ('E1158', 'Emily Rodriguez', 'emily_rodriguez@gmail.com', 'Philadelphia', 37, 'Female', '9856713371', 40000, 18),
+ ('E1159', 'Christopher Martinez', 'christopher_martinez@gmail.com', 'San Antonio', 29, 'Male', '9856713299', 32000, 9),
+ ('E1160', 'Jessica Hernandez', 'jessica_hernandez@gmail.com', 'San Diego', 27, 'Female', '9856713271', 28000, 11),
+ ('E1161', 'Joshua Johnson', 'joshua_johnson@gmail.com', 'Dallas', 36, 'Male', '9856713362', 38000, 20),
+ ('E1162', 'Amanda Wilson', 'amanda_wilson@gmail.com', 'San Jose', 33, 'Female', '9856713331', 32000, 14),
+ ('E1163', 'Matthew Davis', 'matthew_davis@gmail.com', 'Austin', 40, 'Male', '9856713402', 45000, 21),
+ ('E1164', 'Ashley Perez', 'ashley_perez@gmail.com', 'Jacksonville', 26, 'Female', '9856713268', 20000, 8),
+ ('E1165', 'Daniel Wilson', 'daniel_wilson@gmail.com', 'Fort Worth', 38, 'Male', '9856713381', 40000, 19),
+ ('E1166', 'Jennifer Jackson', 'jennifer_jackson@gmail.com', 'Columbus', 30, 'Female', '9856713301', 28000, 13),
+ ('E1167', 'Ryan Wright', 'ryan_wright@gmail.com', 'San Francisco', 34, 'Male', '9856713341', 35000, 16),
+ ('E1168', 'Elizabeth Hill', 'elizabeth_hill@gmail.com', 'Charlotte', 39, 'Female', '9856713391', 45000, 17)
+ 
+-- select * from Employee;
+
+
+
+
+
+-------- Product ---------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO product(prod_id, prod_name, design, category, color, size, saleprice, description, branch_no)
+VALUES
+('P001', 'Tile A', 'Patterned', 'Flooring', 'Grey', '12x12', 199, 'Ceramic', 1),
+('P002', 'Tile B', 'Marble', 'Flooring', 'White', '16x16', 299, 'Natural Stone', 1),
+('P003', 'Tile C', 'Wood-Look', 'Flooring', 'Brown', '18x18', 399, 'Vinyl', 2),
+('P004', 'Sink A', 'Undermount', 'Bathroom Fixtures', 'White', '2x2', 999, 'Porcelain', 2),
+('P005', 'Faucet A', 'Single Handle', 'Bathroom Fixtures', 'Chrome', '20x20', 499, 'Metal', 3),
+('P006', 'Toilet A', 'One-Piece', 'Bathroom Fixtures', 'White', '50x50', 299, 'Dual Flush', 3),
+('P007', 'Laminate A', 'Plank', 'Flooring', 'Oak', '70x40', 89, 'Laminate', 4),
+('P008', 'Carpet A', 'Shag', 'Flooring', 'Beige', '12x12', 199, 'Polyester', 4),
+('P009', 'Countertop A', 'Quartz', 'Countertops', 'White', '36x24', 299, 'Engineered Stone', 5),
+('P010', 'Cabinet A', 'Shaker', 'Cabinets', 'Espresso', '30x24', 199, 'Wood', 5),
+
+('P011', 'Blinds A', 'Vertical', 'Window Treatments', 'White', '48x72', 299, 'Vinyl', 6),
+('P012', 'Tile D', 'Mosaic', 'Flooring', 'Blue', '12x12', 249, 'Glass', 6),
+('P013', 'Tile E', 'Cement-Look', 'Flooring', 'Grey', '24x24', 399, 'Porcelain', 7),
+('P014', 'Tile F', 'Hexagon', 'Flooring', 'Black', '10x10', 199, 'Ceramic', 7),
+('P015', 'Showerhead A', 'Rainfall', 'Bathroom Fixtures', 'Chrome', '70x70', 799, 'Metal', 8),
+('P016', 'Tub A', 'Soaking', 'Bathroom Fixtures', 'White', '10x50', 299, 'Acrylic', 8),
+('P017', 'Vanity A', 'Freestanding', 'Bathroom Fixtures', 'Espresso', '36x22', 399, 'Wood', 9),
+('P018', 'Laminate B', 'Tile-Look', 'Flooring', 'Grey', '8x12', 69, 'Laminate', 9),
+('P019', 'Carpet B', 'Berber', 'Flooring', 'Brown', '12x12', 105, 'Berber',10),
+('P020', 'Carpet C', 'Berber1', 'Flooring2', 'Brown', '12x20', 106, 'Berber',10),
+
+('P021', 'Beige Stone Tile', 'Stone Design 01', 'Stone', 'Beige', '12x12', 74, 'Stone tile for kitchen', 11),
+('P022', 'Grey Stone Tile', 'Stone Design 02', 'Stone', 'Grey', '12x12', 84, 'Stone tile for bathroom', 12),
+('P023', 'Marble Look Tile', 'Marble Design 01', 'Marble', 'White', '18x18', 129, 'Ceramic tile with marble look', 13),
+('P024', 'Vintage Blue Tile', 'Vintage Design 01', 'Vintage', 'Blue', '8x8', 54, 'Retro tile for accent wall', 14),
+('P025', 'Glossy White Tile', 'Glossy Design 01', 'Glossy', 'White', '6x6', 25, 'Bright tile for small spaces', 15),
+('P026', 'Slate Look Tile', 'Slate Design 01', 'Slate', 'Black', '12x12', 89, 'Ceramic tile with slate look', 16),
+('P027', 'Terracotta Tile', 'Terracotta Design 01', 'Terracotta', 'Orange', '10x10', 49, 'Rustic tile for outdoor areas', 17),
+('P028', 'Wood Look Tile', 'Wood Design 01', 'Wood', 'Brown', '8x24', 149, 'Porcelain tile with wood look', 18),
+('P029', 'Green Glass Tile', 'Glass Design 01', 'Glass', 'Green', '2x2', 35, 'Glossy tile for backsplash', 19),
+('P030', 'Pink Ceramic Tile', 'Ceramic Design 01', 'Ceramic', 'Pink', '4x4', 27, 'Pastel tile for girls', 20),
+
+('P031', 'Hexagon Tile', 'Hexagon Design 01', 'Hexagon', 'Grey', '6x6', 44, 'Modern tile for feature wall', 21),
+('P032', 'Cobblestone Tile', 'Cobblestone Design 01', 'Cobblestone', 'Brown', '12x12', 69, 'Outdoor tile with natural texture', 22),
+('P033', 'Metallic Mosaic Tile', 'Metallic Design 01', 'Metallic', 'Silver', '1x1', 89, 'Luxurious tile for shower niche', 23),
+('P034', 'Bamboo Look Tile', 'Bamboo Design 01', 'Bamboo', 'Green', '6x12', 119, 'Porcelain tile with bamboo look', 24),
+('P035', 'Geometric Tile', 'Geometric Design 01', 'Geometric', 'Blue', '8x25', 25, 'Geometric tiles', 25),
+('P036', 'Ceramic Wood Plank Tile', 'Wood Grain', 'Floor Tile', 'Brown', '6x24', 40, 'Ceramic tile with wood plank design for floor', 26),
+('P037', 'Marble Hexagon Tile', 'Hexagon', 'Wall Tile', 'White', '2x5', 60, 'Marble hexagon tile for bathroom walls', 27),
+('P038', 'Cement Geometric Tile', 'Geometric', 'Floor Tile', 'Black and White', '8x8', 50, 'Cement tile with geometric design for floor', 28),
+('P039', 'Ceramic Tiles1', 'Floral Design', 'Floor Tiles', 'White', '30x30', 120, 'Ceramic tiles with floral design', 49),
+('P040', 'Porcelain Tiles2', 'Geometric Design', 'Floor Tiles', 'Black', '40x40', 156, 'Porcelain tiles with geometric design', 40),
+
+('P041', 'Ceramic Tiles', 'Floral Design', 'Floor Tiles', 'White', '30x30', 120, 'Ceramic tiles with floral design', 29),
+('P042', 'Porcelain Tiles', 'Geometric Design', 'Floor Tiles', 'Black', '40x40', 150, 'Porcelain tiles with geometric design', 30),
+('P043', 'Mosaic Tiles', 'Abstract Design', 'Wall Tiles', 'Blue', '20x20', 50, 'Mosaic tiles with abstract design', 35),
+('P044', 'Glass Tiles', 'Solid Color', 'Wall Tiles', 'Green', '25x25', 80, 'Glass tiles in solid green color', 20),
+('P045', 'Marble Tiles', 'Vein Design', 'Floor Tiles', 'Beige', '60x60', 250, 'Marble tiles with vein design', 38),
+('P046', 'Granite Tiles', 'Speckled Design', 'Floor Tiles', 'Gray', '30x60', 200, 'Granite tiles with speckled design', 28),
+('P047', 'Travertine Tiles', 'Swirl Design', 'Floor Tiles', 'Cream', '45x45', 180, 'Travertine tiles with swirl design', 24),
+('P048', 'Slate Tiles', 'Rustic Design', 'Wall Tiles', 'Brown', '30x20', 75, 'Slate tiles with rustic design', 39),
+('P049', 'Quarry Tiles', 'Textured Design', 'Floor Tiles', 'Red', '30x30', 100, 'Quarry tiles with textured design', 22),
+('P050', 'Cement Tiles', 'Patterned Design', 'Floor Tiles', 'Gray', '50x50', 225, 'Cement tiles with patterned design', 33),
+
+('P051', 'Porcelain Tiles', 'Wood-look Design', 'Floor Tiles', 'Brown', '30x120', 280, 'Porcelain tiles with wood-look design', 25),
+('P052', 'Glass Tiles', 'Reflective Design', 'Wall Tiles', 'Silver', '20x40', 90, 'Glass tiles with reflective design', 29),
+('P053', 'Metal Tiles', 'Industrial Design', 'Wall Tiles', 'Copper', '30x30', 100, 'Metal tiles with industrial design', 32),
+('P054', 'Ceramic Tiles', 'Fish-scale Design', 'Floor Tiles', 'Blue', '25x25', 70, 'Ceramic tiles with fish-scale design', 21),
+('P055', 'Porcelain Tiles', 'Marble-look Design', 'Floor Tiles', 'White', '60x120', 290, 'Porcelain tiles with marble-look design', 27),
+('P056', 'Glass Tiles', 'Textured Design', 'Wall Tiles', 'Green', '20x20', 60, 'Glass tiles with textured design', 26),
+('P057', 'Natural Stone Mosaic Tile', 'Irregular', 'Backsplash Tile', 'Multicolor', '1x1', 150, 'Natural stone mosaic tile for kitchen backsplash', 43),
+('P058', 'Granite Tiles', 'Polished', 'Floor Tiles', 'Grey', '24x24', 250, 'Granite tiles with a polished design', 42),
+('P059', 'Ceramic Tiles', 'Geometric', 'Wall Tiles', 'Blue', '6x6', 30, 'Ceramic tiles with a geometric design', 46),
+('P060', 'Porcelain Fish Scale Tile', 'Fish Scale', 'Wall Tile', 'Green', '4x4', 35, 'Porcelain tile with fish scale design for walls', 38),
+
+
+('P061', 'Ceramic Tiles', 'Floral', 'Floor Tiles', 'White', '12x12', 50, 'Ceramic tiles with a floral design', 35),
+('P062', 'Mosaic Tiles', 'Geometric', 'Wall Tiles', 'Blue', '8x8', 75, 'Mosaic tiles with a geometric design', 38),
+('P063', 'Porcelain Tiles', 'Marble', 'Floor Tiles', 'Black', '24x24', 200, 'Porcelain tiles with a marble design', 41),
+('P064', 'Glass Tiles', 'Translucent', 'Backsplash Tiles', 'Red', '6x6', 30, 'Glass tiles with a translucent design', 47),
+('P065', 'Stone Tiles', 'Rustic', 'Floor Tiles', 'Beige', '18x18', 125, 'Stone tiles with a rustic design', 33),
+('P066', 'Metallic Tiles', 'Modern', 'Wall Tiles', 'Silver', '12x24', 150, 'Metallic tiles with a modern design', 48),
+('P067', 'Travertine Tiles', 'Natural', 'Floor Tiles', 'Brown', '16x16', 100, 'Travertine tiles with a natural design', 39),
+('P068', 'Cement Tiles', 'Patterned', 'Wall Tiles', 'Grey', '8x12', 50, 'Cement tiles with a patterned design', 32),
+('P069', 'Terracotta Tiles', 'Earthy', 'Floor Tiles', 'Orange', '12x18', 75, 'Terracotta tiles with an earthy design', 45),
+('P070', 'Vinyl Tiles', 'Woodgrain', 'Floor Tiles', 'Brown', '12x24', 25, 'Vinyl tiles with a woodgrain design', 50),
+
+('P071', 'Slate Tiles', 'Textured', 'Wall Tiles', 'Black', '12x12', 100, 'Slate tiles with a textured design', 36),
+('P072', 'Quarry Tiles', 'Rugged', 'Floor Tiles', 'Red', '8x8', 50, 'Quarry tiles with a rugged design', 44),
+('P073', 'Copper Tiles', 'Antique', 'Backsplash Tiles', 'Copper', '6x6', 75, 'Copper tiles with an antique design', 30),
+('P074', 'Slate Stone Tile', 'Slate', 'Floor Tile', 'Gray', '12x12', 150, 'Natural slate stone tile for floor', 35),
+('P075', 'Classic Marble Tile', 'Marble', 'Wall Tile', 'White', '6x6', 30, 'Polished marble tile for walls', 36),
+('P076', 'Porcelain Wood Tile', 'Wood Grain', 'Floor Tile', 'Brown', '8x36', 50, 'Porcelain tile with wood grain design for floor', 37),
+('P077', 'Geometric Mosaic Tile', 'Hexagon', 'Wall Tile', 'Black and White', '2x2', 75, 'Geometric mosaic tile for walls', 38),
+('P078', 'Glass Subway Tile', 'Subway', 'Backsplash Tile', 'Blue', '3x6', 40, 'Glass tile for kitchen backsplash', 39),
+('P079', 'Travertine Tile', 'Vein Cut', 'Floor Tile', 'Beige', '16x16', 200, 'Natural travertine stone tile for floor', 40),
+('P080', 'Ceramic Subway Tile', 'Subway', 'Wall Tile', 'White', '3x6', 25, 'Ceramic tile for bathroom walls', 41),
+
+('P081', 'Patterned Cement Tile', 'Floral', 'Floor Tile', 'Multicolor', '8x8', 100, 'Patterned cement tile for floor', 42),
+('P082', 'Penny Round Mosaic Tile', 'Penny', 'Backsplash Tile', 'Green', '8x9', 45, 'Penny round mosaic tile for kitchen backsplash', 43),
+('P083', 'Quartzite Tile', 'Natural', 'Floor Tile', 'Gray', '12x24', 250, 'Natural quartzite stone tile for floor', 44),
+('P084', 'Porcelain Penny Tile', 'Penny', 'Wall Tile', 'Black', '8x9', 35, 'Porcelain penny tile for walls', 35),
+('P085', 'Marble Herringbone Tile', 'Herringbone', 'Backsplash Tile', 'Gray', '1x3', 80, 'Marble herringbone tile for kitchen backsplash', 36),
+('P086', 'Cement Encaustic Tile', 'Encaustic', 'Floor Tile', 'Yellow', '8x8', 120, 'Cement encaustic tile for floor', 37),
+('P087', 'Glass Mosaic Tile', 'Square', 'Backsplash Tile', 'Red', '1x1', 60, 'Glass mosaic tile for kitchen backsplash', 38),
+('P088', 'Porcelain Marble Tile', 'Marble', 'Wall Tile', 'Gray', '12x24', 75, 'Porcelain tile with marble design for walls', 39),
+('P089', 'Hexagon Mosaic Tile', 'Hexagon', 'Backsplash Tile', 'White', '52x98', 50, 'Hexagon mosaic tile for kitchen backsplash', 40),
+('P090', 'Porcelain Geometric Tile', 'Geometric', 'Floor Tile', 'Black and White', '8x8', 45, 'Porcelain tile with geometric design for floor', 44),
+
+('P091', 'Glass Penny Tile', 'Penny', 'Backsplash Tile', 'Purple', '3x9', 55, 'Glass penny tile for kitchen backsplash', 35),
+('P092', 'Marble Subway Tile', 'Subway', 'Wall Tile', 'White', '3x6', 65, 'Marble tile for bathroom walls', 36),
+('P093', 'Ceramic Encaustic Tile', 'Encaustic', 'Floor Tile', 'Black and White', '8x8', 80, 'Ceramic encaustic tile for floor', 37),
+('P094', 'Porcelain Basketweave Tile', 'Basketweave', 'Wall Tile', 'Gray', '2x2', 50, 'Porcelain basketweave tile for walls', 38),
+('P095', 'Marble Mosaic Tile', 'Irregular', 'Backsplash Tile', 'Brown', '1x1', 90, 'Marble mosaic tile for kitchen backsplash', 39),
+('P096', 'Porcelain Hexagon Tile', 'Hexagon', 'Floor Tile', 'White', '8x8', 35, 'Porcelain hexagon tile for floor', 40),
+('P097', 'Ceramic Subway Tile', 'Subway', 'Wall Tile', 'Green', '3x6', 25, 'Ceramic tile for bathroom walls', 41),
+('P098', 'Cement Mosaic Tile', 'Square', 'Backsplash Tile', 'Multicolor', '2x2', 70, 'Cement mosaic tile for kitchen backsplash', 42),
+('P099', 'Porcelain Travertine Tile', 'Vein Cut', 'Floor Tile', 'Beige', '16x16', 120, 'Porcelain tile with travertine design for floor', 43),
+('P100', 'Glass Herringbone Tile', 'Herringbone', 'Backsplash Tile', 'Blue', '1x3', 100, 'Glass herringbone tile for kitchen backsplash', 44)
+
+-- select * from product;
+
+
+
+
+
+-------- Raw_Material -------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Raw_Material (rm_id, rm_name, branch_no)
+VALUES
+('RM1', 'Cement', 1),
+('RM2', 'Sand', 1),
+('RM3', 'Wood', 1),
+('RM4', 'Glass', 1),
+('RM5', 'Copper', 1),
+('RM6', 'Marble', 1),
+('RM7', 'Granite', 1),
+('RM8', 'Limestone', 1),
+('RM9', 'Coal', 1),
+('RM10', 'Water', 1),
+('RM11', 'Slate', 1),
+('RM12', 'Sandstone', 1),
+('RM13', 'Ceramic', 1),
+
+('RM14', 'Cement', 2),
+('RM15', 'Sand', 2),
+('RM16', 'Wood', 2),
+('RM17', 'Glass', 2),
+('RM18', 'Copper', 2),
+('RM19', 'Marble', 2),
+('RM20', 'Granite', 2),
+('RM21', 'Limestone', 2),
+('RM22', 'Coal', 2),
+('RM23', 'Water', 2),
+('RM24', 'Slate', 2),
+('RM25', 'Sandstone', 2),
+('RM26', 'Ceramic', 2),
+
+('RM27', 'Cement', 5),
+('RM28', 'Sand', 5),
+('RM29', 'Wood', 5),
+('RM30', 'Glass', 5),
+('RM31', 'Copper', 5),
+('RM32', 'Marble', 5),
+('RM33', 'Granite', 5),
+('RM34', 'Limestone', 5),
+('RM35', 'Coal', 5),
+('RM36', 'Water', 5),
+('RM37', 'Slate', 5),
+('RM38', 'Sandstone', 5),
+('RM39', 'Ceramic', 5),
+
+('RM40', 'Cement', 7),
+('RM41', 'Sand', 7),
+('RM42', 'Wood', 7),
+('RM43', 'Glass', 7),
+('RM44', 'Copper', 7),
+('RM45', 'Marble', 7),
+('RM46', 'Granite', 7),
+('RM47', 'Limestone', 7),
+('RM48', 'Coal', 7),
+('RM49', 'Water', 7),
+('RM50', 'Slate', 7),
+('RM51', 'Sandstone', 7),
+('RM52', 'Ceramic', 7),
+
+('RM53', 'Cement', 9),
+('RM54', 'Sand', 9),
+('RM55', 'Wood', 9),
+('RM56', 'Glass', 9),
+('RM57', 'Copper', 9),
+('RM58', 'Marble', 9),
+('RM59', 'Granite', 9),
+('RM60', 'Limestone', 9),
+('RM61', 'Coal', 9),
+('RM62', 'Water', 9),
+('RM63', 'Slate', 9),
+('RM64', 'Sandstone', 9),
+('RM65', 'Ceramic', 9),
+
+('RM66', 'Cement', 11),
+('RM67', 'Sand', 11),
+('RM68', 'Wood', 11),
+('RM69', 'Glass', 11),
+('RM70', 'Copper', 11),
+('RM71', 'Marble', 11),
+('RM72', 'Granite', 11),
+('RM73', 'Limestone', 11),
+('RM74', 'Coal', 11),
+('RM75', 'Water', 11),
+('RM76', 'Slate', 11),
+('RM77', 'Sandstone', 11),
+('RM78', 'Ceramic', 11),
+
+('RM79', 'Cement', 15),
+('RM80', 'Sand', 15),
+('RM81', 'Wood', 15),
+('RM82', 'Glass', 15),
+('RM83', 'Copper', 15),
+('RM84', 'Marble', 15),
+('RM85', 'Granite', 15),
+('RM86', 'Limestone', 15),
+('RM87', 'Coal', 15),
+('RM88', 'Water', 15),
+('RM89', 'Slate', 15),
+('RM90', 'Sandstone', 15),
+('RM91', 'Ceramic', 15),
+
+('RM92', 'Cement', 16),
+('RM93', 'Sand', 16),
+('RM94', 'Wood', 16),
+('RM95', 'Glass', 16),
+('RM96', 'Copper', 16),
+('RM97', 'Marble', 16),
+('RM98', 'Granite', 16),
+('RM99', 'Limestone', 16),
+('RM100', 'Coal', 16),
+('RM101', 'Water', 16),
+('RM102', 'Slate', 16),
+('RM103', 'Sandstone', 16),
+('RM104', 'Ceramic', 16),
+
+('RM105', 'Cement', 18),
+('RM106', 'Sand', 18),
+('RM107', 'Wood', 18),
+('RM108', 'Glass', 18),
+('RM109', 'Copper', 18),
+('RM110', 'Marble', 18),
+('RM111', 'Granite', 18),
+('RM112', 'Limestone', 18),
+('RM113', 'Coal', 18),
+('RM114', 'Water', 18),
+('RM115', 'Slate', 18),
+('RM116', 'Sandstone', 18),
+('RM117', 'Ceramic', 18),
+
+('RM118', 'Cement', 21),
+('RM119', 'Sand', 21),
+('RM120', 'Wood', 21),
+('RM121', 'Glass', 21),
+('RM122', 'Copper', 21),
+('RM123', 'Marble', 21),
+('RM124', 'Granite', 21),
+('RM125', 'Limestone', 21),
+('RM126', 'Coal', 21),
+('RM127', 'Water', 21),
+('RM128', 'Slate', 21),
+('RM129', 'Sandstone', 21),
+('RM130', 'Ceramic', 21),
+
+('RM131', 'Cement', 25),
+('RM132', 'Sand', 25),
+('RM133', 'Wood', 25),
+('RM134', 'Glass', 25),
+('RM135', 'Copper', 25),
+('RM136', 'Marble', 25),
+('RM137', 'Granite', 25),
+('RM138', 'Limestone', 25),
+('RM139', 'Coal', 25),
+('RM140', 'Water', 25),
+('RM141', 'Slate', 25),
+('RM142', 'Sandstone', 25),
+('RM143', 'Ceramic', 25),
+
+('RM144', 'Cement', 29),
+('RM145', 'Sand', 29),
+('RM146', 'Wood', 29),
+('RM147', 'Glass', 29),
+('RM148', 'Copper', 29),
+('RM149', 'Marble', 29),
+('RM150', 'Granite', 29),
+('RM151', 'Limestone', 29),
+('RM152', 'Coal', 29),
+('RM153', 'Water', 29),
+('RM154', 'Slate', 29),
+('RM155', 'Sandstone', 29),
+('RM156', 'Ceramic', 29),
+
+('RM157', 'Cement', 30),
+('RM158', 'Sand', 30),
+('RM159', 'Wood', 30),
+('RM160', 'Glass', 30),
+('RM161', 'Copper', 30),
+('RM162', 'Marble', 30),
+('RM163', 'Granite', 30),
+('RM164', 'Limestone', 30),
+('RM165', 'Coal', 30),
+('RM166', 'Water', 30),
+('RM167', 'Slate', 30),
+('RM168', 'Sandstone', 30),
+('RM169', 'Ceramic', 30),
+
+('RM170', 'Cement', 32),
+('RM171', 'Sand', 32),
+('RM172', 'Wood', 32),
+('RM173', 'Glass', 32),
+('RM174', 'Copper', 32),
+('RM175', 'Marble', 32),
+('RM176', 'Granite', 32),
+('RM177', 'Limestone', 32),
+('RM178', 'Coal', 32),
+('RM179', 'Water', 32),
+('RM180', 'Slate', 32),
+('RM181', 'Sandstone', 32),
+('RM182', 'Ceramic', 32),
+
+('RM183', 'Cement', 33),
+('RM184', 'Sand', 33),
+('RM185', 'Wood', 33),
+('RM186', 'Glass', 33),
+('RM187', 'Copper', 33),
+('RM188', 'Marble', 33),
+('RM189', 'Granite', 33),
+('RM190', 'Limestone', 33),
+('RM191', 'Coal', 33),
+('RM192', 'Water', 33),
+('RM193', 'Slate', 33),
+('RM194', 'Sandstone', 33),
+('RM195', 'Ceramic', 33),
+
+('RM196', 'Cement', 35),
+('RM197', 'Sand', 35),
+('RM198', 'Wood', 35),
+('RM199', 'Glass', 35),
+('RM200', 'Copper', 35),
+('RM201', 'Marble', 35),
+('RM202', 'Granite', 35),
+('RM203', 'Limestone', 35),
+('RM204', 'Coal', 35),
+('RM205', 'Water', 35),
+('RM206', 'Slate', 35),
+('RM207', 'Sandstone', 35),
+('RM208', 'Ceramic', 35),
+
+('RM209', 'Cement', 37),
+('RM210', 'Sand', 37),
+('RM211', 'Wood', 37),
+('RM212', 'Glass', 37),
+('RM213', 'Copper', 37),
+('RM214', 'Marble', 37),
+('RM215', 'Granite', 37),
+('RM216', 'Limestone', 37),
+('RM217', 'Coal', 37),
+('RM218', 'Water', 37),
+('RM219', 'Slate', 37),
+('RM220', 'Sandstone', 37),
+('RM221', 'Ceramic', 37),
+
+('RM222', 'Cement', 39),
+('RM223', 'Sand', 39),
+('RM224', 'Wood', 39),
+('RM225', 'Glass', 39),
+('RM226', 'Copper', 39),
+('RM227', 'Marble', 39),
+('RM228', 'Granite', 39),
+('RM229', 'Limestone', 39),
+('RM230', 'Coal', 39),
+('RM231', 'Water', 39),
+('RM232', 'Slate', 39),
+('RM233', 'Sandstone', 39),
+('RM234', 'Ceramic', 39),
+
+('RM235', 'Cement', 40),
+('RM236', 'Sand', 40),
+('RM237', 'Wood', 40),
+('RM238', 'Glass', 40),
+('RM239', 'Copper', 40),
+('RM240', 'Marble', 40),
+('RM241', 'Granite', 40),
+('RM242', 'Limestone', 40),
+('RM243', 'Coal', 40),
+('RM244', 'Water', 40),
+('RM245', 'Slate', 40),
+('RM246', 'Sandstone', 40),
+('RM247', 'Ceramic', 40),
+
+('RM248', 'Cement', 42),
+('RM249', 'Sand', 42),
+('RM250', 'Wood', 42),
+('RM251', 'Glass', 42),
+('RM252', 'Copper', 42),
+('RM253', 'Marble', 42),
+('RM254', 'Granite', 42),
+('RM255', 'Limestone', 42),
+('RM256', 'Coal', 42),
+('RM257', 'Water', 42),
+('RM258', 'Slate', 42),
+('RM259', 'Sandstone', 42),
+('RM260', 'Ceramic', 42),
+
+('RM261', 'Cement', 44),
+('RM262', 'Sand', 44),
+('RM263', 'Wood', 44),
+('RM264', 'Glass', 44),
+('RM265', 'Copper', 44),
+('RM266', 'Marble', 44),
+('RM267', 'Granite', 44),
+('RM268', 'Limestone', 44),
+('RM269', 'Coal', 44),
+('RM270', 'Water', 44),
+('RM271', 'Slate', 44),
+('RM272', 'Sandstone', 44),
+('RM273', 'Ceramic', 44),
+
+('RM274', 'Cement', 45),
+('RM275', 'Sand', 45),
+('RM276', 'Wood', 45),
+('RM277', 'Glass', 45),
+('RM278', 'Copper', 45),
+('RM279', 'Marble', 45),
+('RM280', 'Granite', 45),
+('RM281', 'Limestone', 45),
+('RM282', 'Coal', 45),
+('RM283', 'Water', 45),
+('RM284', 'Slate', 45),
+('RM285', 'Sandstone', 45),
+('RM286', 'Ceramic', 45),
+
+('RM287', 'Cement', 47),
+('RM288', 'Sand', 47),
+('RM289', 'Wood', 47),
+('RM290', 'Glass', 47),
+('RM291', 'Copper', 47),
+('RM292', 'Marble', 47),
+('RM293', 'Granite', 47),
+('RM294', 'Limestone', 47),
+('RM295', 'Coal', 47),
+('RM296', 'Water', 47),
+('RM297', 'Slate', 47),
+('RM298', 'Sandstone', 47),
+('RM299', 'Ceramic', 47),
+
+('RM300', 'Cement', 50),
+('RM301', 'Sand', 50),
+('RM302', 'Wood', 50),
+('RM303', 'Glass', 50),
+('RM304', 'Copper', 50),
+('RM305', 'Marble', 50),
+('RM306', 'Granite', 50),
+('RM307', 'Limestone', 50),
+('RM308', 'Coal', 50),
+('RM309', 'Water', 50),
+('RM310', 'Slate', 50),
+('RM311', 'Sandstone', 50),
+('RM312', 'Ceramic', 50),
+
+('RM313', 'Cement', 51),
+('RM314', 'Sand', 51),
+('RM315', 'Wood', 51),
+('RM316', 'Glass', 51),
+('RM317', 'Copper', 51),
+('RM318', 'Marble', 51),
+('RM319', 'Granite', 51),
+('RM320', 'Limestone', 51),
+('RM321', 'Coal', 51),
+('RM322', 'Water', 51),
+('RM323', 'Slate', 51),
+('RM324', 'Sandstone', 51),
+('RM325', 'Ceramic', 51),
+
+('RM326', 'Cement', 55),
+('RM327', 'Sand', 55),
+('RM328', 'Wood', 55),
+('RM329', 'Glass', 55),
+('RM330', 'Copper', 55),
+('RM331', 'Marble', 55),
+('RM332', 'Granite', 55),
+('RM333', 'Limestone', 55),
+('RM334', 'Coal', 55),
+('RM335', 'Water', 55)
+
+-- select * from Raw_material;
+
+
+
+
+
+------ Supplier -------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Supplier VALUES (1, 'Ranchhod Dharaviya', 'Patel Nagar', 'Mumbai', '353126', 'Maharashtra', 'India', '9955772357');
+INSERT INTO Supplier VALUES (2, 'John Doe', 'Broadway', 'New York', '10001', 'New York', 'USA', '2125550123');
+INSERT INTO Supplier VALUES (3, 'Jane Smith', 'Baker Street', 'London', '20056', 'London', 'UK', '0205550123');
+INSERT INTO Supplier VALUES (4, 'Juan Garcia', 'Av. de la Reforma', 'Mexico City', '06600', 'Mexico City', 'Mexico', '5556789012');
+INSERT INTO Supplier VALUES (5, 'Francois Dupont', 'Rue de la Paix', 'Paris', '75001', 'Ile-de-France', 'France', '0144556677');
+INSERT INTO Supplier VALUES (6, 'Maria Hernandez', 'Calle de Alcalá', 'Madrid', '28014', 'Madrid', 'Spain', '9112364567');
+INSERT INTO Supplier VALUES (7, 'Luigi Rossi', 'Via del Corso', 'Rome', '00186', 'Lazio', 'Italy', '0632345678');
+INSERT INTO Supplier VALUES (8, 'Hans Schmidt', 'Unter den Linden', 'Berlin', '10117', 'Berlin', 'Germany', '0301253456');
+INSERT INTO Supplier VALUES (9, 'Yoshiko Nakamura', 'Chiyoda', 'Tokyo', '100-0001', 'Tokyo', 'Japan', '0334567890');
+INSERT INTO Supplier VALUES (10, 'Chen Wei', 'Nanjing West Road', 'Shanghai', '200040', 'Shanghai', 'China', '2155567890');
+INSERT INTO Supplier VALUES (11, 'Miguel Lopez', 'Calle Mayor', 'Madrid', '28013', 'Madrid', 'Spain', '9113445678');
+INSERT INTO Supplier VALUES (12, 'Anastasia Ivanova', 'Tverskaya', 'Moscow', '125009', 'Moscow', 'Russia', '4951234567');
+INSERT INTO Supplier VALUES (13, 'Diego Silva', 'Avenida Paulista', 'Sao Paulo', '01310-100', 'São Paulo', 'Brazil', '1123456789');
+INSERT INTO Supplier VALUES (14, 'Kim Hyun-jung', 'Jongno', 'Seoul', '03172', 'Seoul', 'South Korea', '0223456789');
+INSERT INTO Supplier VALUES (15, 'Nguyen Van Hieu', 'Hoan Kiem', 'Hanoi', '10000', 'Hanoi', 'Vietnam', '0241234567');
+INSERT INTO Supplier VALUES (16, 'Marta Garcia', 'Passeig de Gràcia', 'Barcelona', '08008', 'Catalonia', 'Spain', '9312364567');
+INSERT INTO Supplier VALUES (17, 'Klaus Müller', 'Kurfürstendamm', 'Berlin', '10719', 'Berlin', 'Germany', '0302364567');
+INSERT INTO Supplier VALUES (18, 'Sofia Petrova', 'Nevsky Prospekt', 'St. Petersburg', '191186', 'St. Petersburg', 'Russia', '8121234567');
+INSERT INTO Supplier VALUES (19, 'Javier Fernandez', 'Carrer Aragó', 'Barcelona', '08015', 'Catalonia', 'Spain', '9312364567');
+INSERT INTO Supplier VALUES (20, 'Liu Wei', 'Wudaokou', 'Beijing', '100083', 'Beijing', 'China', '1023456789');
+INSERT INTO Supplier VALUES (21, 'Jorge Rodriguez', 'Avenida Presidente Masaryk', 'Mexico City', '11560', 'Mexico', 'Mexico', '5551234567');
+INSERT INTO Supplier VALUES (22, 'Simone Rossi', 'Via Montenapoleone', 'Milan', '20121', 'Lombardy', 'Italy', '1023456789');
+INSERT INTO Supplier VALUES (23, 'Choi Min-ji', 'Gangnam', 'Seoul', '06024', 'Seoul', 'South Korea', '0222345678');
+INSERT INTO Supplier VALUES (24, 'Abdullah Khan', 'F-7', 'Islamabad', '44000', 'Islamabad', 'Pakistan', '0512345678');
+INSERT INTO Supplier VALUES (25, 'Yulia Ivanova', 'Leninsky Prospekt', 'Moscow', '119334', 'Moscow', 'Russia', '4953456789');
+INSERT INTO Supplier VALUES (26, 'Cristina Gomez', 'Calle de Alcalá', 'Madrid', '28001', 'Madrid', 'Spain', '911456789');
+INSERT INTO Supplier VALUES (27, 'Hansol Lee', 'Myeong-dong', 'Seoul', '04536', 'Seoul', 'South Korea', '0223456789');
+INSERT INTO Supplier VALUES (28, 'Lucas Oliveira', 'Avenida Paulista', 'São Paulo', '01310-300', 'São Paulo', 'Brazil', '1123456789');
+INSERT INTO Supplier VALUES (29, 'Maria Rodriguez', 'Calle Mayor', 'Madrid', '28013', 'Madrid', 'Spain', '911567890');
+INSERT INTO Supplier VALUES (30, 'Alexandra Popova', 'Kuznetsky Most', 'Moscow', '107031', 'Moscow', 'Russia', '4955678901');
+INSERT INTO Supplier VALUES (31, 'Park Min-joon', 'Gangnam', 'Seoul', '06351', 'Seoul', 'South Korea', '0224567890');
+INSERT INTO Supplier VALUES (32, 'Juliana Torres', 'Cra. 13', 'Bogotá', '110111', 'Bogotá', 'Colombia', '1234567890');
+INSERT INTO Supplier VALUES (33, 'Wang Wei', 'Nanshan', 'Shenzhen', '518000', 'Guangdong', 'China', '5512345678');
+INSERT INTO Supplier VALUES (34, 'Muhammad Ali', 'Blue Area', 'Islamabad', '44000', 'Islamabad', 'Pakistan', '0513456789');
+INSERT INTO Supplier VALUES (35, 'John Smith', 'Main Street', 'New York', '10001', 'New York', 'USA', '1234567890');
+INSERT INTO Supplier VALUES (36, 'Jane Doe', 'Broadway', 'Los Angeles', '90001', 'California', 'USA', '2345678901');
+INSERT INTO Supplier VALUES (37, 'Bob Johnson', 'King Street', 'Toronto', '253007', 'Ontario', 'Canada', '3456789012');
+INSERT INTO Supplier VALUES (38, 'Alice Brown', 'High Street', 'London', '357410', 'England', 'UK', '4567890123');
+INSERT INTO Supplier VALUES (39, 'David Lee', 'Wan Chai', 'Hong Kong', '999077', 'Hong Kong Island', 'Hong Kong', '5678901234');
+INSERT INTO Supplier VALUES (40, 'Maria Garcia', 'Gran Via', 'Madrid', '28013', 'Madrid', 'Spain', '6789012345');
+INSERT INTO Supplier VALUES (41, 'Luca Rossi', 'Via Roma', 'Milan', '20121', 'Lombardy', 'Italy', '7890123456');
+INSERT INTO Supplier VALUES (42, 'Hans Müller', 'Bahnhofstrasse', 'Zurich', '8001', 'Zurich', 'Switzerland', '8901234567');
+INSERT INTO Supplier VALUES (43, 'Johan Andersson', 'Kungsgatan', 'Stockholm', '111 43', 'Stockholm', 'Sweden', '9012345678');
+INSERT INTO Supplier VALUES (44, 'Peter Hansen', 'Osterbrogade', 'Copenhagen', '2100', 'Capital Region', 'Denmark', '0123456789');
+INSERT INTO Supplier VALUES (45, 'Mohammed Ali', 'Al Hamra Street', 'Dubai', '123456', 'Dubai', 'UAE', '1234509876');
+INSERT INTO Supplier VALUES (46, 'Akira Tanaka', 'Ginza', 'Tokyo', '104-0061', 'Tokyo', 'Japan', '2345098765');
+INSERT INTO Supplier VALUES (47, 'Kang Min-ji', 'Myeong-dong', 'Seoul', '04537', 'Seoul', 'South Korea', '3450987654');
+INSERT INTO Supplier VALUES (48, 'Pablo Gomez', 'Calle de Alcalá', 'Madrid', '28014', 'Madrid', 'Spain', '4567890123');
+INSERT INTO Supplier VALUES (49, 'Lars Eriksson', 'Drottninggatan', 'Stockholm', '111 51', 'Stockholm', 'Sweden', '5678901234');
+INSERT INTO Supplier VALUES (50, 'Maria Souza', 'Rua da Gloria', 'Rio de Janeiro', '20241-180', 'Rio de Janeiro', 'Brazil', '6789012345');
+
+-- select * from Supplier;
+
+
+
+
+
+------ Raw_Mat_Bill -------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Raw_Mat_Bill VALUES (1, '2021-01-01', 1);
+INSERT INTO Raw_Mat_Bill VALUES (2, '2021-01-02', 2);
+INSERT INTO Raw_Mat_Bill VALUES (3, '2021-01-03', 3);
+INSERT INTO Raw_Mat_Bill VALUES (4, '2021-01-04', 4);
+INSERT INTO Raw_Mat_Bill VALUES (5, '2021-01-05', 5);
+INSERT INTO Raw_Mat_Bill VALUES (6, '2021-01-06', 6);
+INSERT INTO Raw_Mat_Bill VALUES (7, '2021-01-07', 7);
+INSERT INTO Raw_Mat_Bill VALUES (8, '2021-01-08', 8);
+INSERT INTO Raw_Mat_Bill VALUES (9, '2021-01-09', 9);
+INSERT INTO Raw_Mat_Bill VALUES (10, '2021-01-10', 10);
+INSERT INTO Raw_Mat_Bill VALUES (11, '2021-01-11', 11);
+INSERT INTO Raw_Mat_Bill VALUES (12, '2021-01-12', 12);
+INSERT INTO Raw_Mat_Bill VALUES (13, '2021-01-13', 13);
+INSERT INTO Raw_Mat_Bill VALUES (14, '2021-01-14', 14);
+INSERT INTO Raw_Mat_Bill VALUES (15, '2021-01-15', 15);
+INSERT INTO Raw_Mat_Bill VALUES (16, '2021-01-16', 16);
+INSERT INTO Raw_Mat_Bill VALUES (17, '2021-01-17', 17);
+INSERT INTO Raw_Mat_Bill VALUES (18, '2021-01-18', 18);
+INSERT INTO Raw_Mat_Bill VALUES (19, '2021-01-19', 19);
+INSERT INTO Raw_Mat_Bill VALUES (20, '2021-01-20', 20);
+INSERT INTO Raw_Mat_Bill VALUES (21, '2021-01-21', 21);
+INSERT INTO Raw_Mat_Bill VALUES (22, '2021-01-22', 22);
+INSERT INTO Raw_Mat_Bill VALUES (23, '2021-01-23', 23);
+INSERT INTO Raw_Mat_Bill VALUES (24, '2021-01-24', 24);
+INSERT INTO Raw_Mat_Bill VALUES (25, '2021-01-25', 25);
+INSERT INTO Raw_Mat_Bill VALUES (26, '2021-01-26', 26);
+INSERT INTO Raw_Mat_Bill VALUES (27, '2021-01-27', 27);
+INSERT INTO Raw_Mat_Bill VALUES (28, '2021-01-28', 28);
+INSERT INTO Raw_Mat_Bill VALUES (29, '2021-01-29', 29);
+INSERT INTO Raw_Mat_Bill VALUES (30, '2021-01-30', 30);
+INSERT INTO Raw_Mat_Bill VALUES (31, '2021-03-07', 21);
+INSERT INTO Raw_Mat_Bill VALUES (32, '2021-03-14', 22);
+INSERT INTO Raw_Mat_Bill VALUES (33, '2021-03-21', 23);
+INSERT INTO Raw_Mat_Bill VALUES (34, '2021-03-28', 24);
+INSERT INTO Raw_Mat_Bill VALUES (35, '2021-04-04', 25);
+INSERT INTO Raw_Mat_Bill VALUES (36, '2021-04-11', 26);
+INSERT INTO Raw_Mat_Bill VALUES (37, '2021-04-18', 27);
+INSERT INTO Raw_Mat_Bill VALUES (38, '2021-04-25', 28);
+INSERT INTO Raw_Mat_Bill VALUES (39, '2021-05-02', 29);
+INSERT INTO Raw_Mat_Bill VALUES (40, '2021-05-09', 30);
+INSERT INTO Raw_Mat_Bill VALUES (41, '2021-05-16', 31);
+INSERT INTO Raw_Mat_Bill VALUES (42, '2021-05-23', 32);
+INSERT INTO Raw_Mat_Bill VALUES (43, '2021-05-30', 33);
+INSERT INTO Raw_Mat_Bill VALUES (44, '2021-06-06', 34);
+INSERT INTO Raw_Mat_Bill VALUES (45, '2021-06-13', 35);
+INSERT INTO Raw_Mat_Bill VALUES (46, '2021-06-20', 36);
+INSERT INTO Raw_Mat_Bill VALUES (47, '2021-06-27', 37);
+INSERT INTO Raw_Mat_Bill VALUES (48, '2021-07-04', 38);
+INSERT INTO Raw_Mat_Bill VALUES (49, '2021-07-11', 39);
+INSERT INTO Raw_Mat_Bill VALUES (50, '2021-07-18', 40);
+INSERT INTO Raw_Mat_Bill VALUES (51, '2021-07-25', 41);
+INSERT INTO Raw_Mat_Bill VALUES (52, '2021-08-01', 42);
+INSERT INTO Raw_Mat_Bill VALUES (53, '2021-08-08', 43);
+INSERT INTO Raw_Mat_Bill VALUES (54, '2021-08-15', 44);
+INSERT INTO Raw_Mat_Bill VALUES (55, '2021-08-22', 45);
+INSERT INTO Raw_Mat_Bill VALUES (56, '2021-08-29', 46);
+INSERT INTO Raw_Mat_Bill VALUES (57, '2021-09-05', 47);
+INSERT INTO Raw_Mat_Bill VALUES (58, '2021-09-12', 48);
+INSERT INTO Raw_Mat_Bill VALUES (59, '2021-09-19', 49);
+INSERT INTO Raw_Mat_Bill VALUES (60, '2021-09-26', 50);
+INSERT INTO Raw_Mat_Bill VALUES (61, '2022-01-01', 11);
+INSERT INTO Raw_Mat_Bill VALUES (62, '2022-01-08', 12);
+INSERT INTO Raw_Mat_Bill VALUES (63, '2022-01-15', 13);
+INSERT INTO Raw_Mat_Bill VALUES (64, '2022-01-22', 14);
+INSERT INTO Raw_Mat_Bill VALUES (65, '2022-01-29', 15);
+INSERT INTO Raw_Mat_Bill VALUES (66, '2022-02-05', 16);
+INSERT INTO Raw_Mat_Bill VALUES (67, '2022-02-12', 17);
+INSERT INTO Raw_Mat_Bill VALUES (68, '2022-02-19', 18);
+INSERT INTO Raw_Mat_Bill VALUES (69, '2022-02-26', 19);
+INSERT INTO Raw_Mat_Bill VALUES (70, '2022-03-05', 20);
+INSERT INTO Raw_Mat_Bill VALUES (71, '2022-03-12', 21);
+INSERT INTO Raw_Mat_Bill VALUES (72, '2022-03-19', 11);
+INSERT INTO Raw_Mat_Bill VALUES (73, '2022-03-26', 12);
+INSERT INTO Raw_Mat_Bill VALUES (74, '2022-04-02', 13);
+INSERT INTO Raw_Mat_Bill VALUES (75, '2022-04-09', 14);
+INSERT INTO Raw_Mat_Bill VALUES (76, '2022-04-16', 15);
+INSERT INTO Raw_Mat_Bill VALUES (77, '2022-04-23', 16);
+INSERT INTO Raw_Mat_Bill VALUES (78, '2022-04-30', 17);
+INSERT INTO Raw_Mat_Bill VALUES (79, '2022-05-07', 18);
+INSERT INTO Raw_Mat_Bill VALUES (80, '2022-05-14', 19);
+INSERT INTO Raw_Mat_Bill VALUES (81, '2022-07-01', 25);
+INSERT INTO Raw_Mat_Bill VALUES (82, '2022-07-08', 26);
+INSERT INTO Raw_Mat_Bill VALUES (83, '2022-07-15', 27);
+INSERT INTO Raw_Mat_Bill VALUES (84, '2022-07-22', 28);
+INSERT INTO Raw_Mat_Bill VALUES (85, '2022-07-29', 29);
+INSERT INTO Raw_Mat_Bill VALUES (86, '2022-08-05', 30);
+INSERT INTO Raw_Mat_Bill VALUES (87, '2022-08-12', 31);
+INSERT INTO Raw_Mat_Bill VALUES (88, '2022-08-19', 32);
+INSERT INTO Raw_Mat_Bill VALUES (89, '2022-08-26', 33);
+INSERT INTO Raw_Mat_Bill VALUES (90, '2022-09-02', 34);
+INSERT INTO Raw_Mat_Bill VALUES (91, '2022-09-09', 35);
+INSERT INTO Raw_Mat_Bill VALUES (92, '2022-09-16', 36);
+INSERT INTO Raw_Mat_Bill VALUES (93, '2022-09-23', 37);
+INSERT INTO Raw_Mat_Bill VALUES (94, '2022-09-30', 38);
+INSERT INTO Raw_Mat_Bill VALUES (95, '2022-10-07', 39);
+INSERT INTO Raw_Mat_Bill VALUES (96, '2022-10-14', 40);
+INSERT INTO Raw_Mat_Bill VALUES (97, '2022-10-21', 25);
+INSERT INTO Raw_Mat_Bill VALUES (98, '2022-10-28', 26);
+INSERT INTO Raw_Mat_Bill VALUES (99, '2022-11-04', 27);
+INSERT INTO Raw_Mat_Bill VALUES (100, '2022-11-11', 28);
+
+-- select * from Raw_Mat_Bill
+
+
+
+
+
+-------- Purchase_Detail -------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Purchase_Detail VALUES (1, 'RM1', 2499, 395.22);
+INSERT INTO Purchase_Detail VALUES (1, 'RM2', 4353, 46.99);
+INSERT INTO Purchase_Detail VALUES (1, 'RM3', 1531, 93.47);
+INSERT INTO Purchase_Detail VALUES (1, 'RM4', 4739, 266.35);
+INSERT INTO Purchase_Detail VALUES (1, 'RM5', 2213, 209.81);
+INSERT INTO Purchase_Detail VALUES (2, 'RM6', 3126, 420.89);
+INSERT INTO Purchase_Detail VALUES (2, 'RM7', 2271, 112.02);
+INSERT INTO Purchase_Detail VALUES (2, 'RM8', 3082, 120.18);
+INSERT INTO Purchase_Detail VALUES (2, 'RM9', 1024, 320.87);
+INSERT INTO Purchase_Detail VALUES (2, 'RM10', 4447, 267.51);
+INSERT INTO Purchase_Detail VALUES (3, 'RM11', 3964, 35.72);
+INSERT INTO Purchase_Detail VALUES (3, 'RM12', 2688, 188.17);
+INSERT INTO Purchase_Detail VALUES (3, 'RM13', 3402, 404.49);
+INSERT INTO Purchase_Detail VALUES (3, 'RM14', 1565, 198.46);
+INSERT INTO Purchase_Detail VALUES (3, 'RM15', 3602, 46.99);
+INSERT INTO Purchase_Detail VALUES (4, 'RM16', 2007, 143.35);
+INSERT INTO Purchase_Detail VALUES (4, 'RM17', 3649, 131.08);
+INSERT INTO Purchase_Detail VALUES (4, 'RM18', 2297, 368.74);
+INSERT INTO Purchase_Detail VALUES (4, 'RM19', 3423, 472.24);
+INSERT INTO Purchase_Detail VALUES (4, 'RM20', 3408, 161.86);
+INSERT INTO Purchase_Detail VALUES (5, 'RM21', 3941, 276.63);
+INSERT INTO Purchase_Detail VALUES (5, 'RM22', 4236, 289.38);
+INSERT INTO Purchase_Detail VALUES (5, 'RM23', 2824, 338.15);
+INSERT INTO Purchase_Detail VALUES (5, 'RM24', 4182, 296.64);
+INSERT INTO Purchase_Detail VALUES (5, 'RM25', 4385, 259.73);
+INSERT INTO Purchase_Detail VALUES (6, 'RM26', 4704, 115.57);
+INSERT INTO Purchase_Detail VALUES (6, 'RM27', 3402, 449.49);
+INSERT INTO Purchase_Detail VALUES (6, 'RM28', 4303, 252.38);
+INSERT INTO Purchase_Detail VALUES (6, 'RM29', 3269, 117.67);
+INSERT INTO Purchase_Detail VALUES (6, 'RM30', 2458, 142.67);
+INSERT INTO Purchase_Detail VALUES (7, 'RM31', 4660, 42.15);
+INSERT INTO Purchase_Detail VALUES (7, 'RM32', 4592, 198.53);
+INSERT INTO Purchase_Detail VALUES (7, 'RM33', 4068, 364.72);
+INSERT INTO Purchase_Detail VALUES (7, 'RM34', 2905, 136.64);
+INSERT INTO Purchase_Detail VALUES (7, 'RM35', 4567, 444.01);
+INSERT INTO Purchase_Detail VALUES (8, 'RM36', 4965, 155.50);
+INSERT INTO Purchase_Detail VALUES (8, 'RM37', 4043, 436.89);
+INSERT INTO Purchase_Detail VALUES (8, 'RM38', 3097, 212.12);
+INSERT INTO Purchase_Detail VALUES (8, 'RM39', 4089, 358.84);
+INSERT INTO Purchase_Detail VALUES (8, 'RM40', 4071, 310.79);
+INSERT INTO Purchase_Detail VALUES (9, 'RM41', 3981, 426.19);
+INSERT INTO Purchase_Detail VALUES (9, 'RM42', 2889, 449.21);
+INSERT INTO Purchase_Detail VALUES (9, 'RM43', 3058, 116.89);
+INSERT INTO Purchase_Detail VALUES (9, 'RM44', 3543, 156.52);
+INSERT INTO Purchase_Detail VALUES (9, 'RM45', 3269, 463.47);
+INSERT INTO Purchase_Detail VALUES (10, 'RM46', 3198, 235.73);
+INSERT INTO Purchase_Detail VALUES (10, 'RM47', 4203, 262.17);
+INSERT INTO Purchase_Detail VALUES (10, 'RM48', 2481, 481.78);
+INSERT INTO Purchase_Detail VALUES (10, 'RM49', 3185, 29.99);
+INSERT INTO Purchase_Detail VALUES (10, 'RM50', 3858, 181.62);
+INSERT INTO Purchase_Detail VALUES (11, 'RM51', 2607, 186.24);
+INSERT INTO Purchase_Detail VALUES (11, 'RM52', 3701, 485.88);
+INSERT INTO Purchase_Detail VALUES (11, 'RM53', 3248, 234.26);
+INSERT INTO Purchase_Detail VALUES (11, 'RM54', 3729, 369.54);
+INSERT INTO Purchase_Detail VALUES (11, 'RM55', 3949, 142.37);
+INSERT INTO Purchase_Detail VALUES (12, 'RM56', 3859, 409.22);
+INSERT INTO Purchase_Detail VALUES (12, 'RM57', 3568, 179.76);
+INSERT INTO Purchase_Detail VALUES (12, 'RM58', 2229, 245.79);
+INSERT INTO Purchase_Detail VALUES (12, 'RM59', 4079, 422.71);
+INSERT INTO Purchase_Detail VALUES (12, 'RM60', 2768, 301.59);
+INSERT INTO Purchase_Detail VALUES (13, 'RM61', 3033, 251.19);
+INSERT INTO Purchase_Detail VALUES (13, 'RM62', 4147, 452.58);
+INSERT INTO Purchase_Detail VALUES (13, 'RM63', 3115, 378.04);
+INSERT INTO Purchase_Detail VALUES (13, 'RM64', 4233, 179.86);
+INSERT INTO Purchase_Detail VALUES (13, 'RM65', 2212, 107.48);
+INSERT INTO Purchase_Detail VALUES (14, 'RM66', 3653, 384.51);
+INSERT INTO Purchase_Detail VALUES (14, 'RM67', 4928, 118.77);
+INSERT INTO Purchase_Detail VALUES (14, 'RM68', 3706, 348.09);
+INSERT INTO Purchase_Detail VALUES (14, 'RM69', 2196, 242.19);
+INSERT INTO Purchase_Detail VALUES (14, 'RM70', 4178, 43.12);
+INSERT INTO Purchase_Detail VALUES (15, 'RM71', 2673, 357.93);
+INSERT INTO Purchase_Detail VALUES (15, 'RM72', 2851, 260.77);
+INSERT INTO Purchase_Detail VALUES (15, 'RM73', 4500, 170.45);
+INSERT INTO Purchase_Detail VALUES (15, 'RM74', 3118, 98.23);
+INSERT INTO Purchase_Detail VALUES (15, 'RM75', 2782, 268.98);
+INSERT INTO Purchase_Detail VALUES (16, 'RM76', 3927, 155.71);
+INSERT INTO Purchase_Detail VALUES (16, 'RM77', 3583, 329.02);
+INSERT INTO Purchase_Detail VALUES (16, 'RM78', 2841, 252.76);
+INSERT INTO Purchase_Detail VALUES (16, 'RM79', 3267, 242.97);
+INSERT INTO Purchase_Detail VALUES (16, 'RM80', 3659, 194.55);
+INSERT INTO Purchase_Detail VALUES (17, 'RM81', 3855, 321.98);
+INSERT INTO Purchase_Detail VALUES (17, 'RM82', 3227, 188.62);
+INSERT INTO Purchase_Detail VALUES (17, 'RM83', 2254, 342.63);
+INSERT INTO Purchase_Detail VALUES (17, 'RM84', 3715, 120.35);
+INSERT INTO Purchase_Detail VALUES (17, 'RM85', 3383, 445.41);
+INSERT INTO Purchase_Detail VALUES (18, 'RM86', 3282, 88.62);
+INSERT INTO Purchase_Detail VALUES (18, 'RM87', 2241, 118.74);
+INSERT INTO Purchase_Detail VALUES (18, 'RM88', 2145, 420.55);
+INSERT INTO Purchase_Detail VALUES (18, 'RM89', 3739, 237.02);
+INSERT INTO Purchase_Detail VALUES (18, 'RM90', 2433, 474.63);
+INSERT INTO Purchase_Detail VALUES (19, 'RM91', 2746, 335.87);
+INSERT INTO Purchase_Detail VALUES (19, 'RM92', 3262, 248.21);
+INSERT INTO Purchase_Detail VALUES (19, 'RM93', 3153, 305.67);
+INSERT INTO Purchase_Detail VALUES (19, 'RM94', 2547, 402.24);
+INSERT INTO Purchase_Detail VALUES (19, 'RM95', 4065, 479.79);
+INSERT INTO Purchase_Detail VALUES (20, 'RM96', 3698, 366.48);
+INSERT INTO Purchase_Detail VALUES (20, 'RM97', 4175, 333.27);
+INSERT INTO Purchase_Detail VALUES (20, 'RM98', 3572, 170.41);
+INSERT INTO Purchase_Detail VALUES (20, 'RM99', 2187, 254.02);
+INSERT INTO Purchase_Detail VALUES (20, 'RM100', 2481, 184.21);
+INSERT INTO Purchase_Detail VALUES (21, 'RM101', 3312, 474.37);
+INSERT INTO Purchase_Detail VALUES (21, 'RM102', 3294, 142.62);
+INSERT INTO Purchase_Detail VALUES (21, 'RM103', 3132, 45.22);
+INSERT INTO Purchase_Detail VALUES (21, 'RM104', 3866, 489.63);
+INSERT INTO Purchase_Detail VALUES (21, 'RM105', 3082, 443.87);
+INSERT INTO Purchase_Detail VALUES (22, 'RM106', 4095, 320.29);
+INSERT INTO Purchase_Detail VALUES (22, 'RM107', 3577, 300.97);
+INSERT INTO Purchase_Detail VALUES (22, 'RM108', 3834, 173.43);
+INSERT INTO Purchase_Detail VALUES (22, 'RM109', 2682, 284);
+INSERT INTO Purchase_Detail VALUES (22, 'RM110', 4062, 210.24);
+INSERT INTO Purchase_Detail VALUES (23, 'RM111', 3148, 320.98);
+INSERT INTO Purchase_Detail VALUES (23, 'RM112', 3083, 191.75);
+INSERT INTO Purchase_Detail VALUES (23, 'RM113', 3346, 82.67);
+INSERT INTO Purchase_Detail VALUES (23, 'RM114', 3465, 147.42);
+INSERT INTO Purchase_Detail VALUES (23, 'RM115', 2188, 92.55);
+INSERT INTO Purchase_Detail VALUES (24, 'RM116', 2987, 409.87);
+INSERT INTO Purchase_Detail VALUES (24, 'RM117', 3266, 453.12);
+INSERT INTO Purchase_Detail VALUES (24, 'RM118', 3332, 242.66);
+INSERT INTO Purchase_Detail VALUES (24, 'RM119', 2604, 359.33);
+INSERT INTO Purchase_Detail VALUES (24, 'RM120', 2095, 364.78);
+INSERT INTO Purchase_Detail VALUES (25, 'RM121', 3826, 406.55);
+INSERT INTO Purchase_Detail VALUES (25, 'RM122', 2845, 173.42);
+INSERT INTO Purchase_Detail VALUES (25, 'RM123', 2302, 230.87);
+INSERT INTO Purchase_Detail VALUES (25, 'RM124', 3396, 449.24);
+INSERT INTO Purchase_Detail VALUES (25, 'RM125', 3803, 48.62);
+INSERT INTO Purchase_Detail VALUES (26, 'RM126', 2293, 299.79);
+INSERT INTO Purchase_Detail VALUES (26, 'RM127', 4718, 286.21);
+INSERT INTO Purchase_Detail VALUES (26, 'RM128', 2382, 481.66);
+INSERT INTO Purchase_Detail VALUES (26, 'RM129', 4078, 120.45);
+INSERT INTO Purchase_Detail VALUES (26, 'RM130', 3705, 201.98);
+INSERT INTO Purchase_Detail VALUES (27, 'RM131', 3266, 47.54);
+INSERT INTO Purchase_Detail VALUES (27, 'RM132', 2983, 246.75);
+INSERT INTO Purchase_Detail VALUES (27, 'RM133', 2451, 224.33);
+INSERT INTO Purchase_Detail VALUES (27, 'RM134', 2346, 198.76);
+INSERT INTO Purchase_Detail VALUES (27, 'RM135', 4695, 161.21);
+INSERT INTO Purchase_Detail VALUES (28, 'RM136', 3452, 133.79);
+INSERT INTO Purchase_Detail VALUES (28, 'RM137', 3801, 341.45);
+INSERT INTO Purchase_Detail VALUES (28, 'RM138', 3106, 376.98);
+INSERT INTO Purchase_Detail VALUES (28, 'RM139', 2443, 204.55);
+INSERT INTO Purchase_Detail VALUES (28, 'RM140', 2444, 372.33);
+INSERT INTO Purchase_Detail VALUES (29, 'RM141', 2875, 297.21);
+INSERT INTO Purchase_Detail VALUES (29, 'RM142', 3906, 273.67);
+INSERT INTO Purchase_Detail VALUES (29, 'RM143', 4452, 125.23);
+INSERT INTO Purchase_Detail VALUES (29, 'RM144', 4257, 453.76);
+INSERT INTO Purchase_Detail VALUES (29, 'RM145', 2859, 328.45);
+INSERT INTO Purchase_Detail VALUES (30, 'RM146', 2649, 91.67);
+INSERT INTO Purchase_Detail VALUES (30, 'RM147', 2864, 293.45);
+INSERT INTO Purchase_Detail VALUES (30, 'RM148', 4822, 211.23);
+INSERT INTO Purchase_Detail VALUES (30, 'RM149', 4275, 56.76);
+INSERT INTO Purchase_Detail VALUES (30, 'RM150', 2677, 455.33);
+INSERT INTO Purchase_Detail VALUES (31, 'RM151', 3813, 167.21);
+INSERT INTO Purchase_Detail VALUES (31, 'RM152', 2159, 395.67);
+INSERT INTO Purchase_Detail VALUES (31, 'RM153', 4792, 89.23);
+INSERT INTO Purchase_Detail VALUES (31, 'RM154', 4885, 235.76);
+INSERT INTO Purchase_Detail VALUES (31, 'RM155', 3992, 318.45);
+INSERT INTO Purchase_Detail VALUES (32, 'RM156', 3015, 132.67);
+INSERT INTO Purchase_Detail VALUES (32, 'RM157', 2116, 294.45);
+INSERT INTO Purchase_Detail VALUES (32, 'RM158', 3338, 462.23);
+INSERT INTO Purchase_Detail VALUES (32, 'RM159', 2052, 23.76);
+INSERT INTO Purchase_Detail VALUES (32, 'RM160', 4795, 427.33);
+INSERT INTO Purchase_Detail VALUES (33, 'RM161', 3809, 499.21);
+INSERT INTO Purchase_Detail VALUES (33, 'RM162', 2647, 129.67);
+INSERT INTO Purchase_Detail VALUES (33, 'RM163', 4639, 390.45);
+INSERT INTO Purchase_Detail VALUES (33, 'RM164', 4548, 203.23);
+INSERT INTO Purchase_Detail VALUES (33, 'RM165', 2969, 143.76);
+INSERT INTO Purchase_Detail VALUES (34, 'RM166', 2124, 382.45);
+INSERT INTO Purchase_Detail VALUES (34, 'RM167', 3972, 315.23);
+INSERT INTO Purchase_Detail VALUES (34, 'RM168', 4549, 97.76);
+INSERT INTO Purchase_Detail VALUES (34, 'RM169', 4418, 454.33);
+INSERT INTO Purchase_Detail VALUES (34, 'RM170', 3116, 127.21);
+INSERT INTO Purchase_Detail VALUES (35, 'RM171', 4183, 415.67);
+INSERT INTO Purchase_Detail VALUES (35, 'RM172', 4208, 237.23);
+INSERT INTO Purchase_Detail VALUES (35, 'RM173', 3039, 182.76);
+INSERT INTO Purchase_Detail VALUES (35, 'RM174', 2254, 25.33);
+INSERT INTO Purchase_Detail VALUES (35, 'RM175', 2362, 346.21);
+INSERT INTO Purchase_Detail VALUES (36, 'RM176', 4295, 205.67);
+INSERT INTO Purchase_Detail VALUES (36, 'RM177', 3504, 378.23);
+INSERT INTO Purchase_Detail VALUES (36, 'RM178', 2345, 173.76);
+INSERT INTO Purchase_Detail VALUES (36, 'RM179', 3798, 487.33);
+INSERT INTO Purchase_Detail VALUES (36, 'RM180', 3826, 59.21);
+INSERT INTO Purchase_Detail VALUES (37, 'RM181', 4502, 291.67);
+INSERT INTO Purchase_Detail VALUES (37, 'RM182', 4888, 264);
+INSERT INTO Purchase_Detail VALUES (37, 'RM183', 3509, 188.45);
+INSERT INTO Purchase_Detail VALUES (37, 'RM184', 2897, 456.23);
+INSERT INTO Purchase_Detail VALUES (37, 'RM185', 3941, 211.76);
+INSERT INTO Purchase_Detail VALUES (38, 'RM186', 4071, 174.33);
+INSERT INTO Purchase_Detail VALUES (38, 'RM187', 2115, 245.21);
+INSERT INTO Purchase_Detail VALUES (38, 'RM188', 3886, 373.67);
+INSERT INTO Purchase_Detail VALUES (38, 'RM189', 2733, 386.23);
+INSERT INTO Purchase_Detail VALUES (38, 'RM190', 2885, 151.76);
+INSERT INTO Purchase_Detail VALUES (39, 'RM191', 4889, 213.67);
+INSERT INTO Purchase_Detail VALUES (39, 'RM192', 2992, 429.23);
+INSERT INTO Purchase_Detail VALUES (39, 'RM193', 4233, 308.76);
+INSERT INTO Purchase_Detail VALUES (39, 'RM194', 3601, 491.33);
+INSERT INTO Purchase_Detail VALUES (39, 'RM195', 2278, 96.21);
+INSERT INTO Purchase_Detail VALUES (40, 'RM196', 4910, 135.67);
+INSERT INTO Purchase_Detail VALUES (40, 'RM197', 4172, 288.23);
+INSERT INTO Purchase_Detail VALUES (40, 'RM198', 4072, 426.76);
+INSERT INTO Purchase_Detail VALUES (40, 'RM199', 4251, 187.33);
+INSERT INTO Purchase_Detail VALUES (40, 'RM200', 2264, 336.21);
+
+INSERT INTO Purchase_Detail VALUES (41, 'RM146', 2649, 91.67);
+INSERT INTO Purchase_Detail VALUES (41, 'RM147', 2864, 293.45);
+INSERT INTO Purchase_Detail VALUES (42, 'RM148', 4822, 211.23);
+INSERT INTO Purchase_Detail VALUES (43, 'RM149', 4275, 56.76);
+INSERT INTO Purchase_Detail VALUES (44, 'RM150', 2677, 455.33);
+INSERT INTO Purchase_Detail VALUES (45, 'RM151', 3813, 167.21);
+INSERT INTO Purchase_Detail VALUES (45, 'RM152', 2159, 395.67);
+INSERT INTO Purchase_Detail VALUES (46, 'RM153', 4792, 89.23);
+INSERT INTO Purchase_Detail VALUES (47, 'RM154', 4885, 235.76);
+INSERT INTO Purchase_Detail VALUES (48, 'RM155', 3992, 318.45);
+INSERT INTO Purchase_Detail VALUES (48, 'RM156', 3015, 132.67);
+INSERT INTO Purchase_Detail VALUES (48, 'RM157', 2116, 294.45);
+INSERT INTO Purchase_Detail VALUES (49, 'RM158', 3338, 462.23);
+INSERT INTO Purchase_Detail VALUES (50, 'RM159', 2052, 23.76);
+INSERT INTO Purchase_Detail VALUES (50, 'RM160', 4795, 427.33);
+
+INSERT INTO Purchase_Detail VALUES (51, 'RM201', 1090, 135.80);
+INSERT INTO Purchase_Detail VALUES (51, 'RM202', 506, 89.32);
+INSERT INTO Purchase_Detail VALUES (51, 'RM203', 1231, 67.56);
+INSERT INTO Purchase_Detail VALUES (52, 'RM204', 1024, 97.47);
+INSERT INTO Purchase_Detail VALUES (52, 'RM205', 682, 143.78);
+INSERT INTO Purchase_Detail VALUES (52, 'RM206', 1750, 67.35);
+INSERT INTO Purchase_Detail VALUES (53, 'RM207', 1472, 222.19);
+INSERT INTO Purchase_Detail VALUES (53, 'RM208', 472, 144.88);
+INSERT INTO Purchase_Detail VALUES (54, 'RM209', 1999, 127.44);
+INSERT INTO Purchase_Detail VALUES (54, 'RM210', 619, 205.87);
+INSERT INTO Purchase_Detail VALUES (54, 'RM211', 884, 112.91);
+INSERT INTO Purchase_Detail VALUES (55, 'RM212', 1103, 182.20);
+INSERT INTO Purchase_Detail VALUES (55, 'RM213', 449, 84.66);
+INSERT INTO Purchase_Detail VALUES (55, 'RM214', 2000, 223.13);
+INSERT INTO Purchase_Detail VALUES (55, 'RM215', 1311, 111.20);
+INSERT INTO Purchase_Detail VALUES (56, 'RM216', 1179, 239.52);
+INSERT INTO Purchase_Detail VALUES (56, 'RM217', 1097, 29.85);
+INSERT INTO Purchase_Detail VALUES (56, 'RM218', 1707, 146.32);
+INSERT INTO Purchase_Detail VALUES (57, 'RM219', 1484, 118.39);
+INSERT INTO Purchase_Detail VALUES (57, 'RM220', 1682, 24.91);
+INSERT INTO Purchase_Detail VALUES (57, 'RM221', 1709, 224.81);
+INSERT INTO Purchase_Detail VALUES (58, 'RM222', 666, 234.06);
+INSERT INTO Purchase_Detail VALUES (58, 'RM223', 205, 136.98);
+INSERT INTO Purchase_Detail VALUES (58, 'RM224', 1498, 120.56);
+INSERT INTO Purchase_Detail VALUES (59, 'RM225', 1310, 116.29);
+INSERT INTO Purchase_Detail VALUES (59, 'RM226', 1864, 72.84);
+INSERT INTO Purchase_Detail VALUES (60, 'RM227', 463, 37.45);
+INSERT INTO Purchase_Detail VALUES (60, 'RM228', 1309, 127.24);
+INSERT INTO Purchase_Detail VALUES (60, 'RM229', 506, 35.80);
+INSERT INTO Purchase_Detail VALUES (61, 'RM230', 1965, 230.99);
+INSERT INTO Purchase_Detail VALUES (61, 'RM231', 1669, 126.92);
+INSERT INTO Purchase_Detail VALUES (61, 'RM232', 1383, 246.05);
+INSERT INTO Purchase_Detail VALUES (61, 'RM233', 1491, 95.71);
+
+INSERT INTO Purchase_Detail VALUES (62, 'RM234', 1042, 156.82);
+INSERT INTO Purchase_Detail VALUES (62, 'RM235', 1271, 206.01);
+INSERT INTO Purchase_Detail VALUES (63, 'RM236', 1029, 179.92);
+INSERT INTO Purchase_Detail VALUES (64, 'RM237', 1496, 120.44);
+INSERT INTO Purchase_Detail VALUES (64, 'RM238', 732, 49.70);
+INSERT INTO Purchase_Detail VALUES (64, 'RM239', 820, 160.30);
+INSERT INTO Purchase_Detail VALUES (64, 'RM240', 1997, 108.90);
+INSERT INTO Purchase_Detail VALUES (65, 'RM241', 1292, 249.70);
+INSERT INTO Purchase_Detail VALUES (65, 'RM242', 982, 222.39);
+INSERT INTO Purchase_Detail VALUES (66, 'RM243', 1939, 99.67);
+INSERT INTO Purchase_Detail VALUES (66, 'RM244', 559, 143.02);
+INSERT INTO Purchase_Detail VALUES (67, 'RM245', 202, 230.19);
+INSERT INTO Purchase_Detail VALUES (67, 'RM246', 1478, 144.12);
+INSERT INTO Purchase_Detail VALUES (67, 'RM247', 1561, 132.27);
+INSERT INTO Purchase_Detail VALUES (67, 'RM248', 1413, 51.03);
+INSERT INTO Purchase_Detail VALUES (67, 'RM249', 1352, 92.62);
+INSERT INTO Purchase_Detail VALUES (68, 'RM250', 960, 240.73);
+INSERT INTO Purchase_Detail VALUES (69, 'RM251', 1475, 129.47);
+INSERT INTO Purchase_Detail VALUES (69, 'RM252', 936, 136.41);
+INSERT INTO Purchase_Detail VALUES (69, 'RM253', 898, 80.18);
+INSERT INTO Purchase_Detail VALUES (69, 'RM254', 646, 191.60);
+INSERT INTO Purchase_Detail VALUES (70, 'RM255', 1177, 112.94);
+INSERT INTO Purchase_Detail VALUES (70, 'RM256', 1951, 205.11);
+INSERT INTO Purchase_Detail VALUES (71, 'RM257', 521, 129.12);
+INSERT INTO Purchase_Detail VALUES (71, 'RM258', 1345, 181.91);
+INSERT INTO Purchase_Detail VALUES (71, 'RM259', 848, 220.92);
+INSERT INTO Purchase_Detail VALUES (72, 'RM260', 790, 201.08);
+INSERT INTO Purchase_Detail VALUES (72, 'RM261', 1631, 22.53);
+INSERT INTO Purchase_Detail VALUES (72, 'RM262', 1134, 143.81);
+INSERT INTO Purchase_Detail VALUES (73, 'RM263', 1646, 152.98);
+INSERT INTO Purchase_Detail VALUES (73, 'RM264', 1628, 190.36);
+INSERT INTO Purchase_Detail VALUES (73, 'RM265', 1620, 233.91);
+INSERT INTO Purchase_Detail VALUES (73, 'RM266', 715, 141.11);
+INSERT INTO Purchase_Detail VALUES (73, 'RM267', 1227, 186);
+
+INSERT INTO Purchase_Detail VALUES (74, 'RM268', 1395, 36.80);
+INSERT INTO Purchase_Detail VALUES (74, 'RM269', 1488, 233.38);
+INSERT INTO Purchase_Detail VALUES (75, 'RM270', 1141, 224.14);
+INSERT INTO Purchase_Detail VALUES (75, 'RM271', 542, 120.16);
+INSERT INTO Purchase_Detail VALUES (75, 'RM272', 1973, 246.06);
+INSERT INTO Purchase_Detail VALUES (76, 'RM273', 357, 149.07);
+INSERT INTO Purchase_Detail VALUES (76, 'RM274', 1625, 206.28);
+INSERT INTO Purchase_Detail VALUES (76, 'RM275', 1337, 79.22);
+INSERT INTO Purchase_Detail VALUES (77, 'RM276', 1524, 91.91);
+INSERT INTO Purchase_Detail VALUES (77, 'RM277', 1894, 67.85);
+INSERT INTO Purchase_Detail VALUES (77, 'RM278', 1939, 123.23);
+INSERT INTO Purchase_Detail VALUES (78, 'RM279', 207, 39.94);
+INSERT INTO Purchase_Detail VALUES (78, 'RM280', 1446, 168.24);
+INSERT INTO Purchase_Detail VALUES (78, 'RM281', 1431, 116.26);
+INSERT INTO Purchase_Detail VALUES (78, 'RM282', 1387, 51.76);
+INSERT INTO Purchase_Detail VALUES (79, 'RM283', 1963, 227.51);
+INSERT INTO Purchase_Detail VALUES (80, 'RM284', 721, 237.28);
+INSERT INTO Purchase_Detail VALUES (80, 'RM285', 219, 33.16);
+INSERT INTO Purchase_Detail VALUES (81, 'RM286', 1353, 198.63);
+INSERT INTO Purchase_Detail VALUES (81, 'RM287', 820, 122.62);
+INSERT INTO Purchase_Detail VALUES (82, 'RM288', 208, 214.17);
+INSERT INTO Purchase_Detail VALUES (82, 'RM289', 1031, 95.16);
+INSERT INTO Purchase_Detail VALUES (83, 'RM290', 1476, 208.45);
+INSERT INTO Purchase_Detail VALUES (83, 'RM291', 238, 47.78);
+INSERT INTO Purchase_Detail VALUES (84, 'RM292', 1939, 159.31);
+INSERT INTO Purchase_Detail VALUES (84, 'RM293', 221, 28.45);
+INSERT INTO Purchase_Detail VALUES (85, 'RM294', 777, 139.98);
+INSERT INTO Purchase_Detail VALUES (85, 'RM295', 239, 114.17);
+INSERT INTO Purchase_Detail VALUES (86, 'RM296', 1133, 238.23);
+INSERT INTO Purchase_Detail VALUES (86, 'RM297', 1697, 110.56);
+INSERT INTO Purchase_Detail VALUES (87, 'RM298', 329, 52.19);
+INSERT INTO Purchase_Detail VALUES (88, 'RM299', 1032, 20.05);
+INSERT INTO Purchase_Detail VALUES (89, 'RM300', 1834, 51.58);
+INSERT INTO Purchase_Detail VALUES (89, 'RM301', 1085, 130);
+
+INSERT INTO Purchase_Detail VALUES (90, 'RM302', 1008, 174.59);
+INSERT INTO Purchase_Detail VALUES (90, 'RM303', 235, 47.42);
+INSERT INTO Purchase_Detail VALUES (90, 'RM304', 1309, 41.07);
+INSERT INTO Purchase_Detail VALUES (91, 'RM305', 1131, 203.67);
+INSERT INTO Purchase_Detail VALUES (91, 'RM306', 841, 219.70);
+INSERT INTO Purchase_Detail VALUES (92, 'RM307', 1068, 143.29);
+INSERT INTO Purchase_Detail VALUES (92, 'RM308', 1876, 158.70);
+INSERT INTO Purchase_Detail VALUES (93, 'RM309', 1497, 77.59);
+INSERT INTO Purchase_Detail VALUES (94, 'RM310', 1763, 125.02);
+INSERT INTO Purchase_Detail VALUES (94, 'RM311', 1070, 87.81);
+INSERT INTO Purchase_Detail VALUES (94, 'RM312', 234, 88.41);
+INSERT INTO Purchase_Detail VALUES (94, 'RM313', 1907, 85.15);
+INSERT INTO Purchase_Detail VALUES (95, 'RM314', 1917, 96.18);
+INSERT INTO Purchase_Detail VALUES (95, 'RM315', 1470, 245.64);
+INSERT INTO Purchase_Detail VALUES (95, 'RM316', 429, 164.80);
+INSERT INTO Purchase_Detail VALUES (96, 'RM317', 1395, 84.21);
+INSERT INTO Purchase_Detail VALUES (96, 'RM318', 746, 246.75);
+INSERT INTO Purchase_Detail VALUES (96, 'RM319', 1939, 41.91);
+INSERT INTO Purchase_Detail VALUES (96, 'RM320', 1408, 153.08);
+INSERT INTO Purchase_Detail VALUES (97, 'RM321', 1303, 159.54);
+INSERT INTO Purchase_Detail VALUES (97, 'RM322', 1236, 174.47);
+INSERT INTO Purchase_Detail VALUES (97, 'RM323', 660, 95.73);
+INSERT INTO Purchase_Detail VALUES (97, 'RM324', 1029, 152.70);
+INSERT INTO Purchase_Detail VALUES (98, 'RM325', 789, 111.11);
+INSERT INTO Purchase_Detail VALUES (98, 'RM326', 425, 25.36);
+INSERT INTO Purchase_Detail VALUES (98, 'RM327', 715, 163.51);
+INSERT INTO Purchase_Detail VALUES (98, 'RM328', 821, 236.35);
+INSERT INTO Purchase_Detail VALUES (99, 'RM329', 545, 55.26);
+INSERT INTO Purchase_Detail VALUES (99, 'RM330', 1099, 120.28);
+INSERT INTO Purchase_Detail VALUES (99, 'RM331', 1457, 30.28);
+INSERT INTO Purchase_Detail VALUES (100, 'RM332', 277, 32.95);
+INSERT INTO Purchase_Detail VALUES (100, 'RM333', 262, 64.06);
+INSERT INTO Purchase_Detail VALUES (100, 'RM334', 1209, 206.32);
+INSERT INTO Purchase_Detail VALUES (100, 'RM335', 1286, 52.00);
+
+INSERT INTO Purchase_Detail VALUES (2, 'RM275', 207, 103.14);
+INSERT INTO Purchase_Detail VALUES (5, 'RM286', 216, 121.91);
+INSERT INTO Purchase_Detail VALUES (8, 'RM291', 1467, 79.52);
+INSERT INTO Purchase_Detail VALUES (11, 'RM297', 956, 169.87);
+INSERT INTO Purchase_Detail VALUES (18, 'RM299', 1021, 210.11);
+INSERT INTO Purchase_Detail VALUES (29, 'RM310', 1865, 187.28);
+INSERT INTO Purchase_Detail VALUES (36, 'RM312', 803, 215.64);
+INSERT INTO Purchase_Detail VALUES (41, 'RM318', 1284, 126.99);
+INSERT INTO Purchase_Detail VALUES (48, 'RM325', 1087, 126.23);
+INSERT INTO Purchase_Detail VALUES (49, 'RM333', 1800, 94.39);
+INSERT INTO Purchase_Detail VALUES (77, 'RM1', 496, 217.48);
+INSERT INTO Purchase_Detail VALUES (89, 'RM9', 1523, 55.45);
+INSERT INTO Purchase_Detail VALUES (91, 'RM13', 1088, 45.14);
+INSERT INTO Purchase_Detail VALUES (97, 'RM95', 659, 186.68);
+INSERT INTO Purchase_Detail VALUES (99, 'RM111', 1185, 144.88);
+
+-- select * from Purchase_Detail;
+
+
+
+
+
+------ Used_Raw_Material -------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Used_Raw_Material (prod_id,rm_id)
+VALUES
+('P001', 'RM1'),
+('P001', 'RM2'),
+('P001', 'RM3'),
+('P001', 'RM13'),
+('P001', 'RM4'),
+('P002', 'RM5'),
+('P002', 'RM6'),
+('P002', 'RM7'),
+('P002', 'RM8'),
+('P002', 'RM4'),
+
+('P003', 'RM14'),
+('P003', 'RM15'),
+('P003', 'RM16'),
+('P003', 'RM17'),
+('P003', 'RM18'),
+('P003', 'RM19'),
+('P004', 'RM20'),
+('P004', 'RM21'),
+('P004', 'RM22'),
+('P004', 'RM23'),
+('P004', 'RM24'),
+('P004', 'RM25'),
+
+('P009', 'RM27'),
+('P009', 'RM28'),
+('P009', 'RM29'),
+('P009', 'RM30'),
+('P009', 'RM31'),
+('P009', 'RM32'),
+('P009', 'RM33'),
+('P010', 'RM34'),
+('P009', 'RM35'),
+('P009', 'RM36'),
+('P009', 'RM37'),
+('P009', 'RM39'),
+
+
+('P013', 'RM40'),
+('P013', 'RM41'),
+('P013', 'RM42'),
+('P013', 'RM43'),
+('P013', 'RM44'),
+('P013', 'RM45'),
+('P013', 'RM46'),
+('P014', 'RM47'),
+('P014', 'RM48'),
+('P014', 'RM49'),
+('P014', 'RM50'),
+('P014', 'RM51'),
+('P014', 'RM52'),
+
+('P017', 'RM53'),
+('P017', 'RM54'),
+('P017', 'RM55'),
+('P017', 'RM56'),
+('P017', 'RM57'),
+('P017', 'RM58'),
+('P017', 'RM59'),
+('P018', 'RM60'),
+('P018', 'RM61'),
+('P018', 'RM62'),
+('P018', 'RM63'),
+('P018', 'RM64'),
+('P018', 'RM65'),
+('P018', 'RM55'),
+
+('P021', 'RM66'),
+('P021', 'RM67'),
+('P021', 'RM68'),
+('P021', 'RM69'),
+('P021', 'RM70'),
+('P021', 'RM71'),
+('P021', 'RM72'),
+('P021', 'RM73'),
+('P021', 'RM74'),
+('P021', 'RM75'),
+('P021', 'RM76'),
+('P021', 'RM77'),
+('P021', 'RM78'),
+
+('P025', 'RM79'),
+('P025', 'RM80'),
+('P025', 'RM81'),
+('P025', 'RM82'),
+('P025', 'RM83'),
+('P025', 'RM84'),
+('P025', 'RM85'),
+('P025', 'RM86'),
+('P025', 'RM87'),
+('P025', 'RM88'),
+('P025', 'RM89'),
+('P025', 'RM90'),
+('P025', 'RM91'),
+
+('P026', 'RM19'),
+
+('P028', 'RM19'),
+
+('P031', 'RM18'),
+
+('P035', 'RM20'),
+
+('P041', 'RM19'),
+('P052', 'RM19'),
+
+('P042', 'RM20'),
+
+('P068', 'RM18'),
+('P053', 'RM18'),
+
+('P050', 'RM19'),
+('P065', 'RM19'),
+
+('P043', 'RM20'),
+('P061', 'RM20'),
+('P074', 'RM20'),
+('P084', 'RM20'),
+('P091', 'RM20'),
+
+('P076', 'RM20'),
+('P086', 'RM20'),
+('P093', 'RM20'),
+
+('P095', 'RM20'),
+('P078', 'RM20'),
+('P067', 'RM20'),
+('P048', 'RM20'),
+
+('P040', 'RM20'),
+('P079', 'RM20'),
+('P089', 'RM20'),
+('P096', 'RM20'),
+
+('P097', 'RM20'),
+('P080', 'RM20'),
+('P063', 'RM20'),
+
+('P098', 'RM20'),
+('P081', 'RM20'),
+('P058', 'RM20'),
+
+('P099', 'RM20'),
+('P082', 'RM20'),
+('P057', 'RM20'),
+
+('P100', 'RM20'),
+('P090', 'RM20'),
+('P083', 'RM20'),
+('P072', 'RM20'),
+('P069', 'RM20'),
+('P059', 'RM20'),
+('P064', 'RM20'),
+('P039', 'RM20'),
+('P070', 'RM20'),
+
+('P026', 'RM92'),
+('P026', 'RM93'),
+('P026', 'RM94'),
+('P026', 'RM95'),
+('P026', 'RM96'),
+('P026', 'RM97'),
+('P026', 'RM98'),
+('P026', 'RM99'),
+('P026', 'RM100'),
+('P026', 'RM101'),
+('P026', 'RM102'),
+('P026', 'RM103'),
+('P026', 'RM104'),
+
+('P028', 'RM105'),
+('P028', 'RM106'),
+('P028', 'RM107'),
+('P028', 'RM108'),
+('P028', 'RM109'),
+('P028', 'RM110'),
+('P028', 'RM111'),
+('P028', 'RM112'),
+('P028', 'RM113'),
+('P028', 'RM114'),
+('P028', 'RM115'),
+('P028', 'RM116'),
+('P028', 'RM117'),
+
+('P031', 'RM118'),
+('P031', 'RM119'),
+('P031', 'RM120'),
+('P031', 'RM121'),
+('P031', 'RM122'),
+('P031', 'RM123'),
+('P031', 'RM124'),
+('P031', 'RM125'),
+('P031', 'RM126'),
+('P031', 'RM127'),
+('P031', 'RM128'),
+('P031', 'RM129'),
+('P031', 'RM130'),
+
+('P035', 'RM131'),
+('P035', 'RM132'),
+('P035', 'RM133'),
+('P035', 'RM134'),
+('P035', 'RM135'),
+('P035', 'RM136'),
+('P035', 'RM137'),
+('P035', 'RM138'),
+('P035', 'RM139'),
+('P035', 'RM140'),
+('P035', 'RM141'),
+('P035', 'RM142'),
+('P035', 'RM143'),
+
+('P041', 'RM144'),
+('P041', 'RM145'),
+('P041', 'RM146'),
+('P041', 'RM147'),
+('P041', 'RM148'),
+('P041', 'RM149'),
+('P041', 'RM150'),
+('P052', 'RM151'),
+('P052', 'RM152'),
+('P052', 'RM153'),
+('P052', 'RM154'),
+('P052', 'RM155'),
+('P052', 'RM156'),
+
+('P042', 'RM157'),
+('P042', 'RM158'),
+('P042', 'RM159'),
+('P042', 'RM160'),
+('P042', 'RM161'),
+('P042', 'RM162'),
+('P042', 'RM163'),
+('P042', 'RM164'),
+('P042', 'RM165'),
+('P042', 'RM166'),
+('P042', 'RM167'),
+('P042', 'RM168'),
+('P042', 'RM169'),
+
+('P068', 'RM170'),
+('P068', 'RM171'),
+('P068', 'RM172'),
+('P068', 'RM173'),
+('P068', 'RM174'),
+('P068', 'RM175'),
+('P053', 'RM176'),
+('P053', 'RM177'),
+('P053', 'RM178'),
+('P053', 'RM179'),
+('P053', 'RM180'),
+('P053', 'RM181'),
+('P053', 'RM182'),
+
+('P050', 'RM183'),
+('P050', 'RM184'),
+('P050', 'RM185'),
+('P050', 'RM186'),
+('P050', 'RM187'),
+('P050', 'RM188'),
+('P065', 'RM189'),
+('P065', 'RM190'),
+('P065', 'RM191'),
+('P065', 'RM192'),
+('P065', 'RM193'),
+('P065', 'RM194'),
+('P065', 'RM195'),
+
+('P043', 'RM196'),
+('P043', 'RM197'),
+('P043', 'RM198'),
+('P043', 'RM199'),
+('P043', 'RM200'),
+('P061', 'RM201'),
+('P061', 'RM202'),
+('P061', 'RM203'),
+('P061', 'RM204'),
+('P061', 'RM205'),
+('P074', 'RM206'),
+('P074', 'RM207'),
+('P074', 'RM208'),
+('P074', 'RM196'),
+('P074', 'RM197'),
+('P074', 'RM198'),
+('P084', 'RM199'),
+('P084', 'RM200'),
+('P084', 'RM201'),
+('P084', 'RM202'),
+('P084', 'RM203'),
+('P091', 'RM204'),
+('P091', 'RM205'),
+('P091', 'RM206'),
+('P091', 'RM207'),
+('P091', 'RM208'),
+
+('P076', 'RM209'),
+('P076', 'RM210'),
+('P076', 'RM211'),
+('P076', 'RM212'),
+('P076', 'RM213'),
+('P076', 'RM214'),
+('P076', 'RM215'),
+('P076', 'RM216'),
+('P076', 'RM217'),
+('P086', 'RM218'),
+('P086', 'RM219'),
+('P086', 'RM220'),
+('P086', 'RM221'),
+('P086', 'RM209'),
+('P086', 'RM210'),
+('P086', 'RM211'),
+('P086', 'RM212'),
+('P093', 'RM213'),
+('P093', 'RM214'),
+('P093', 'RM215'),
+('P093', 'RM216'),
+('P093', 'RM217'),
+('P093', 'RM218'),
+('P093', 'RM219'),
+('P093', 'RM220'),
+('P093', 'RM221'),
+
+
+('P095', 'RM222'),
+('P095', 'RM223'),
+('P095', 'RM224'),
+('P095', 'RM225'),
+('P095', 'RM226'),
+('P095', 'RM227'),
+('P095', 'RM228'),
+('P095', 'RM229'),
+('P095', 'RM230'),
+('P095', 'RM231'),
+('P078', 'RM232'),
+('P078', 'RM233'),
+('P078', 'RM234'),
+('P078', 'RM222'),
+('P078', 'RM223'),
+('P078', 'RM224'),
+('P078', 'RM225'),
+('P078', 'RM226'),
+('P078', 'RM227'),
+('P078', 'RM228'),
+('P067', 'RM229'),
+('P067', 'RM230'),
+('P067', 'RM231'),
+('P067', 'RM232'),
+('P067', 'RM233'),
+('P067', 'RM234'),
+('P067', 'RM222'),
+('P067', 'RM223'),
+('P067', 'RM224'),
+('P067', 'RM225'),
+('P067', 'RM226'),
+('P048', 'RM227'),
+('P048', 'RM228'),
+('P048', 'RM229'),
+('P048', 'RM230'),
+('P048', 'RM231'),
+('P048', 'RM232'),
+('P048', 'RM233'),
+('P048', 'RM234'),
+
+('P040','RM235'),
+('P040','RM236'),
+('P040','RM237'),
+('P040','RM238'),
+('P079','RM239'),
+('P079','RM240'),
+('P079','RM241'),
+('P089','RM242'),
+('P089','RM243'),
+('P089','RM244'),
+('P096','RM245'),
+('P096','RM246'),
+('P096','RM247'),
+
+('P098','RM248'),
+('P098','RM249'),
+('P098','RM250'),
+('P098','RM251'),
+('P098','RM252'),
+('P081','RM253'),
+('P081','RM254'),
+('P081','RM255'),
+('P081','RM256'),
+('P058','RM257'),
+('P058','RM258'),
+('P058','RM259'),
+('P058','RM260'),
+
+('P100','RM261'),
+('P100','RM262'),
+('P100','RM263'),
+('P100','RM264'),
+('P090','RM265'),
+('P090','RM266'),
+('P090','RM267'),
+('P083','RM268'),
+('P083','RM269'),
+('P083','RM270'),
+('P072','RM271'),
+('P072','RM272'),
+('P072','RM273'),
+
+('P069','RM274'),
+('P069','RM275'),
+('P069','RM276'),
+('P069','RM277'),
+('P069','RM278'),
+('P069','RM279'),
+('P069','RM280'),
+('P069','RM281'),
+('P069','RM282'),
+('P069','RM283'),
+('P069','RM284'),
+('P069','RM285'),
+('P069','RM286'),
+
+('P064','RM287'),
+('P064','RM288'),
+('P064','RM289'),
+('P064','RM290'),
+('P064','RM291'),
+('P064','RM292'),
+('P064','RM293'),
+('P064','RM294'),
+('P064','RM295'),
+('P064','RM296'),
+('P064','RM297'),
+('P064','RM298'),
+('P064','RM299'),
+
+('P070','RM300'),
+('P070','RM301'),
+('P070','RM302'),
+('P070','RM303'),
+('P070','RM304'),
+('P070','RM305'),
+('P070','RM306'),
+('P070','RM307'),
+('P070','RM308'),
+('P070','RM309'),
+('P070','RM310'),
+('P070','RM311'),
+('P070','RM312')
+
+-- select * from Used_Raw_Material;
+
+
+
+
+
+------ Raw_Mat_Stock -------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Raw_Mat_Stock (rm_stc_id, rm_stc_date, rm_stc_qty, branch_no)
+VALUES
+  ('RM001', '2021-01-01', 100, 1),
+  ('RM002', '2021-01-02', 150, 1),
+  ('RM003', '2021-01-03', 200, 1),
+  ('RM004', '2021-01-04', 750, 1),
+  ('RM005', '2021-01-05', 300, 1),
+  ('RM006', '2021-01-06', 500, 1),
+  ('RM007', '2021-01-07', 125, 1),
+  ('RM008', '2021-01-08', 175, 1),
+  ('RM009', '2021-01-09', 225, 1),
+  ('RM010', '2021-01-10', 250, 1),
+  ('RM011', '2021-01-11', 300, 1),
+  ('RM012', '2021-01-12', 100, 1),
+  ('RM013', '2021-01-13', 150, 1),
+  
+  ('RM014', '2021-01-14', 200, 2),
+  ('RM015', '2021-01-15', 750, 2),
+  ('RM016', '2021-01-16', 300, 2),
+  ('RM017', '2021-01-17', 500, 2),
+  ('RM018', '2021-01-18', 125, 2),
+  ('RM019', '2021-01-19', 175, 2),
+  ('RM020', '2021-01-20', 225, 2),
+  ('RM021', '2021-01-21', 250, 2),
+  ('RM022', '2021-01-22', 300, 2),
+  ('RM023', '2021-01-23', 100, 2),
+  ('RM024', '2021-01-24', 150, 2),
+  ('RM025', '2021-01-25', 200, 2),
+  ('RM026', '2021-01-26', 750, 2),
+
+  ('RM027', '2021-01-27', 300, 5),
+  ('RM028', '2021-01-28', 500, 5),
+  ('RM029', '2021-01-29', 125, 5),
+  ('RM030', '2021-01-30', 175, 5),
+  ('RM031', '2021-02-01', 225, 5),
+  ('RM032', '2021-02-02', 250, 5),
+  ('RM033', '2021-02-03', 300, 5),
+  ('RM034', '2021-02-04', 100, 5),
+  ('RM035', '2021-02-05', 150, 5),
+  ('RM036', '2021-02-06', 200, 5),
+  ('RM037', '2021-02-07', 757, 5),
+  ('RM038', '2021-02-07', 758, 5),
+('RM039', '2021-02-08', 300, 5),
+
+('RM040', '2021-02-09', 501,7),
+('RM041', '2021-02-10', 125,7),
+('RM042', '2021-02-11', 175,7),
+('RM043', '2021-02-12', 225,7),
+('RM044', '2021-02-13', 250,7),
+('RM045', '2021-02-14', 300,7),
+('RM046', '2021-02-15', 100, 7),
+('RM047', '2021-02-16', 150, 7),
+('RM048', '2021-02-17', 200, 7),
+('RM049', '2021-02-18', 758, 7),
+('RM050', '2021-02-19', 300, 7),
+('RM051', '2021-02-20', 508, 7),
+('RM052', '2021-02-21', 125, 7),
+
+('RM053', '2021-02-22', 175, 9),
+('RM054', '2021-02-23', 225, 9),
+('RM055', '2021-02-24', 250, 9),
+('RM056', '2021-02-25', 300, 9),
+('RM057', '2021-02-26', 100, 9),
+('RM058', '2021-02-27', 150, 9),
+('RM059', '2021-02-28', 200, 9),
+('RM060', '2021-03-01', 754, 9),
+('RM061', '2021-03-02', 300, 9),
+('RM062', '2021-03-03', 502, 9),
+('RM063', '2021-03-04', 125, 9),
+('RM064', '2021-03-05', 175, 9),
+('RM065', '2021-03-06', 225, 9),
+
+('RM066', '2021-03-07', 250, 11),
+('RM067', '2021-03-08', 300, 11),
+('RM068', '2021-03-09', 100, 11),
+('RM069', '2021-03-10', 150, 11),
+('RM070', '2021-03-11', 200, 11),
+('RM071', '2021-03-12', 755, 11),
+('RM072', '2021-03-13', 300, 11),
+('RM073', '2021-03-14', 500, 11),
+('RM074', '2021-03-15', 125, 11),
+('RM075', '2021-03-16', 175, 11),
+('RM076', '2021-03-17', 225, 11),
+('RM077', '2021-03-18', 250, 11),
+('RM078', '2021-03-19', 300, 11),
+
+('RM079', '2021-03-20', 100, 15),
+('RM080', '2021-03-21', 150, 15),
+('RM081', '2021-03-22', 200, 15),
+('RM082', '2021-03-23', 758, 15),
+('RM083', '2021-03-24', 300, 15),
+('RM084', '2021-03-25', 500, 15),
+('RM085', '2021-03-26', 125, 15),
+('RM086', '2021-03-27', 175, 15),
+('RM087', '2021-03-28', 225, 15),
+('RM088', '2021-03-29', 250, 15),
+('RM089', '2021-03-30', 300, 15),
+('RM090', '2021-03-31', 100, 15),
+('RM091', '2021-04-01', 150, 15),
+
+('RM092', '2021-04-02', 200, 16),
+('RM093', '2021-04-03', 758, 16),
+('RM094', '2021-04-04', 300, 16),
+('RM095', '2021-04-05', 505, 16),
+('RM096', '2021-04-06', 125, 16),
+('RM097', '2021-04-07', 175, 16),
+('RM098', '2021-04-08', 225, 16),
+('RM099', '2021-04-09', 250, 16),
+('RM100', '2021-04-10', 300, 16),
+('RM101', '2021-04-11', 100, 16),
+('RM102', '2021-04-12', 150, 16),
+('RM103', '2021-04-13', 200, 16),
+('RM104', '2021-04-14', 758, 16),
+
+('RM105', '2021-04-15', 300, 18),
+('RM106', '2021-04-16', 509, 18),
+('RM107', '2021-04-17', 125, 18),
+('RM108', '2021-04-18', 175, 18),
+('RM109', '2021-04-19', 225, 18),
+('RM110', '2021-04-20', 250, 18),
+('RM111', '2021-04-21', 300, 18),
+('RM112', '2021-04-22', 100, 18),
+('RM113', '2021-04-23', 150, 18),
+('RM114', '2021-04-24', 200, 18),
+('RM115', '2021-04-25', 758, 18),
+('RM116', '2021-04-26', 300, 18),
+('RM117', '2021-04-27', 250, 18),
+
+('RM118', '2021-04-28', 125, 21),
+('RM119', '2021-04-29', 175, 21),
+('RM120', '2021-04-30', 225, 21),
+('RM121', '2021-05-01', 250, 21),
+('RM122', '2021-05-02', 300, 21),
+('RM123', '2021-05-03', 100, 21),
+('RM124', '2021-05-04', 150, 21),
+('RM125', '2021-05-05', 200, 21),
+('RM126', '2021-05-06', 751, 21),
+('RM127', '2021-05-07', 300, 21),
+('RM128', '2021-05-08', 508, 21),
+('RM129', '2021-05-09', 125, 21),
+('RM130', '2021-05-10', 175, 21),
+
+('RM131', '2021-05-11', 225, 25),
+('RM132', '2021-05-12', 250, 25),
+('RM133', '2021-05-13', 300, 25),
+('RM134', '2021-05-14', 100, 25),
+('RM135', '2021-05-15', 150, 25),
+('RM136', '2021-05-16', 200, 25),
+('RM137', '2021-05-17', 758, 25),
+('RM138', '2021-05-18', 300, 25),
+('RM139', '2021-05-19', 500, 25),
+('RM140', '2021-05-20', 125, 25),
+('RM141', '2021-05-21', 175, 25),
+('RM142', '2021-05-22', 225, 25),
+('RM143', '2021-05-23', 250, 25),
+
+('RM144', '2021-05-24', 300, 29),
+('RM145', '2021-05-25', 100, 29),
+('RM146', '2021-05-26', 150, 29),
+('RM147', '2021-05-27', 200, 29),
+('RM148', '2021-05-28', 758, 29),
+('RM149', '2021-05-29', 300, 29),
+('RM150', '2021-05-30', 509, 29),
+('RM151', '2021-05-31', 125, 29),
+('RM152', '2021-06-01', 175, 29),
+('RM153', '2021-06-02', 225, 29),
+('RM154', '2021-06-03', 250, 29),
+('RM155', '2021-06-04', 300, 29),
+('RM156', '2021-06-05', 100, 29),
+
+('RM157', '2021-06-06', 150, 30),
+('RM158', '2022-10-04', 100, 30),
+('RM159', '2022-10-05', 755, 30),
+('RM160', '2022-10-06', 225, 30),
+('RM161', '2022-10-07', 250, 30),
+('RM162', '2022-10-08', 300, 30),
+('RM163', '2022-10-09', 100, 30),
+('RM164', '2022-10-10', 150, 30),
+('RM165', '2022-10-11', 200, 30),
+('RM166', '2022-10-12', 754, 30),
+('RM167', '2022-10-13', 300, 30),
+('RM168', '2022-10-14', 506, 30),
+('RM169', '2022-10-15', 125, 30),
+
+('RM170', '2022-10-16', 175, 32),
+('RM171', '2022-10-17', 225, 32),
+('RM172', '2022-10-18', 250, 32),
+('RM173', '2022-10-19', 300, 32),
+('RM174', '2022-10-20', 100, 32),
+('RM175', '2022-10-21', 150, 32),
+('RM176', '2022-10-22', 200, 32),
+('RM177', '2022-10-23', 758, 32),
+('RM178', '2022-10-24', 300, 32),
+('RM179', '2022-10-25', 509, 32),
+('RM180', '2022-10-26', 125, 32),
+('RM181', '2022-10-27', 175, 32),
+('RM182', '2022-10-28', 225, 32),
+
+('RM183', '2022-10-29', 250, 33),
+('RM184', '2022-10-30', 300, 33),
+('RM185', '2022-10-31', 100, 33),
+('RM186', '2022-11-01', 150, 33),
+('RM187', '2022-11-02', 200, 33),
+('RM188', '2022-11-03', 757, 33),
+('RM189', '2022-11-04', 300, 33),
+('RM190', '2022-11-05', 509, 33),
+('RM191', '2022-11-06', 125, 33),
+('RM192', '2022-11-07', 175, 33),
+('RM193', '2022-11-08', 225, 33),
+('RM194', '2022-11-09', 250, 33),
+('RM195', '2022-11-10', 300, 33),
+
+('RM196', '2022-11-11', 100, 35),
+('RM197', '2022-11-12', 150, 35),
+('RM198', '2022-11-13', 200, 35),
+('RM199', '2022-11-14', 758, 35),
+('RM200', '2022-11-15', 300, 35),
+('RM201', '2022-11-16', 506, 35),
+('RM202', '2022-11-17', 125, 35),
+('RM203', '2022-11-18', 175, 35),
+('RM204', '2022-11-19', 225, 35),
+('RM205', '2022-11-20', 250, 35),
+('RM206', '2022-11-21', 300, 35),
+('RM207', '2022-11-22', 100, 35),
+('RM208', '2022-11-23', 150, 35),
+
+('RM209', '2022-11-24', 200, 37),
+('RM210', '2022-11-25', 757, 37),
+('RM211', '2022-11-26', 300, 37),
+('RM212', '2022-11-27', 506, 37),
+('RM213', '2022-11-28', 125, 37),
+('RM214', '2022-11-29', 175, 37),
+('RM215', '2022-11-30', 225, 37),
+('RM216', '2022-12-01', 250, 37),
+('RM217', '2022-12-02', 300, 37),
+('RM218', '2022-12-03', 100, 37),
+('RM219', '2022-12-04', 150, 37),
+('RM220', '2022-12-05', 200, 37),
+('RM221', '2022-12-06', 755,  37),
+
+('RM222', '2022-12-07', 300, 39),
+('RM223', '2022-12-08', 500, 39),
+('RM224', '2022-12-09', 125, 39),
+('RM225', '2022-12-10', 175, 39),
+('RM226', '2022-12-11', 225, 39),
+('RM227', '2022-12-12', 250, 39),
+('RM228', '2022-12-13', 300, 39),
+('RM229', '2022-12-14', 100, 39),
+('RM230', '2022-12-15', 150, 39),
+('RM231', '2022-12-16', 200, 39),
+('RM232', '2022-12-17', 758, 39),
+('RM233', '2022-12-18', 300, 39),
+('RM234', '2022-12-19', 507, 39),
+
+('RM235', '2022-12-20', 125, 40),
+('RM236', '2022-12-21', 175, 40),
+('RM237', '2022-12-22', 225, 40),
+('RM238', '2022-12-23', 250, 40),
+('RM239', '2022-12-24', 300, 40),
+('RM240', '2022-12-25', 100, 40),
+('RM241', '2022-12-26', 150, 40),
+('RM242', '2022-12-27', 200, 40),
+('RM243', '2022-12-28', 758, 40),
+('RM244', '2022-12-29', 300, 40),
+('RM245', '2022-12-30', 509, 40),
+('RM246', '2022-12-31', 125, 40),
+('RM247', '2023-01-01', 175, 40),
+
+('RM248', '2023-01-02', 225, 42),
+('RM249', '2023-01-03', 250, 42),
+('RM250', '2023-01-04', 300, 42),
+('RM251', '2023-01-05', 100, 42),
+('RM252', '2023-01-06', 150, 42),
+('RM253', '2023-01-07', 200, 42),
+('RM254', '2023-01-08', 758, 42),
+('RM255', '2023-01-09', 300, 42),
+('RM256', '2023-01-10', 507, 42),
+('RM257', '2023-01-11', 125, 42),
+('RM258', '2023-01-12', 175, 42),
+('RM259', '2023-01-13', 225, 42),
+('RM260', '2023-01-14', 250, 42),
+
+('RM261', '2023-01-15', 300, 44),
+('RM262', '2023-01-16', 100, 44),
+('RM263', '2023-01-17', 150, 44),
+('RM264', '2023-01-18', 200, 44),
+('RM265', '2023-01-19', 759, 44),
+('RM266', '2023-01-20', 300, 44),
+('RM267', '2023-01-21', 507, 44),
+('RM268', '2023-01-22', 125, 44),
+('RM269', '2023-01-23', 175, 44),
+('RM270', '2023-01-24', 225, 44),
+('RM271', '2023-01-25', 250, 44),
+('RM272', '2023-01-26', 300, 44),
+('RM273', '2023-01-27', 100, 44),
+
+('RM274', '2023-01-28', 150, 45),
+('RM275', '2023-01-29', 200, 45),
+('RM276', '2023-01-30', 752, 45),
+('RM277', '2023-01-31', 300, 45),
+('RM278', '2023-02-01', 508, 45),
+('RM279', '2023-02-02', 125, 45),
+('RM280', '2023-02-03', 175, 45),
+('RM281', '2023-02-04', 225, 45),
+('RM282', '2023-02-05', 250, 45),
+('RM283', '2023-02-06', 300, 45),
+('RM284', '2023-02-07', 100, 45),
+('RM285', '2023-02-08', 150, 45),
+('RM286', '2023-02-09', 200, 45),
+
+('RM287', '2023-02-10', 758, 47),
+('RM288', '2023-02-11', 300, 47),
+('RM289', '2023-02-12', 509, 47),
+('RM290', '2023-02-13', 125, 47),
+('RM291', '2023-02-14', 175, 47),
+('RM292', '2023-02-15', 225, 47),
+('RM293', '2023-02-16', 250, 47),
+('RM294', '2023-02-17', 300, 47),
+('RM295', '2023-02-18', 100, 47),
+('RM296', '2022-01-18', 200, 47),
+('RM297', '2022-01-19', 758, 47),
+('RM298', '2022-01-20', 300, 47),
+('RM299', '2022-01-21', 509, 47),
+
+('RM300', '2022-01-22', 125, 50),
+('RM301', '2022-01-23', 175, 50),
+('RM302', '2022-01-24', 225, 50),
+('RM303', '2022-01-25', 250, 50),
+('RM304', '2022-01-26', 300, 50),
+('RM305', '2022-01-27', 100, 50),
+('RM306', '2022-01-28', 150, 50),
+('RM307', '2022-01-29', 200, 50),
+('RM308', '2022-01-30', 758, 50),
+('RM309', '2022-01-31', 300, 50),
+('RM310', '2022-02-01', 509, 50),
+('RM311', '2022-02-02', 125, 50),
+('RM312', '2022-02-03', 175, 50),
+
+('RM313', '2022-02-04', 225, 51),
+('RM314', '2022-02-05', 250, 51),
+('RM315', '2022-02-06', 300, 51),
+('RM316', '2022-02-07', 100, 51),
+('RM317', '2022-02-08', 150, 51),
+('RM318', '2022-02-09', 200, 51),
+('RM319', '2022-02-10', 758, 51),
+('RM320', '2022-02-11', 300, 51),
+('RM321', '2022-02-12', 509, 51),
+('RM322', '2022-02-13', 125, 51),
+('RM323', '2022-02-14', 175, 51),
+('RM324', '2022-02-15', 225, 51),
+('RM325', '2022-02-16', 250, 51),
+
+('RM326', '2022-02-17', 300, 55),
+('RM327', '2022-02-18', 100, 55),
+('RM328', '2022-02-19', 150, 55),
+('RM329', '2022-02-20', 200, 55),
+('RM330', '2022-02-21', 757, 55),
+('RM331', '2022-02-22', 300, 55),
+('RM332', '2022-02-23', 508, 55),
+('RM333', '2022-02-24', 125, 55),
+('RM334', '2022-02-25', 175, 55),
+('RM335', '2022-02-26', 225, 55),
+
+('RM236', '2022-02-27', 240 ,40),
+('RM237', '2022-02-27', 250, 40),
+('RM238', '2022-02-28', 300, 40),
+('RM239', '2022-03-01', 100, 40),
+
+('RM200', '2022-03-02', 150, 35),
+
+('RM001', '2022-03-03', 200, 1),
+('RM002', '2022-03-04', 755, 1),
+('RM003', '2022-03-05', 300, 1),
+('RM004', '2022-03-06', 507, 1),
+('RM005', '2022-03-07', 125, 1),
+('RM006', '2022-03-08', 175, 1),
+('RM007', '2022-03-09', 225, 1),
+('RM008', '2022-03-10', 250, 1),
+('RM009', '2022-03-11', 300, 1),
+('RM010', '2022-03-12', 100, 1),
+('RM011', '2022-03-13', 150, 1),
+('RM012', '2022-03-14', 200, 1),
+('RM013', '2022-03-15', 759, 1),
+
+('RM014', '2022-03-16', 300, 2),
+('RM015', '2022-03-17', 507, 2),
+('RM016', '2022-03-18', 125, 2),
+('RM017', '2022-03-19', 175, 2),
+('RM018', '2022-03-20', 225, 2),
+('RM019', '2022-03-21', 250, 2),
+('RM020', '2022-03-22', 300, 2),
+('RM021', '2022-03-23', 100, 2),
+('RM022', '2022-03-24', 150, 2),
+('RM023', '2022-03-25', 200, 2),
+('RM024', '2022-03-26', 758, 2),
+('RM025', '2022-03-27', 300, 2),
+('RM026', '2022-03-28', 509, 2),
+
+('RM027', '2022-03-29', 125, 5),
+('RM028', '2022-03-30', 175, 5),
+('RM029', '2022-03-31', 225, 5),
+('RM030', '2022-04-01', 250, 5),
+('RM031', '2022-04-02', 300, 5),
+('RM032', '2022-04-03', 100, 5),
+('RM033', '2022-04-04', 150, 5),
+('RM034', '2022-04-05', 200, 5),
+('RM035', '2022-04-06', 757, 5),
+('RM036', '2022-04-07', 300, 5),
+('RM037', '2022-04-08', 200, 5),
+('RM038', '2023-03-10', 758, 5),
+('RM039', '2023-03-11', 300, 5),
+
+('RM040', '2023-03-12', 509, 7),
+('RM041', '2023-03-13', 125, 7),
+('RM042', '2023-03-14', 175, 7),
+('RM043', '2023-03-15', 225, 7),
+('RM044', '2023-03-16', 250, 7),
+('RM045', '2023-03-17', 300, 7),
+('RM046', '2023-03-18', 100, 7),
+('RM047', '2023-03-19', 150, 7),
+('RM048', '2023-03-20', 200, 7),
+('RM049', '2023-03-21', 758, 7),
+('RM050', '2023-03-22', 300, 7),
+('RM051', '2023-03-23', 507, 7),
+('RM052', '2023-03-24', 125, 7),
+
+('RM053', '2023-03-25', 175, 9),
+('RM054', '2023-03-26', 225, 9),
+('RM055', '2023-03-27', 250, 9),
+('RM056', '2023-03-28', 300, 9),
+('RM057', '2022-04-27', 250, 9),
+('RM058', '2022-04-28', 300, 9),
+('RM059', '2022-04-29', 100, 9),
+
+('RM100', '2022-04-30', 150,16),
+('RM101', '2022-05-01', 200, 16),
+('RM102', '2022-05-02', 758, 16),
+('RM103', '2022-05-03', 300, 16),
+('RM104', '2022-05-04', 502, 16),
+
+('RM105', '2022-05-05', 125, 18),
+('RM106', '2022-05-06', 175, 18),
+('RM107', '2022-05-07', 225, 18),
+('RM108', '2022-05-08', 250, 18),
+('RM109', '2022-05-09', 300, 18),
+('RM110', '2022-05-10', 100, 18),
+('RM111', '2022-05-11', 150, 18),
+('RM112', '2022-05-12', 200, 18),
+('RM113', '2022-05-13', 755, 18),
+('RM114', '2022-05-14', 300, 18),
+('RM115', '2022-05-15', 509, 18),
+('RM116', '2022-05-16', 125, 18),
+('RM117', '2022-05-17', 175, 18),
+
+('RM118', '2022-05-18', 225, 21),
+('RM119', '2022-05-19', 250, 21),
+('RM120', '2022-05-20', 300, 21),
+('RM121', '2022-05-21', 100, 21),
+('RM122', '2022-05-22', 150, 21),
+('RM123', '2022-05-23', 200, 21),
+('RM124', '2022-05-24', 758, 21),
+('RM125', '2022-05-25', 300, 21),
+('RM126', '2022-05-26', 507, 21),
+('RM127', '2022-05-27', 125, 21),
+('RM128', '2022-05-28', 175, 21),
+('RM129', '2022-05-29', 225, 21),
+('RM130', '2022-05-30', 250, 21),
+
+('RM131', '2022-05-31', 300, 25),
+('RM132', '2022-06-01', 100, 25),
+('RM133', '2022-06-02', 150, 25),
+('RM134', '2022-06-03', 200, 25);
+
+-- select * from Raw_Mat_Stock;
+
+
+
+
+
+------ Prod_Stock ------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Prod_Stock (prod_stc_id, prod_stc_date, prod_stc_qty, branch_no)
+VALUES 
+('P001', '2022-01-01', 50, 1),
+('P002', '2022-01-01', 250, 1),
+('P003', '2022-01-03', 75, 2),
+('P004', '2022-01-03', 300, 2),
+('P005', '2022-01-05', 600, 3),
+('P006', '2022-01-05', 40, 3),
+('P007', '2022-01-05', 80, 4),
+('P008', '2022-01-07', 200, 4),
+('P009', '2022-01-07', 70, 5),
+('P010', '2022-01-11', 350, 5),
+('P011', '2022-01-11', 55, 6),
+('P012', '2022-01-21', 450, 6),
+('P013', '2022-01-21', 90, 7),
+('P014', '2022-01-21', 100, 7),
+('P015', '2022-01-21', 50, 8),
+('P016', '2022-01-26', 250, 8),
+('P017', '2022-01-26', 75, 9),
+('P018', '2022-02-02', 300, 9),
+('P019', '2022-02-02', 60, 10),
+('P020', '2022-02-10', 405, 10),
+('P021', '2022-02-10', 80, 11),
+('P022', '2022-02-10', 200, 12),
+('P023', '2022-02-13', 70, 13),
+('P024', '2022-02-13', 350, 14),
+('P025', '2022-02-13', 550, 15),
+('P026', '2022-02-14', 450, 16),
+('P027', '2022-02-14', 90, 17),
+('P028', '2022-02-23', 100, 18),
+('P029', '2022-02-23', 500, 19),
+('P030', '2022-02-23', 250, 20),
+('P031', '2022-02-25', 75, 21),
+('P032', '2022-02-25', 300, 22),
+('P033', '2022-02-28', 60, 23),
+('P034', '2022-02-28', 400, 24),
+('P035', '2022-03-05', 80, 25),
+('P036', '2022-03-05', 200, 26),
+('P037', '2022-03-05', 70, 27),
+('P038', '2022-03-09', 500, 28),
+('P039', '2022-03-09', 350, 49),
+('P040', '2022-03-11', 55, 40),
+('P041', '2022-03-11', 90, 29),
+('P042', '2022-03-20', 100, 30),
+('P043', '2022-03-20', 50, 35),
+('P044', '2022-03-25', 250, 20),
+('P045', '2022-03-25', 75, 38),
+('P046', '2022-03-27', 300, 28),
+('P047', '2022-03-27', 60, 24),
+('P048', '2022-03-29', 40, 39),
+('P049', '2022-03-29', 80, 22),
+('P050', '2022-03-31', 200, 33),
+('P051', '2022-03-31', 70, 25),
+('P052', '2022-04-01', 35, 29),
+('P053', '2022-04-01', 55, 32),
+('P054', '2022-04-01', 45, 21),
+('P055', '2022-04-08', 90, 27),
+('P056', '2022-04-08', 100, 26),
+('P057', '2022-04-15', 50, 43),
+('P058', '2022-04-15', 250, 42),
+('P059', '2022-04-19', 750, 46),
+('P060', '2022-04-19', 300, 38),
+('P061', '2022-04-26', 60, 35),
+('P062', '2022-04-26', 40, 38),
+('P063', '2022-04-26', 80, 41),
+('P064', '2022-04-26', 200, 47),
+('P065', '2022-04-30', 70, 33),
+('P066', '2022-04-30', 350, 48),
+('P067', '2022-04-30', 55, 39),
+('P068', '2022-04-30', 45, 32),
+('P069', '2022-05-02', 90, 45),
+('P070', '2022-05-02', 100, 50),
+('P071', '2022-05-02', 50, 36),
+('P072', '2022-05-09', 250, 44),
+('P073', '2022-05-09', 75, 30),
+('P074', '2022-05-09', 30, 35),
+('P075', '2022-05-12', 60, 36),
+('P076', '2022-05-12', 400, 37),
+('P077', '2022-05-17', 80, 38),
+('P078', '2022-05-17', 200, 39),
+('P079', '2022-05-18', 70, 40),
+('P080', '2022-05-18', 35, 41),
+('P081', '2022-05-25', 550, 42),
+('P082', '2022-05-25', 450, 43),
+('P083', '2022-05-30', 900, 44),
+('P084', '2022-05-30', 1000, 35),
+('P085', '2022-05-31', 50, 36),
+('P086', '2022-06-04', 25, 37),
+('P087', '2022-06-04', 75, 38),
+('P088', '2022-06-08', 300, 39),
+('P089', '2022-06-08', 60, 40),
+('P090', '2022-06-15', 400, 44),
+('P091', '2022-06-15', 80, 35),
+('P092', '2022-06-20', 250, 36),
+('P093', '2022-06-20', 70, 37),
+('P094', '2022-06-20', 35, 38),
+('P095', '2022-06-22', 550, 39),
+('P096', '2022-06-22', 45, 40),
+('P097', '2022-06-22', 90, 41),
+('P098', '2022-06-24', 100, 42),
+('P099', '2022-06-24', 50, 43),
+('P100', '2022-06-24', 2500, 44),
+('P001', '2022-06-26', 75, 1),
+('P002', '2022-06-26', 3000, 1),
+('P003', '2022-06-29', 60, 2),
+('P004', '2022-06-29', 400, 2),
+('P005', '2022-06-30', 800, 3),
+('P006', '2022-06-30', 200, 3),
+('P007', '2022-07-04', 70, 4),
+('P008', '2022-07-04', 350, 4),
+('P009', '2022-07-07', 550, 5),
+('P010', '2022-07-07', 45, 5),
+('P011', '2022-07-09', 90, 6),
+('P012', '2022-07-09', 100, 6),
+('P013', '2022-07-11', 500, 7),
+('P014', '2022-07-12', 250, 7),
+('P015', '2022-07-14', 75, 8),
+('P016', '2022-07-15', 30, 8),
+('P017', '2022-07-16', 60, 9),
+('P018', '2022-07-18', 400, 9),
+('P019', '2022-07-19', 80, 10),
+('P020', '2022-07-19', 2000, 10),
+('P021', '2022-07-22', 70, 11),
+('P022', '2022-07-22', 35, 12),
+('P023', '2022-07-25', 550, 13),
+('P024', '2022-07-25', 45, 14),
+('P025', '2022-07-28', 90, 15),
+('P026', '2022-07-28', 100, 16),
+('P027', '2022-07-30', 50, 17),
+('P028', '2022-08-05', 25, 18),
+('P029', '2022-08-05', 75, 19),
+('P030', '2022-08-05', 30, 20),
+('P031', '2022-08-07', 60, 21),
+('P032', '2022-08-07', 40, 22),
+('P033', '2022-08-07', 80, 23),
+('P034', '2022-08-10', 20, 24),
+('P035', '2022-08-10', 70, 25),
+('P036', '2022-08-10', 350, 26),
+('P037', '2022-08-10', 550, 27),
+('P038', '2022-08-10', 450, 28),
+('P039', '2022-08-17', 900, 49),
+('P040', '2022-08-17', 100, 40),
+('P041', '2022-08-17', 50, 29),
+('P042', '2022-08-19', 250, 30),
+('P043', '2022-08-19', 75, 35),
+('P044', '2022-08-23', 300, 20),
+('P045', '2022-08-23', 60, 38),
+('P046', '2022-08-29', 400, 28),
+('P047', '2022-08-29', 80, 24),
+('P048', '2022-08-30', 200, 39),
+('P049', '2022-09-01', 700, 22),
+('P050', '2022-09-01', 350, 33),
+('P051', '2022-09-02', 55, 25),
+('P052', '2022-09-02', 45, 29),
+('P053', '2022-09-03', 90, 32),
+('P054', '2022-09-03', 100, 21),
+('P055', '2022-09-05', 50, 27),
+('P056', '2022-09-05', 250, 26),
+('P057', '2022-09-12', 75, 43),
+('P058', '2022-09-12', 300, 42),
+('P059', '2022-09-12', 60, 46),
+('P060', '2022-09-13', 400, 38),
+('P061', '2022-09-13', 80, 35),
+('P062', '2022-09-13', 200, 38),
+('P063', '2022-09-22', 70, 41),
+('P064', '2022-09-22', 350, 47),
+('P065', '2022-09-22', 550, 33),
+('P066', '2022-09-18', 450, 48),
+('P067', '2022-09-18', 90, 39),
+('P068', '2022-09-29', 100, 32),
+('P069', '2022-09-29', 500, 45),
+('P070', '2022-10-02', 250, 50),
+('P071', '2022-10-02', 750, 36),
+('P072', '2022-10-04', 300, 44),
+('P073', '2022-10-04', 60, 30),
+('P074', '2022-10-10', 400, 35),
+('P075', '2022-10-10', 80, 36),
+('P076', '2022-10-11', 200, 37),
+('P077', '2022-10-11', 70, 38),
+('P078', '2022-10-15', 350, 39),
+('P079', '2022-10-15', 550, 40),
+('P080', '2022-10-15', 450, 41),
+('P081', '2022-10-16', 90, 42),
+('P082', '2022-10-17', 100, 43),
+('P083', '2022-10-18', 50, 44),
+('P084', '2022-10-19', 250, 35),
+('P085', '2022-10-20', 750, 36),
+('P086', '2022-10-21', 300, 37),
+('P087', '2022-10-22', 609, 38),
+('P088', '2022-10-23', 400, 39),
+('P089', '2022-10-25', 80, 40),
+('P090', '2022-10-20', 200, 44),
+('P091', '2022-11-01', 70, 35),
+('P092', '2022-11-01', 350, 36),
+('P093', '2022-11-01', 550, 37),
+('P094', '2022-11-05', 450, 38),
+('P095', '2022-11-05', 900, 39),
+('P096', '2022-11-05', 1000, 40),
+('P097', '2022-11-12', 500, 41),
+('P098', '2022-11-12', 250, 42),
+('P099', '2022-11-14', 750, 43),
+('P100', '2022-11-14', 300, 44),
+('P001', '2022-11-20', 600, 1),
+('P002', '2022-11-20', 400, 1),
+('P003', '2022-11-22', 80, 2),
+('P004', '2022-11-22', 200, 2),
+('P005', '2022-11-24', 700, 3),
+('P006', '2022-11-24', 350, 3),
+('P007', '2022-11-26', 555, 4),
+('P008', '2022-11-26', 450, 4),
+('P009', '2022-11-29', 90, 5),
+('P010', '2022-11-29', 100, 5),
+('P011', '2022-11-30', 505, 6),
+('P012', '2022-12-01', 250, 6),
+('P013', '2022-12-07', 750, 7),
+('P014', '2022-12-11', 300, 7),
+('P015', '2022-12-25', 60, 8),
+('P016', '2022-12-31', 400, 8),
+('P017', '2023-01-01', 800, 9),
+('P018', '2023-01-13', 200, 9),
+('P019', '2023-01-26', 700, 10),
+('P020', '2023-01-14', 350, 10),
+('P021', '2023-02-02', 553, 11),
+('P022', '2023-02-18', 450, 12),
+('P023', '2023-02-28', 900, 13);
+
+-- select * from Prod_Stock;
+
+
+
+
+
+-------- Customer -------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Customer (cus_no, cus_name, street, city, pincode, state, country, cus_contact, rating)
+VALUES
+(1, 'Anjali Sharma', 'Rajouri Garden', 'New Delhi', '110027', 'Delhi', 'India', '9876543210', 4.5),
+(2, 'Nikhil Singh', 'Sector 22', 'Noida', '201301', 'Uttar Pradesh', 'India', '9876543211', 3.2),
+(3, 'Priya Chauhan', 'Jogeshwari', 'Mumbai', '400102', 'Maharashtra', 'India', '9876543212', 4.1),
+(4, 'Vikram Yadav', 'Hiranandani Estate', 'Thane', '400607', 'Maharashtra', 'India', '9876543213', 2.5),
+(5, 'Neha Patel', 'Palanpur Patia', 'Surat', '395009', 'Gujarat', 'India', '9876543214', 3.8),
+(6, 'Rahul Desai', 'Wanowrie', 'Pune', '411040', 'Maharashtra', 'India', '9876543215', 4.9),
+(7, 'Sneha Gupta', 'Ashok Nagar', 'Bengaluru', '560025', 'Karnataka', 'India', '9876543216', 2.7),
+(8, 'Gaurav Verma', 'Sector 14', 'Gurgaon', '122001', 'Haryana', 'India', '9876543217', 3.5),
+(9, 'Shreya Singh', 'Sector 22', 'Chandigarh', '160022', 'Punjab', 'India', '9876543218', 4.6),
+(10, 'Kartik Reddy', 'Jubilee Hills', 'Hyderabad', '500033', 'Telangana', 'India', '9876543219', 3.1),
+
+(11, 'Swati Iyer', 'Panaji', 'Goa', '403001', 'Goa', 'India', '9876543220', 4.2),
+(12, 'Vivek Rana', 'Vasna', 'Ahmedabad', '380007', 'Gujarat', 'India', '9876543221', 2.9),
+(13, 'Sakshi Sharma', 'Jhotwara', 'Jaipur', '302012', 'Rajasthan', 'India', '9876543222', 3.6),
+(14, 'Alok Kumar', 'Pipliyahana', 'Indore', '452016', 'Madhya Pradesh', 'India', '9876543223', 4.8),
+(15, 'Meera Menon', 'Kottayam', 'Kerala', '686001', 'Kerala', 'India', '9876543224', 3.3),
+(16, 'Rohan Singhania', 'Malad West', 'Mumbai', '400064', 'Maharashtra', 'India', '9876543225', 4.4),
+(17, 'Shivani Khanna', 'Sector 15', 'Faridabad', '121007', 'Haryana', 'India', '9876543226', 2.6),
+(18, 'Siddharth Joshi', 'Satellite', 'Ahmedabad', '380015', 'Gujarat', 'India', '9876543227', 4.3),
+(19, 'Kavya Nair', 'Tiruvallam', 'Chennai', '600091', 'Tamil Nadu', 'India', '9876543228', 3.9),
+(20, 'Rohit Gupta', 'Vijay Nagar', 'Bengaluru', '560040', 'Karnataka', 'India', '9876543229', 4.7),
+
+(21, 'Nandini Das', 'Salt Lake', 'Kolkata', '700091', 'West Bengal', 'India', '9876543230', 2.8),
+(22, 'Arun Singh', 'Punjagutta', 'Hyderabad', '500082', 'Telangana', 'India', '9876543231', 4.0),
+(23, 'Tanvi Shah', 'Bandra West', 'Mumbai', '400050', 'Maharashtra', 'India', '9876543232', 3.4),
+(24, 'Prateek Patel', 'Vesu', 'Surat', '395007', 'Gujarat', 'India', '9876543233', 4.6),
+(25, 'Riya Menon', 'Kochi', 'Kerala', '682002', 'Kerala', 'India', '9876543234', 2.7),
+(26, 'Aryan Gupta', 'Vivek Vihar', 'Delhi', '110095', 'Delhi', 'India', '9876543235', 3.5),
+(27, 'Rashmi Yadav', 'Jogupalya', 'Bengaluru', '560008', 'Karnataka', 'India', '9876543236', 4.2),
+(28, 'Aakash Sharma', 'Thakur Village', 'Mumbai', '400101', 'Maharashtra', 'India', '9876543237', 2.9),
+(29, 'Kirti Desai', 'Maninagar', 'Ahmedabad', '380008', 'Gujarat', 'India', '9876543238', 3.7),
+(30, 'Devanshi Patel', 'Sector 21', 'Chandigarh', '160022', 'Punjab', 'India', '9876543239', 4.9),
+
+(31, 'Amit Singh', 'Lohgaon', 'Pune', '411047', 'Maharashtra', 'India', '9876543240', 3.0),
+(32, 'Sonalika Verma', 'Sikar Road', 'Jaipur', '302023', 'Rajasthan', 'India', '9876543241', 4.1),
+(33, 'Vijay Kumar', 'Sarjapur Road', 'Bengaluru', '560035', 'Karnataka', 'India', '9876543242', 3.3),
+(34, 'Aman Gupta', 'Thiruvanmiyur', 'Chennai', '600041', 'Tamil Nadu', 'India', '9876543243', 4.5),
+(35, 'Niharika Sharma', 'Tollygunge', 'Kolkata', '700033', 'West Bengal', 'India', '9876543244', 2.4),
+(36, 'Aditya Kumar', 'Nizampet', 'Hyderabad', '500090', 'Telangana', 'India', '9876543245', 3.8),
+(37, 'Ritika Singh', 'Ghodbunder Road', 'Thane', '400615', 'Maharashtra', 'India', '9876543246', 4.4),
+(38, 'Arjun Patel', 'Bodakdev', 'Ahmedabad', '380054', 'Gujarat', 'India', '9876543247', 2.5),
+(39, 'Kavya Shah', 'Gurgaon', 'Haryana', '122001', 'Haryana', 'India', '9876543248', 4.8),
+(40, 'Sahil Malhotra', 'Sector 12', 'Noida', '201301', 'Uttar Pradesh', 'India', '9876543249', 3.1),
+
+(41, 'Anika Chakraborty', 'Salt Lake', 'Kolkata', '700106', 'West Bengal', 'India', '9876543250', 4.2),
+(42, 'Nikhil Joshi', 'Shakarpur', 'Delhi', '110092', 'Delhi', 'India', '9876543251', 2.6),
+(43, 'Swati Singh', 'Vikhroli', 'Mumbai', '400079', 'Maharashtra', 'India', '9876543252', 3.9),
+(44, 'Rahul Sharma', 'Chandni Chowk', 'Delhi', '110006', 'Delhi', 'India', '9876543253', 4.7),
+(45, 'Kavya Gupta', 'Malviya Nagar', 'Jaipur', '302017', 'Rajasthan', 'India', '9876543254', 2.8),
+(46, 'Aarav Patel', 'Sion', 'Mumbai', '400022', 'Maharashtra', 'India', '9876543255', 4.0),
+(47, 'Nidhi Shah', 'Adyar', 'Chennai', '600020', 'Tamil Nadu', 'India', '9876543256', 3.4),
+(48, 'Samarth Verma', 'Mandaveli', 'Chennai', '600028', 'Tamil Nadu', 'India', '9876543257', 4.6),
+(49, 'Shreya Gupta', 'Bodakdev', 'Ahmedabad', '380054', 'Gujarat', 'India', '9876543258', 2.7),
+(50, 'Anmol Singh', 'Sarjapur Road', 'Bengaluru', '560035', 'Karnataka', 'India', '9876543259', 3.7),
+
+(51, 'Rishabh Gupta', 'Noida', 'Uttar Pradesh', '201301', 'Uttar Pradesh', 'India', '9876543260', 4.3),
+(52, 'Aditi Chauhan', 'Gomti Nagar', 'Lucknow', '226010', 'Uttar Pradesh', 'India', '9876543261', 2.9),
+(53, 'Aryan Sharma', 'Kankarbagh', 'Patna', '800020', 'Bihar', 'India', '9876543262', 4.2),
+(54, 'Anjali Patel', 'Malad West', 'Mumbai', '400064', 'Maharashtra', 'India', '9876543263', 3.6),
+(55, 'Vivaan Singh', 'Jayanagar', 'Bengaluru', '560041', 'Karnataka', 'India', '9876543264', 4.8),
+(56, 'Yash Gupta', 'Koramangala', 'Bengaluru', '560034', 'Karnataka', 'India', '9876543265', 2.7),
+(57, 'Neha Singh', 'Koramangala', 'Bengaluru', '560034', 'Karnataka', 'India', '9876543266', 4.1),
+(58, 'Siddharth Shah', 'Santacruz East', 'Mumbai', '400055', 'Maharashtra', 'India', '9876543267', 3.3),
+(59, 'Riya Sharma', 'Rohini', 'Delhi', '110085', 'Delhi', 'India', '9876543268', 4.5),
+(60, 'Sahana Rao', 'HSR Layout', 'Bengaluru', '560102', 'Karnataka', 'India', '9876543269', 2.4),
+
+(61, 'Anshul Kumar', 'Dwarka','New Delhi', '110075', 'Delhi', 'India', '9876543270', 4.0),
+(62, 'Priya Sharma', 'Andheri West', 'Mumbai', '400058', 'Maharashtra', 'India', '9876543271', 3.2),
+(63, 'Arun Singh', 'Jubilee Hills', 'Hyderabad', '500033', 'Telangana', 'India', '9876543272', 4.6),
+(64, 'Gaurav Agarwal', 'Saket', 'New Delhi', '110017', 'Delhi', 'India', '9876543273', 2.5),
+(65, 'Vedant Patel', 'Ellisbridge', 'Ahmedabad', '380006', 'Gujarat', 'India', '9876543274', 4.1),
+(66, 'Isha Sharma', 'Gomti Nagar', 'Lucknow', '226010', 'Uttar Pradesh', 'India', '9876543275', 3.9),
+(67, 'Abhay Singh', 'Bandra West', 'Mumbai', '400050', 'Maharashtra', 'India', '9876543276', 4.3),
+(68, 'Mihir Shah', 'Kandivali West', 'Mumbai', '400067', 'Maharashtra', 'India', '9876543277', 3.8),
+(69, 'Radha Verma', 'Rajouri Garden', 'New Delhi', '110027', 'Delhi', 'India', '9876543278', 4.7),
+(70, 'Shivam Patel', 'Navrangpura', 'Ahmedabad', '380009', 'Gujarat', 'India', '9876543279', 2.6),
+
+(71, 'Nandini Singh', 'Indira Nagar', 'Lucknow', '226016', 'Uttar Pradesh', 'India', '9876543280', 4.4),
+(72, 'Krishna Gupta', 'Chandni Chowk', 'New Delhi', '110006', 'Delhi', 'India', '9876543281', 3.5),
+(73, 'Manish Sharma', 'Malviya Nagar', 'Jaipur', '302017', 'Rajasthan', 'India', '9876543282', 4.0),
+(74, 'Tanvi Patel', 'Ghatlodia', 'Ahmedabad', '380061', 'Gujarat', 'India', '9876543283', 2.9),
+(75, 'Aryan Verma', 'Indirapuram', 'Ghaziabad', '201014', 'Uttar Pradesh', 'India', '9876543284', 4.2),
+(76, 'Shreya Gupta', 'Malad West', 'Mumbai', '400064', 'Maharashtra', 'India', '9876543285', 3.6),
+(77, 'Yashvi Patel', 'Sola', 'Ahmedabad', '380060', 'Gujarat', 'India', '9876543286', 4.8),
+(78, 'Ankita Singh', 'Greater Kailash', 'New Delhi', '110048', 'Delhi', 'India', '9876543287', 2.7),
+(79, 'Ishita Sharma', 'Baner', 'Pune', '411045', 'Maharashtra', 'India', '9876543280',3.1),
+(80, 'Vikram Rathod', 'Nizampet', 'Hyderabad', '500090', 'Telangana', 'India', '9876543289', 3.3),
+
+(81, 'Nikita Shah', 'Vadapalani', 'Chennai', '600026', 'Tamil Nadu', 'India', '9876543290', 4.5),
+(82, 'Rohit Kumar', 'Ballygunge', 'Kolkata', '700019', 'West Bengal', 'India', '9876543291', 2.4),
+(83, 'Ananya Gupta', 'Sector 50', 'Noida', '201307', 'Uttar Pradesh', 'India', '9876543292', 4.3),
+(84, 'Ritika Patel', 'Thane West', 'Thane', '400601', 'Maharashtra', 'India', '9876543293', 3.1),
+(85, 'Kunal Sharma', 'Garia', 'Kolkata', '700084', 'West Bengal', 'India', '9876543294', 4.2),
+(86, 'Pranav Gupta', 'Hadapsar', 'Pune', '411028', 'Maharashtra', 'India', '9876543295', 3.9),
+(87, 'Aarav Patel', 'Sarkhej', 'Ahmedabad', '382210', 'Gujarat', 'India', '9876543296', 4.7),
+(88, 'Meera Singh', 'Mylapore', 'Chennai', '600004', 'Tamil Nadu', 'India', '9876543297', 2.8),
+(89, 'Divya Sharma', 'Ghatkopar East', 'Mumbai', '400077', 'Maharashtra', 'India', '9876543298', 4.6),
+(90, 'Shubham Verma', 'South Extension', 'Delhi', '110049', 'Delhi', 'India', '9876543299', 3.7),
+
+(91, 'Kavya Gupta', 'Salt Lake City', 'Kolkata', '700091', 'West Bengal', 'India', '9876543300', 4.0),
+(92, 'Akash Singh', 'Kandivali West', 'Mumbai', '400067', 'Maharashtra', 'India', '9876543301', 2.9),
+(93, 'Nisha Kumari', 'Baner', 'Pune', '411045', 'Maharashtra', 'India', '9876543302', 4.9),
+(94, 'Siddharth Patel', 'Vastrapur', 'Ahmedabad', '380015', 'Gujarat', 'India', '9876543303', 3.2),
+(95, 'Jhanvi Shah', 'Thane West', 'Thane', '400607', 'Maharashtra', 'India', '9876543304', 4.3),
+(96, 'Ankit Mehta', 'Dombivli East', 'Thane', '421201', 'Maharashtra', 'India', '9876543305', 2.5),
+(97, 'Hemant Gupta', 'Powai', 'Mumbai', '400076', 'Maharashtra', 'India', '9876543306', 3.8),
+(98, 'Rajeshwari Kumari', 'Chitpur', 'Kolkata', '700002', 'West Bengal', 'India', '9876543307', 4.7),
+(99, 'Rahul Singh', 'Manikonda', 'Hyderabad', '500089', 'Telangana', 'India', '9876543308', 2.6),
+(100, 'Sakshi Sharma', 'Koramangala', 'Bengaluru', '560095', 'Karnataka', 'India', '9876543309', 4.1)
+
+-- select * from Customer;
+
+
+
+
+
+------ Order_Table (Order) -------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Order_Table (ord_no, ord_date, purpose, cus_no)
+VALUES
+(1001, '2022-01-01', 'Bathroom tile purchase', 1),
+(1002, '2022-01-02', 'Kitchen tile purchase', 2),
+(1003, '2022-01-03', 'Outdoor tile purchase', 3),
+(1004, '2022-01-04', 'Tile installation for bathroom renovation', 4),
+(1005, '2022-01-05', 'Tile installation for kitchen backsplash', 5),
+(1006, '2022-01-06', 'Tile installation for outdoor patio', 6),
+(1007, '2022-01-07', 'Tile repair for bathroom', 7),
+(1008, '2022-01-08', 'Tile repair for kitchen', 8),
+(1009, '2022-01-09', 'Tile repair for outdoor area', 9),
+(1010, '2022-01-10', 'Tile cleaning for bathroom', 10),
+
+(1011, '2022-01-11', 'Tile cleaning for kitchen', 11),
+(1012, '2022-01-12', 'Tile cleaning for outdoor area', 12),
+(1013, '2022-01-13', 'Tile maintenance for bathroom', 13),
+(1014, '2022-01-14', 'Tile maintenance for kitchen', 14),
+(1015, '2022-01-15', 'Tile maintenance for outdoor area', 15),
+(1016, '2022-01-16', 'Tile consultation for bathroom renovation', 16),
+(1017, '2022-01-17', 'Tile consultation for kitchen renovation', 17),
+(1018, '2022-01-18', 'Tile consultation for outdoor area renovation', 18),
+(1019, '2022-01-19', 'Tile customization for bathroom renovation', 19),
+(1020, '2022-01-20', 'Tile customization for kitchen renovation', 20),
+
+(1021, '2022-01-21', 'Tile customization for outdoor area renovation', 21),
+(1022, '2022-01-22', 'Tile delivery for bathroom renovation', 22),
+(1023, '2022-01-23', 'Tile delivery for kitchen renovation', 23),
+(1024, '2022-01-24', 'Tile delivery for outdoor area renovation', 24),
+(1025, '2022-01-25', 'Tile removal for bathroom renovation', 25),
+(1026, '2022-01-26', 'Tile removal for kitchen renovation', 26),
+(1027, '2022-01-27', 'Tile removal for outdoor area renovation', 27),
+(1028, '2022-01-28', 'Tile disposal for bathroom renovation', 28),
+(1029, '2022-01-29', 'Tile disposal for kitchen renovation', 29),
+(1030, '2022-01-30', 'Tile disposal for outdoor area renovation', 30),
+
+(1031, '2022-01-31', 'Tile refund for bathroom tile purchase', 31),
+(1032, '2022-02-01', 'Tile refund for kitchen tile purchase', 32),
+(1033, '2022-02-02', 'Tile refund for outdoor tile purchase', 33),
+(1034, '2022-02-03', 'Tile sample request for bathroom renovation', 34),
+(1035, '2022-02-04', 'Tile sample request for kitchen renovation', 35),
+(1036, '2022-02-05', 'Tile sample request for outdoor area renovation', 36),
+(1037, '2022-02-06', 'Tile warranty claim for bathroom tiles', 37),
+(1038, '2022-02-07', 'Tile warranty claim for kitchen tiles', 38),
+(1039, '2022-02-08', 'Tile warranty claim for outdoor tiles', 39),
+(1040, '2022-02-09', 'Tile inspection for bathroom', 40),
+
+(1041, '2022-02-10', 'Tile inspection for kitchen', 41),
+(1042, '2022-02-11', 'Tile inspection for outdoor area', 42),
+(1043, '2022-02-12', 'Tile removal for bathroom repair', 43),
+(1044, '2022-02-13', 'Tile removal for kitchen repair', 44),
+(1045, '2022-02-14', 'Tile removal for outdoor area repair', 45),
+(1046, '2022-02-15', 'Tile installation for bathroom repair', 46),
+(1047, '2022-02-16', 'Tile installation for kitchen repair', 47),
+(1048, '2022-02-17', 'Tile installation for outdoor area repair', 48),
+(1049, '2022-02-18', 'Tile cleaning for bathroom repair', 49),
+(1050, '2022-02-19', 'Tile cleaning for kitchen repair', 50),
+
+(1051, '2022-02-20', 'Tile cleaning for outdoor area repair', 51),
+(1052, '2022-02-21', 'Tile maintenance for bathroom repair', 52),
+(1053, '2022-02-22', 'Tile maintenance for kitchen repair', 53),
+(1054, '2022-02-23', 'Tile maintenance for outdoor area repair', 54),
+(1055, '2022-02-24', 'Tile consultation for bathroom repair', 55),
+(1056, '2022-02-25', 'Tile consultation for kitchen repair', 56),
+(1057, '2022-02-26', 'Tile consultation for outdoor area repair', 57),
+(1058, '2022-02-27', 'Tile customization for bathroom repair', 58),
+(1059, '2022-02-28', 'Tile customization for kitchen repair', 59),
+(1060, '2022-03-01', 'Tile customization for outdoor area repair', 60),
+
+(1061, '2022-03-02', 'Tile delivery for bathroom repair', 61),
+(1062, '2022-03-03', 'Tile delivery for kitchen repair', 62),
+(1063, '2022-03-04', 'Tile delivery for outdoor area repair', 63),
+(1064, '2022-03-05', 'Tile installation for bathroom renovation', 64),
+(1065, '2022-03-06', 'Tile installation for kitchen renovation', 65),
+(1066, '2022-03-07', 'Tile installation for outdoor area renovation', 66),
+(1067, '2022-03-08', 'Tile cleaning for bathroom renovation', 67),
+(1068, '2022-03-09', 'Tile cleaning for kitchen renovation', 68),
+(1069, '2022-03-10', 'Tile cleaning for outdoor area renovation', 69),
+(1070, '2022-03-11', 'Tile maintenance for bathroom renovation', 70),
+
+(1071, '2022-03-12', 'Tile maintenance for kitchen renovation', 71),
+(1072, '2022-03-13', 'Tile maintenance for outdoor area renovation', 72),
+(1073, '2022-03-14', 'Tile consultation for bathroom renovation', 73),
+(1074, '2022-03-15', 'Tile consultation for kitchen renovation', 74),
+(1075, '2022-03-16', 'Tile consultation for outdoor area renovation', 75),
+(1076, '2022-03-17', 'Tile customization for bathroom renovation', 76),
+(1077, '2022-03-18', 'Tile customization for kitchen renovation', 77),
+(1078, '2022-03-19', 'Tile customization for outdoor area renovation', 78),
+(1079, '2022-03-20', 'Tile delivery for bathroom renovation', 79),
+(1080, '2022-03-21', 'Tile delivery for kitchen renovation', 80),
+
+(1081, '2022-03-22', 'Tile delivery for outdoor area renovation', 81),
+(1082, '2022-03-23', 'Tile sample request for bathroom renovation', 82),
+(1083, '2022-03-24', 'Tile sample request for kitchen renovation', 83),
+(1084, '2022-03-25', 'Tile sample request for outdoor area renovation', 84),
+(1085, '2022-03-26', 'Tile warranty claim for bathroom tiles', 85),
+(1086, '2022-03-27', 'Tile warranty claim for kitchen tiles', 86),
+(1087, '2022-03-28', 'Tile warranty claim for outdoor tiles', 87),
+(1088, '2022-03-29', 'Tile inspection for bathroom', 88),
+(1089, '2022-03-30', 'Tile inspection for kitchen', 89),
+(1090, '2022-03-31', 'Tile inspection for outdoor area', 90),
+
+(1091, '2022-04-01', 'Tile removal for bathroom repair', 91),
+(1092, '2022-04-02', 'Tile removal for kitchen repair', 92),
+(1093, '2022-04-03', 'Tile removal for outdoor area repair', 93),
+(1094, '2022-04-04', 'Tile installation for bathroom repair', 94),
+(1095, '2022-04-05', 'Tile installation for kitchen repair', 95),
+(1096, '2022-04-06', 'Tile installation for outdoor area repair', 96),
+(1097, '2022-04-07', 'Tile cleaning for bathroom repair', 97),
+(1098, '2022-04-08', 'Tile cleaning for kitchen repair', 98),
+(1099, '2022-04-09', 'Tile cleaning for outdoor area repair', 99),
+(1100, '2022-04-10', 'Tile maintenance for bathroom repair', 100),
+
+(1101, '2022-04-11', 'Tile maintenance for kitchen repair', 1),
+(1102, '2022-04-12', 'Tile maintenance for outdoor area repair', 2),
+(1103, '2022-04-13', 'Tile consultation for bathroom repair', 3),
+(1104, '2022-04-14', 'Tile consultation for kitchen repair', 4),
+(1105, '2022-04-15', 'Tile consultation for outdoor area repair', 5),
+(1106, '2022-04-16', 'Tile customization for bathroom repair', 1),
+(1107, '2022-04-17', 'Tile customization for kitchen repair', 2),
+(1108, '2022-04-18', 'Tile customization for outdoor area repair', 3),
+(1109, '2022-04-19', 'Tile delivery for bathroom repair', 4),
+(1110, '2022-04-20', 'Tile delivery for kitchen repair', 5),
+
+(1111, '2022-04-21', 'Tile delivery for outdoor area repair', 11),
+(1112, '2022-04-22', 'Tile sample request for bathroom repair', 12),
+(1113, '2022-04-23', 'Tile sample request for kitchen repair', 13),
+(1114, '2022-04-24', 'Tile sample request for outdoor area repair', 14),
+(1115, '2022-04-25', 'Tile warranty claim for bathroom tiles', 15),
+(1116, '2022-04-26', 'Tile warranty claim for kitchen tiles', 11),
+(1117, '2022-04-27', 'Tile warranty claim for outdoor tiles', 12),
+(1118, '2022-04-28', 'Tile inspection for bathroom repair', 13),
+(1119, '2022-04-29', 'Tile inspection for kitchen repair', 14),
+(1120, '2022-04-30', 'Tile inspection for outdoor area repair', 15),
+
+(1121, '2022-05-01', 'Tile removal for bathroom renovation', 21),
+(1122, '2022-05-02', 'Tile removal for kitchen renovation', 22),
+(1123, '2022-05-03', 'Tile removal for outdoor area renovation', 23),
+(1124, '2022-05-04', 'Tile installation for bathroom renovation', 24),
+(1125, '2022-05-05', 'Tile installation for kitchen renovation', 25),
+(1126, '2022-05-06', 'Tile installation for outdoor area renovation', 21),
+(1127, '2022-05-07', 'Tile cleaning for bathroom renovation', 22),
+(1128, '2022-05-08', 'Tile cleaning for kitchen renovation', 23),
+(1129, '2022-05-09', 'Tile cleaning for outdoor area renovation', 24),
+(1130, '2022-05-10', 'Tile maintenance for bathroom renovation', 25),
+
+(1131, '2022-05-11', 'Tile maintenance for kitchen renovation', 31),
+(1132, '2022-05-12', 'Tile maintenance for outdoor area renovation', 32),
+(1133, '2022-05-13', 'Tile consultation for bathroom renovation', 33),
+(1134, '2022-05-14', 'Tile consultation for kitchen renovation', 34),
+(1135, '2022-05-15', 'Tile consultation for outdoor area renovation', 35),
+(1136, '2022-05-16', 'Tile customization for bathroom renovation', 31),
+(1137, '2022-05-17', 'Tile customization for kitchen renovation', 32),
+(1138, '2022-05-18', 'Tile customization for outdoor area renovation', 33),
+(1139, '2022-05-19', 'Tile delivery for bathroom renovation', 34),
+(1140, '2022-05-20', 'Tile delivery for kitchen renovation', 35),
+
+(1141, '2022-05-21', 'Tile delivery for outdoor area renovation', 41),
+(1142, '2022-05-22', 'Tile sample request for bathroom renovation', 42),
+(1143, '2022-05-23', 'Tile sample request for kitchen renovation', 43),
+(1144, '2022-05-24', 'Tile sample request for outdoor area renovation', 44),
+(1145, '2022-05-25', 'Tile warranty claim for bathroom tiles', 45),
+(1146, '2022-05-26', 'Tile warranty claim for kitchen tiles', 41),
+(1147, '2022-05-27', 'Tile warranty claim for outdoor tiles', 42),
+(1148, '2022-05-28', 'Tile inspection for bathroom renovation', 43),
+(1149, '2022-05-29', 'Tile inspection for kitchen renovation', 44),
+(1150, '2022-05-30', 'Tile inspection for outdoor area renovation', 45),
+
+(1151, '2022-05-31', 'Tile removal for bathroom remodeling', 6),
+(1152, '2022-06-01', 'Tile removal for kitchen remodeling', 7),
+(1153, '2022-06-02', 'Tile removal for outdoor area remodeling', 8),
+(1154, '2022-06-03', 'Tile installation for bathroom remodeling', 9),
+(1155, '2022-06-04', 'Tile installation for kitchen remodeling', 10),
+(1156, '2022-06-05', 'Tile installation for outdoor area remodeling', 16),
+(1157, '2022-06-06', 'Tile cleaning for bathroom remodeling', 17),
+(1158, '2022-06-07', 'Tile cleaning for kitchen remodeling', 18),
+(1159, '2022-06-08', 'Tile cleaning for outdoor area remodeling', 19),
+(1160, '2022-06-09', 'Tile maintenance for bathroom remodeling', 20),
+
+(1161, '2022-06-10', 'Tile maintenance for kitchen remodeling', 26),
+(1162, '2022-06-11', 'Tile maintenance for outdoor area remodeling', 27),
+(1163, '2022-06-12', 'Tile consultation for bathroom remodeling', 28),
+(1164, '2022-06-13', 'Tile consultation for kitchen remodeling', 29),
+(1165, '2022-06-14', 'Tile consultation for outdoor area remodeling', 30),
+(1166, '2022-06-15', 'Tile customization for bathroom remodeling', 36),
+(1167, '2022-06-16', 'Tile customization for kitchen remodeling', 37),
+(1168, '2022-06-17', 'Tile customization for outdoor area remodeling', 38),
+(1169, '2022-06-18', 'Tile delivery for bathroom remodeling', 39),
+(1170, '2022-06-19', 'Tile delivery for kitchen remodeling', 40),
+
+(1171, '2022-06-20', 'Tile delivery for outdoor area remodeling', 41),
+(1172, '2022-06-21', 'Tile sample request for bathroom remodeling', 42),
+(1173, '2022-06-22', 'Tile sample request for kitchen remodeling', 43),
+(1174, '2022-06-23', 'Tile sample request for outdoor area remodeling', 44),
+(1175, '2022-06-24', 'Tile warranty claim for bathroom tiles', 45),
+(1176, '2022-06-25', 'Tile warranty claim for kitchen tiles', 46),
+(1177, '2022-06-26', 'Tile warranty claim for outdoor tiles', 47),
+(1178, '2022-06-27', 'Tile inspection for bathroom remodeling', 48),
+(1179, '2022-06-28', 'Tile inspection for kitchen remodeling', 49),
+(1180, '2022-06-29', 'Tile inspection for outdoor area remodeling', 50),
+
+(1181, '2022-06-30', 'Tile removal for bathroom renovation', 51),
+(1182, '2022-07-01', 'Tile removal for kitchen renovation', 52),
+(1183, '2022-07-02', 'Tile removal for outdoor area renovation', 53),
+(1184, '2022-07-03', 'Tile installation for bathroom renovation', 54),
+(1185, '2022-07-04', 'Tile installation for kitchen renovation', 55),
+(1186, '2022-07-05', 'Tile installation for outdoor area renovation', 56),
+(1187, '2022-07-06', 'Tile cleaning for bathroom renovation', 57),
+(1188, '2022-07-07', 'Tile cleaning for kitchen renovation', 58),
+(1189, '2022-07-08', 'Tile cleaning for outdoor area renovation', 59),
+(1190, '2022-07-09', 'Tile maintenance for bathroom renovation', 60),
+
+(1191, '2022-07-10', 'Tile maintenance for kitchen renovation', 11),
+(1192, '2022-07-11', 'Tile maintenance for outdoor area renovation', 12),
+(1193, '2022-07-12', 'Tile consultation for bathroom renovation', 13),
+(1194, '2022-07-13', 'Tile consultation for kitchen renovation', 14),
+(1195, '2022-07-14', 'Tile consultation for outdoor area renovation', 15),
+(1196, '2022-07-15', 'Tile customization for bathroom renovation', 21),
+(1197, '2022-07-16', 'Tile customization for kitchen renovation', 22),
+(1198, '2022-07-17', 'Tile customization for outdoor area renovation', 23),
+(1199, '2022-07-18', 'Tile delivery for bathroom renovation', 24),
+(1200, '2022-07-19', 'Tile delivery for kitchen renovation', 25),
+
+(1201, '2022-07-20', 'Tile delivery for outdoor area renovation', 1),
+(1202, '2022-07-21', 'Tile sample request for bathroom renovation', 2),
+(1203, '2022-07-22', 'Tile sample request for kitchen renovation', 3),
+(1204, '2022-07-23', 'Tile sample request for outdoor area renovation', 4),
+(1205, '2022-07-24', 'Tile warranty claim for bathroom tiles', 5),
+(1206, '2022-07-25', 'Tile warranty claim for kitchen tiles', 6),
+(1207, '2022-07-26', 'Tile warranty claim for outdoor tiles', 7),
+(1208, '2022-07-27', 'Tile inspection for bathroom renovation', 8),
+(1209, '2022-07-28', 'Tile inspection for kitchen renovation', 9),
+(1210, '2022-07-29', 'Tile inspection for outdoor area renovation', 10),
+
+(1211, '2022-07-30', 'Tile removal for bathroom repair', 11),
+(1212, '2022-07-31', 'Tile removal for kitchen repair', 12),
+(1213, '2022-08-01', 'Tile removal for outdoor area repair', 13),
+(1214, '2022-08-02', 'Tile installation for bathroom repair', 14),
+(1215, '2022-08-03', 'Tile installation for kitchen repair', 15),
+(1216, '2022-08-04', 'Tile installation for outdoor area repair', 16),
+(1217, '2022-08-05', 'Tile cleaning for bathroom repair', 17),
+(1218, '2022-08-06', 'Tile cleaning for kitchen repair', 18),
+(1219, '2022-08-07', 'Tile cleaning for outdoor area repair', 19),
+(1220, '2022-08-08', 'Tile maintenance for bathroom repair', 20),
+
+(1221, '2022-08-09', 'Tile maintenance for kitchen repair', 21),
+(1222, '2022-08-10', 'Tile maintenance for outdoor area repair', 22),
+(1223, '2022-08-11', 'Tile consultation for bathroom repair', 23),
+(1224, '2022-08-12', 'Tile consultation for kitchen repair', 24),
+(1225, '2022-08-13', 'Tile consultation for outdoor area repair', 25),
+(1226, '2022-08-14', 'Tile customization for bathroom repair', 26),
+(1227, '2022-08-15', 'Tile customization for kitchen repair', 27),
+(1228, '2022-08-16', 'Tile customization for outdoor area repair', 28),
+(1229, '2022-08-17', 'Tile delivery for bathroom repair', 29),
+(1230, '2022-08-18', 'Tile delivery for kitchen repair', 30)
+
+-- select * from Order_Table;
+
+
+
+
+
+--------- Order_Detail ----------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Order_Detail (ord_no, prod_id, prod_qty, prod_rate) 
+VALUES
+(1001, 'P001', 400, 25),
+(1002, 'P002', 860, 978),
+(1003, 'P003', 784, 470),
+(1004, 'P004', 941, 88),
+(1005, 'P005', 574, 563),
+(1006, 'P006', 310, 421),
+(1007, 'P007', 281, 123),
+(1008, 'P008', 707, 895),
+(1009, 'P009', 255, 544),
+(1010, 'P010', 893, 994),
+
+(1011, 'P011', 946, 856),
+(1012, 'P012', 486, 969),
+(1013, 'P013', 479, 749),
+(1014, 'P014', 62, 847),
+(1015, 'P015', 29, 835),
+(1016, 'P016', 423, 242),
+(1017, 'P017', 329, 198),
+(1018, 'P018', 616, 989),
+(1019, 'P019', 776, 685),
+(1020, 'P020', 295, 834),
+
+(1021, 'P021', 327, 278),
+(1022, 'P022', 290, 703),
+(1023, 'P023', 292, 550),
+(1024, 'P024', 401, 529),
+(1025, 'P025', 881, 515),
+(1026, 'P026', 201, 597),
+(1027, 'P027', 214, 764),
+(1028, 'P028', 27, 405),
+(1029, 'P029', 781, 530),
+(1030, 'P030', 912, 874),
+
+(1031, 'P031', 358, 522),
+(1032, 'P032', 335, 478),
+(1033, 'P033', 954, 503),
+(1034, 'P034', 821, 645),
+(1035, 'P035', 950, 549),
+(1036, 'P036', 794, 659),
+(1037, 'P037', 848, 210),
+(1038, 'P038', 617, 592),
+(1039, 'P039', 51, 620),
+(1040, 'P040', 498, 959),
+
+(1041, 'P041', 282, 576),
+(1042, 'P042', 694, 284),
+(1043, 'P043', 146, 911),
+(1044, 'P044', 915, 937),
+(1045, 'P045', 546, 347),
+(1046, 'P046', 665, 893),
+(1047, 'P047', 619, 571),
+(1048, 'P048', 320, 685),
+(1049, 'P049', 412, 73),
+(1050, 'P050', 802, 515),
+
+(1051, 'P051', 773, 224),
+(1052, 'P052', 380, 330),
+(1053, 'P053', 928, 45),
+(1054, 'P054', 585, 637),
+(1055, 'P055', 329, 944),
+(1056, 'P056', 456, 764),
+(1057, 'P057', 904, 841),
+(1058, 'P058', 367, 60),
+(1059, 'P059', 708, 227),
+(1060, 'P060', 857, 915),
+
+(1061, 'P061', 455, 37),
+(1062, 'P062', 983, 697),
+(1063, 'P063', 392, 459),
+(1064, 'P064', 343, 218),
+(1065, 'P065', 262, 244),
+(1066, 'P066', 62, 593),
+(1067, 'P067', 345, 998),
+(1068, 'P068', 37, 315),
+(1069, 'P069', 669, 447),
+(1070, 'P070', 129, 981),
+
+(1071, 'P071', 731, 257),
+(1072, 'P072', 222, 69),
+(1073, 'P073', 327, 647),
+(1074, 'P074', 26, 559),
+(1075, 'P075', 997, 426),
+(1076, 'P076', 858, 879),
+(1077, 'P077', 210, 934),
+(1078, 'P078', 238, 166),
+(1079, 'P079', 362, 30),
+(1080, 'P080', 285, 141),
+
+(1081, 'P081', 791, 23),
+(1082, 'P082', 299, 955),
+(1083, 'P083', 682, 446),
+(1084, 'P084', 202, 703),
+(1085, 'P085', 685, 973),
+(1086, 'P086', 53, 925),
+(1087, 'P087', 273, 618),
+(1088, 'P088', 547, 945),
+(1089, 'P089', 611, 374),
+(1090, 'P090', 102, 553),
+
+(1091, 'P091', 548, 650),
+(1092, 'P092', 373, 616),
+(1093, 'P093', 719, 824),
+(1094, 'P094', 215, 655),
+(1095, 'P095', 823, 871),
+(1096, 'P096', 847, 901),
+(1097, 'P097', 656, 998),
+(1098, 'P098', 905, 207),
+(1099, 'P099', 568, 989),
+(1100, 'P100', 616, 899),
+
+(1101, 'P001', 803, 719),
+(1102, 'P002', 66, 639),
+(1103, 'P003', 718, 446),
+(1104, 'P004', 706, 907),
+(1105, 'P005', 305, 482),
+(1106, 'P006', 679, 837),
+(1107, 'P007', 560, 301),
+(1108, 'P008', 148, 619),
+(1109, 'P009', 710, 813),
+(1110, 'P010', 42, 390),
+
+(1111, 'P011', 641, 695),
+(1112, 'P012', 872, 843),
+(1113, 'P013', 120, 738),
+(1114, 'P014', 786, 431),
+(1115, 'P015', 658, 374),
+(1116, 'P016', 22, 200),
+(1117, 'P017', 541, 626),
+(1118, 'P018', 672, 685),
+(1119, 'P019', 913, 890),
+(1120, 'P020', 346, 891),
+
+(1121, 'P021', 569, 36),
+(1122, 'P022', 557, 170),
+(1123, 'P023', 573, 554),
+(1124, 'P024', 745, 71),
+(1125, 'P025', 682, 857),
+(1126, 'P026', 531, 283),
+(1127, 'P027', 469, 585),
+(1128, 'P028', 939, 301),
+(1129, 'P029', 425, 56),
+(1130, 'P030', 843, 143),
+
+(1131, 'P031', 332, 809),
+(1132, 'P032', 372, 701),
+(1133, 'P033', 127, 510),
+(1134, 'P034', 797, 947),
+(1135, 'P035', 76, 849),
+(1136, 'P036', 491, 262),
+(1137, 'P037', 458, 321),
+(1138, 'P038', 938, 355),
+(1139, 'P039', 788, 190),
+(1140, 'P040', 716, 825),
+
+(1141, 'P011', 849, 786),
+(1142, 'P012', 648, 892),
+(1143, 'P013', 541, 977),
+(1144, 'P014', 947, 437),
+(1145, 'P015', 540, 820),
+(1146, 'P016', 313, 507),
+(1147, 'P017', 538, 797),
+(1148, 'P018', 342, 556),
+(1149, 'P019', 647, 427),
+(1150, 'P020', 924, 877),
+
+(1151, 'P041', 991, 292),
+(1152, 'P042', 919, 263),
+(1153, 'P043', 740, 690),
+(1154, 'P044', 525, 302),
+(1155, 'P045', 562, 345),
+(1156, 'P046', 200, 977),
+(1157, 'P047', 415, 331),
+(1158, 'P048', 402, 824),
+(1159, 'P049', 944, 584),
+(1160, 'P050', 783, 703),
+
+(1161, 'P051', 535, 585),
+(1162, 'P052', 972, 712),
+(1163, 'P053', 579, 557),
+(1164, 'P054', 369, 386),
+(1165, 'P055', 694, 835),
+(1166, 'P056', 350, 249),
+(1167, 'P057', 988, 926),
+(1168, 'P058', 30, 43),
+(1169, 'P059', 807, 430),
+(1170, 'P060', 392, 804),
+
+(1171, 'P061', 460, 341),
+(1172, 'P062', 60, 206),
+(1173, 'P063', 240, 669),
+(1174, 'P064', 512, 812),
+(1175, 'P065', 872, 266),
+(1176, 'P066', 78, 637),
+(1177, 'P067', 700, 782),
+(1178, 'P068', 738, 780),
+(1179, 'P069', 642, 26),
+(1180, 'P070', 680, 27),
+
+(1181, 'P071', 701, 979),
+(1182, 'P072', 579, 93),
+(1183, 'P073', 413, 38),
+(1184, 'P074', 894, 465),
+(1185, 'P075', 23, 353),
+(1186, 'P076', 754, 998),
+(1187, 'P077', 607, 496),
+(1188, 'P078', 792, 380),
+(1189, 'P079', 267, 48),
+(1190, 'P080', 341, 397),
+
+(1191, 'P081', 371, 792),
+(1192, 'P082', 54, 186),
+(1193, 'P083', 217, 935),
+(1194, 'P084', 353, 719),
+(1195, 'P085', 51, 636),
+(1196, 'P086', 420, 181),
+(1197, 'P087', 260, 774),
+(1198, 'P088', 853, 58),
+(1199, 'P089', 973, 973),
+(1200, 'P090', 696, 357),
+
+(1201, 'P091', 457, 811),
+(1202, 'P092', 508, 247),
+(1203, 'P093', 769, 837),
+(1204, 'P094', 791, 392),
+(1205, 'P095', 734, 997),
+(1206, 'P096', 491, 621),
+(1207, 'P097', 766, 382),
+(1208, 'P098', 517, 726),
+(1209, 'P099', 48, 400),
+(1210, 'P100', 498, 177),
+
+(1211, 'P001', 941, 711),
+(1212, 'P002', 280, 540),
+(1213, 'P003', 422, 260),
+(1214, 'P004', 244, 220),
+(1215, 'P005', 663, 672),
+(1216, 'P006', 371, 969),
+(1217, 'P007', 417, 300),
+(1218, 'P009', 548, 156),
+(1219, 'P008', 503, 811),
+(1220, 'P010', 697, 237),
+
+(1221, 'P020', 267, 200),
+(1222, 'P011', 882, 799),
+(1223, 'P012', 301, 673),
+(1224, 'P013', 973, 204),
+(1225, 'P014', 873, 268),
+(1226, 'P015', 844, 849),
+(1227, 'P016', 982, 371),
+(1228, 'P017', 22, 479),
+(1229, 'P018', 141, 902),
+(1230, 'P019', 584, 599),
+
+(1001, 'P030', 576, 791),
+(1002, 'P031', 404, 755),
+(1003, 'P032', 183, 691),
+(1004, 'P033', 267, 965),
+(1005, 'P034', 463, 338),
+(1006, 'P035', 869, 313),
+(1007, 'P036', 398, 34),
+(1008, 'P037', 727, 618),
+(1009, 'P038', 228, 882),
+(1010, 'P039', 394, 48),
+
+(1011, 'P040', 268, 139),
+(1012, 'P031', 280, 46),
+(1013, 'P032', 768, 142),
+(1014, 'P033', 429, 670),
+(1015, 'P034', 961, 815),
+(1016, 'P035', 953, 567),
+(1017, 'P036', 629, 884),
+(1018, 'P037', 698, 127),
+(1019, 'P038', 669, 285),
+(1020, 'P039', 811, 324),
+
+(1021, 'P020', 736, 524),
+(1022, 'P021', 884, 945),
+(1023, 'P022', 326, 728),
+(1024, 'P023', 432, 563),
+(1025, 'P024', 320, 55),
+(1026, 'P025', 74, 715),
+(1027, 'P026', 873, 656),
+(1028, 'P027', 202, 224),
+(1029, 'P028', 686, 371),
+(1030, 'P029', 474, 526),
+
+(1031, 'P040', 22, 605),
+(1032, 'P041', 955, 947),
+(1033, 'P041', 598, 558),
+(1034, 'P042', 554, 314),
+(1035, 'P043', 772, 426),
+(1036, 'P044', 146, 719),
+(1037, 'P045', 310, 715),
+(1038, 'P046', 777, 787),
+(1039, 'P047', 174, 167),
+(1040, 'P048', 779, 601),
+
+(1041, 'P049', 864, 424),
+(1042, 'P050', 986, 197),
+(1043, 'P051', 707, 26),
+(1044, 'P052', 94, 236),
+(1045, 'P053', 550, 501),
+(1046, 'P054', 278, 87),
+(1047, 'P055', 616, 386),
+(1048, 'P056', 825, 387),
+(1049, 'P057', 854, 520),
+(1050, 'P058', 838, 719),
+
+(1051, 'P059', 836, 311),
+(1052, 'P060', 908, 547),
+(1053, 'P061', 961, 147),
+(1054, 'P062', 934, 562),
+(1055, 'P063', 581, 529),
+(1056, 'P065', 584, 982),
+(1057, 'P064', 437, 857),
+(1058, 'P065', 778, 354),
+(1059, 'P066', 775, 424),
+(1060, 'P067', 611, 669),
+
+(1061, 'P068', 772, 598),
+(1062, 'P069', 63, 718),
+(1063, 'P070', 702, 963),
+(1064, 'P071', 979, 425),
+(1065, 'P072', 722, 756),
+(1066, 'P073', 512, 791),
+(1067, 'P074', 576, 834),
+(1068, 'P075', 316, 52),
+(1069, 'P076', 930, 415),
+(1070, 'P077', 27, 965),
+
+(1071, 'P078', 909, 323),
+(1072, 'P079', 913, 690),
+(1073, 'P080', 774, 22),
+(1074, 'P081', 197, 862),
+(1075, 'P082', 448, 988),
+(1076, 'P083', 789, 276),
+(1077, 'P084', 38, 509),
+(1078, 'P085', 262, 272),
+(1079, 'P086', 558, 124),
+(1080, 'P087', 247, 654),
+
+(1081, 'P088', 149, 566),
+(1082, 'P089', 880, 861),
+(1083, 'P090', 315, 63),
+(1084, 'P091', 196, 240),
+(1085, 'P092', 309, 72),
+(1086, 'P093', 38, 450),
+(1087, 'P094', 293, 773),
+(1088, 'P095', 917, 178),
+(1089, 'P096', 821, 972),
+(1090, 'P097', 619, 354),
+
+(1091, 'P018', 101, 523),
+(1092, 'P019', 836, 970),
+(1093, 'P010', 957, 59),
+(1094, 'P011', 268, 274),
+(1095, 'P012', 662, 148),
+(1096, 'P013', 702, 355),
+(1097, 'P014', 497, 572),
+(1098, 'P015', 344, 520),
+(1099, 'P016', 790, 354),
+(1100, 'P017', 78, 821),
+
+(1101, 'P018', 492, 441),
+(1102, 'P019', 957, 222),
+(1103, 'P020', 393, 983),
+(1104, 'P021', 569, 136),
+(1105, 'P022', 617, 491),
+(1106, 'P023', 661, 947),
+(1107, 'P024', 395, 547),
+(1108, 'P025', 619, 939),
+(1109, 'P026', 769, 128),
+(1110, 'P027', 464, 539),
+
+(1111, 'P028', 658, 654),
+(1112, 'P029', 731, 436),
+(1113, 'P030', 707, 728),
+(1114, 'P031', 201, 27),
+(1115, 'P032', 422, 186),
+(1116, 'P033', 247, 392),
+(1117, 'P034', 305, 404),
+(1118, 'P035', 905, 186),
+(1119, 'P036', 554, 912),
+(1120, 'P037', 376, 698),
+
+(1121, 'P038', 973, 787),
+(1122, 'P039', 710, 304),
+(1123, 'P040', 404, 647),
+(1124, 'P041', 438, 981),
+(1125, 'P042', 937, 406),
+(1126, 'P043', 616, 450),
+(1127, 'P044', 277, 882),
+(1128, 'P045', 487, 777),
+(1129, 'P046', 300, 510),
+(1130, 'P047', 773, 618),
+
+(1131, 'P048', 649, 374),
+(1132, 'P049', 276, 574),
+(1133, 'P050', 973, 596),
+(1134, 'P051', 682, 459),
+(1135, 'P052', 735, 961),
+(1136, 'P053', 725, 722),
+(1137, 'P054', 299, 319),
+(1138, 'P055', 962, 879),
+(1139, 'P056', 894, 266),
+(1140, 'P057', 614, 275),
+
+(1141, 'P058', 308, 425),
+(1142, 'P059', 788, 716),
+(1143, 'P060', 705, 965),
+(1144, 'P061', 381, 364),
+(1145, 'P063', 878, 548),
+(1146, 'P062', 36, 662),
+(1147, 'P063', 369, 219),
+(1148, 'P064', 712, 869),
+(1149, 'P065', 840, 27),
+(1150, 'P066', 688, 471),
+
+(1151, 'P067', 274, 398),
+(1152, 'P068', 541, 438),
+(1153, 'P069', 703, 815),
+(1154, 'P070', 200, 369),
+(1155, 'P071', 888, 222),
+(1156, 'P072', 128, 306),
+(1157, 'P073', 515, 532),
+(1158, 'P074', 570, 98),
+(1159, 'P075', 29, 262),
+(1160, 'P076', 827, 899),
+
+(1161, 'P077', 377, 974),
+(1162, 'P078', 400, 240),
+(1163, 'P079', 546, 192),
+(1164, 'P080', 878, 962),
+(1165, 'P081', 197, 564),
+(1166, 'P082', 757, 869),
+(1167, 'P083', 710, 947),
+(1168, 'P084', 544, 986),
+(1169, 'P085', 21, 595),
+(1170, 'P086', 437, 69)
+
+-- select * from Order_Detail;
+
+
+
+
+
+------ Order_Bill -------
+
+set search_path to Tiles_Industry_Database_Project;
+
+
+INSERT INTO Order_Bill VALUES (1, '2022-06-06', 25000.50, 1001, 1);
+INSERT INTO Order_Bill VALUES (2, '2022-06-07', 30000.00, 1002, 2);
+INSERT INTO Order_Bill VALUES (3, '2022-06-08', 15000.00, 1003, 3);
+INSERT INTO Order_Bill VALUES (4, '2022-06-09', 18000.00, 1004, 4);
+INSERT INTO Order_Bill VALUES (5, '2022-06-10', 9000.00, 1005, 5);
+INSERT INTO Order_Bill VALUES (6, '2022-06-11', 12000.00, 1006, 6);
+INSERT INTO Order_Bill VALUES (7, '2022-06-12', 20000.00, 1007, 7);
+INSERT INTO Order_Bill VALUES (8, '2022-06-13', 17500.00, 1008, 8);
+INSERT INTO Order_Bill VALUES (9, '2022-06-14', 5000.00, 1009, 9);
+INSERT INTO Order_Bill VALUES (10, '2022-06-15', 35000.00, 1010, 10);
+INSERT INTO Order_Bill VALUES (11, '2022-06-16', 25000.00, 1011, 11);
+INSERT INTO Order_Bill VALUES (12, '2022-06-17', 12000.00, 1012, 12);
+INSERT INTO Order_Bill VALUES (13, '2022-06-18', 9000.00, 1013, 13);
+INSERT INTO Order_Bill VALUES (14, '2022-06-19', 28000.00, 1014, 14);
+INSERT INTO Order_Bill VALUES (15, '2022-06-20', 22000.00, 1015, 15);
+INSERT INTO Order_Bill VALUES (16, '2022-06-21', 10000.00, 1016, 16);
+INSERT INTO Order_Bill VALUES (17, '2022-06-22', 5000.00, 1017, 17);
+INSERT INTO Order_Bill VALUES (18, '2022-06-23', 15000.00, 1018, 18);
+INSERT INTO Order_Bill VALUES (19, '2022-06-24', 18000.00, 1019, 19);
+INSERT INTO Order_Bill VALUES (20, '2022-06-25', 8000.00, 1020, 20);
+INSERT INTO Order_Bill VALUES (21, '2022-06-26', 24000.00, 1021, 21);
+INSERT INTO Order_Bill VALUES (22, '2022-06-27', 10000.00, 1022, 22);
+INSERT INTO Order_Bill VALUES (23, '2022-06-28', 20000.00, 1023, 23);
+INSERT INTO Order_Bill VALUES (24, '2022-06-29', 15000.00, 1024, 24);
+INSERT INTO Order_Bill VALUES (25, '2022-06-30', 12000.00, 1025, 25);
+
+INSERT INTO Order_Bill VALUES (26, '2022-07-01', 28000.00, 1026, 26);
+INSERT INTO Order_Bill VALUES (27, '2022-07-02', 22000.00, 1027, 27);
+INSERT INTO Order_Bill VALUES (28, '2022-07-03', 10000.00, 1028, 28);
+INSERT INTO Order_Bill VALUES (29, '2022-07-04', 5000.00, 1029, 29);
+INSERT INTO Order_Bill VALUES (30, '2022-07-05', 15000.00, 1030, 30);
+INSERT INTO Order_Bill VALUES (31, '2022-07-06', 18000.00, 1031, 31);
+INSERT INTO Order_Bill VALUES (32, '2022-07-07', 8000.00, 1032, 32);
+INSERT INTO Order_Bill VALUES (33, '2022-07-08', 24000.00, 1033, 33);
+INSERT INTO Order_Bill VALUES (34, '2022-07-09', 10000.00, 1034, 34);
+INSERT INTO Order_Bill VALUES (35, '2022-07-10', 20000.00, 1035, 35);
+INSERT INTO Order_Bill VALUES (36, '2022-07-11', 15000.00, 1036, 36);
+INSERT INTO Order_Bill VALUES (37, '2022-07-12', 12000.00, 1037, 37);
+INSERT INTO Order_Bill VALUES (38, '2022-07-13', 28000.00, 1038, 38);
+INSERT INTO Order_Bill VALUES (39, '2022-07-14', 22000.00, 1039, 39);
+INSERT INTO Order_Bill VALUES (40, '2022-07-15', 10000.00, 1040, 40);
+INSERT INTO Order_Bill VALUES (41, '2022-07-16', 5000.00, 1041, 41);
+INSERT INTO Order_Bill VALUES (42, '2022-07-17', 15000.00, 1042, 42);
+INSERT INTO Order_Bill VALUES (43, '2022-07-18', 18000.00, 1043, 43);
+INSERT INTO Order_Bill VALUES (44, '2022-07-19', 8000.00, 1044, 44);
+INSERT INTO Order_Bill VALUES (45, '2022-07-20', 24000.00, 1045, 45);
+INSERT INTO Order_Bill VALUES (46, '2022-07-21', 10000.00, 1046, 46);
+INSERT INTO Order_Bill VALUES (47, '2022-07-22', 20000.00, 1047, 47);
+INSERT INTO Order_Bill VALUES (48, '2022-07-23', 15000.00, 1048, 48);
+INSERT INTO Order_Bill VALUES (49, '2022-07-24', 12000.00, 1049, 49);
+INSERT INTO Order_Bill VALUES (50, '2022-07-25', 28000.00, 1050, 50);
+
+INSERT INTO Order_Bill VALUES (51, '2022-07-26', 22000.00, 1051, 51);
+INSERT INTO Order_Bill VALUES (52, '2022-07-27', 10000.00, 1052, 52);
+INSERT INTO Order_Bill VALUES (53, '2022-07-28', 5000.00, 1053, 53);
+INSERT INTO Order_Bill VALUES (54, '2022-07-29', 15000.00, 1054, 54);
+INSERT INTO Order_Bill VALUES (55, '2022-07-30', 18000.00, 1055, 55);
+INSERT INTO Order_Bill VALUES (56, '2022-07-31', 8000.00, 1056, 56);
+INSERT INTO Order_Bill VALUES (57, '2022-08-01', 24000.00, 1057, 57);
+INSERT INTO Order_Bill VALUES (58, '2022-08-02', 10000.00, 1058, 58);
+INSERT INTO Order_Bill VALUES (59, '2022-08-03', 20000.00, 1059, 59);
+INSERT INTO Order_Bill VALUES (60, '2022-08-04', 15000.00, 1060, 60);
+INSERT INTO Order_Bill VALUES (61, '2022-08-05', 12000.00, 1061, 61);
+INSERT INTO Order_Bill VALUES (62, '2022-08-06', 28000.00, 1062, 62);
+INSERT INTO Order_Bill VALUES (63, '2022-08-07', 22000.00, 1063, 63);
+INSERT INTO Order_Bill VALUES (64, '2022-08-08', 10000.00, 1064, 64);
+INSERT INTO Order_Bill VALUES (65, '2022-08-09', 5000.00, 1065, 65);
+INSERT INTO Order_Bill VALUES (66, '2022-08-10', 15000.00, 1066, 66);
+INSERT INTO Order_Bill VALUES (67, '2022-08-11', 18000.00, 1067, 67);
+INSERT INTO Order_Bill VALUES (68, '2022-08-12', 8000.00, 1068, 68);
+INSERT INTO Order_Bill VALUES (69, '2022-08-13', 24000.00, 1069, 69);
+INSERT INTO Order_Bill VALUES (70, '2022-08-14', 10000.00, 1070, 70);
+INSERT INTO Order_Bill VALUES (71, '2022-08-15', 20000.00, 1071, 71);
+INSERT INTO Order_Bill VALUES (72, '2022-08-16', 15000.00, 1072, 72);
+INSERT INTO Order_Bill VALUES (73, '2022-08-17', 12000.00, 1073, 73);
+INSERT INTO Order_Bill VALUES (74, '2022-08-18', 28000.00, 1074, 74);
+INSERT INTO Order_Bill VALUES (75, '2022-08-19', 22000.00, 1075, 75);
+
+INSERT INTO Order_Bill VALUES (76, '2022-08-20', 10000.00, 1076, 76);
+INSERT INTO Order_Bill VALUES (77, '2022-08-21', 5000.00, 1077, 77);
+INSERT INTO Order_Bill VALUES (78, '2022-08-22', 15000.00, 1078, 78);
+INSERT INTO Order_Bill VALUES (79, '2022-08-23', 18000.00, 1079, 79);
+INSERT INTO Order_Bill VALUES (80, '2022-08-24', 8000.00, 1080, 80);
+INSERT INTO Order_Bill VALUES (81, '2022-08-25', 24000.00, 1081, 81);
+INSERT INTO Order_Bill VALUES (82, '2022-08-26', 10000.00, 1082, 82);
+INSERT INTO Order_Bill VALUES (83, '2022-08-27', 20000.00, 1083, 83);
+INSERT INTO Order_Bill VALUES (84, '2022-08-28', 15000.00, 1084, 84);
+INSERT INTO Order_Bill VALUES (85, '2022-08-29', 12000.00, 1085, 85);
+INSERT INTO Order_Bill VALUES (86, '2022-08-30', 28000.00, 1086, 86);
+INSERT INTO Order_Bill VALUES (87, '2022-08-31', 22000.00, 1087, 87);
+INSERT INTO Order_Bill VALUES (88, '2022-09-01', 10000.00, 1088, 88);
+INSERT INTO Order_Bill VALUES (89, '2022-09-02', 5000.00, 1089, 89);
+INSERT INTO Order_Bill VALUES (90, '2022-09-03', 15000.00, 1090, 90);
+INSERT INTO Order_Bill VALUES (91, '2022-09-04', 18000.00, 1091, 91);
+INSERT INTO Order_Bill VALUES (92, '2022-09-05', 8000.00, 1092, 92);
+INSERT INTO Order_Bill VALUES (93, '2022-09-06', 24000.00, 1093, 93);
+INSERT INTO Order_Bill VALUES (94, '2022-09-07', 10000.00, 1094, 94);
+INSERT INTO Order_Bill VALUES (95, '2022-09-08', 20000.00, 1095, 95);
+INSERT INTO Order_Bill VALUES (96, '2022-09-09', 15000.00, 1096, 96);
+INSERT INTO Order_Bill VALUES (97, '2022-09-10', 12000.00, 1097, 97);
+INSERT INTO Order_Bill VALUES (98, '2022-09-11', 28000.00, 1098, 98);
+INSERT INTO Order_Bill VALUES (99, '2022-09-12', 22000.00, 1099, 99);
+INSERT INTO Order_Bill VALUES (100, '2022-09-13', 10000.00, 1100, 100);
+
+INSERT INTO Order_Bill VALUES (101, '2022-09-14', 5000.00, 1101, 1);
+INSERT INTO Order_Bill VALUES (102, '2022-09-15', 15000.00, 1102, 2);
+INSERT INTO Order_Bill VALUES (103, '2022-09-16', 18000.00, 1103, 3);
+INSERT INTO Order_Bill VALUES (104, '2022-09-17', 8000.00, 1104, 4);
+INSERT INTO Order_Bill VALUES (105, '2022-09-18', 24000.00, 1105, 5);
+INSERT INTO Order_Bill VALUES (106, '2022-09-19', 10000.00, 1106, 6);
+INSERT INTO Order_Bill VALUES (107, '2022-09-20', 20000.00, 1107, 7);
+INSERT INTO Order_Bill VALUES (108, '2022-09-21', 15000.00, 1108, 8);
+INSERT INTO Order_Bill VALUES (109, '2022-09-22', 12000.00, 1109, 9);
+INSERT INTO Order_Bill VALUES (110, '2022-09-23', 28000.00, 1110, 10);
+INSERT INTO Order_Bill VALUES (111, '2022-09-24', 22000.00, 1111, 11);
+INSERT INTO Order_Bill VALUES (112, '2022-09-25', 10000.00, 1112, 12);
+INSERT INTO Order_Bill VALUES (113, '2022-09-26', 5000.00, 1113, 13);
+INSERT INTO Order_Bill VALUES (114, '2022-09-27', 15000.00, 1114, 14);
+INSERT INTO Order_Bill VALUES (115, '2022-09-28', 18000.00, 1115, 15);
+INSERT INTO Order_Bill VALUES (116, '2022-09-29', 8000.00, 1116, 16);
+INSERT INTO Order_Bill VALUES (117, '2022-09-30', 24000.00, 1117, 17);
+INSERT INTO Order_Bill VALUES (118, '2022-10-01', 10000.00, 1118, 18);
+INSERT INTO Order_Bill VALUES (119, '2022-10-02', 20000.00, 1119, 19);
+INSERT INTO Order_Bill VALUES (120, '2022-10-03', 15000.00, 1120, 20);
+INSERT INTO Order_Bill VALUES (121, '2022-10-04', 12000.00, 1121, 21);
+INSERT INTO Order_Bill VALUES (122, '2022-10-05', 28000.00, 1122, 22);
+INSERT INTO Order_Bill VALUES (123, '2022-10-06', 22000.00, 1123, 23);
+INSERT INTO Order_Bill VALUES (124, '2022-10-07', 10000.00, 1124, 24);
+INSERT INTO Order_Bill VALUES (125, '2022-10-08', 5000.00, 1125, 25);
+
+INSERT INTO Order_Bill VALUES (126, '2022-10-09', 15000.00, 1126, 26);
+INSERT INTO Order_Bill VALUES (127, '2022-10-10', 18000.00, 1127, 27);
+INSERT INTO Order_Bill VALUES (128, '2022-10-11', 8000.00, 1128, 28);
+INSERT INTO Order_Bill VALUES (129, '2022-10-12', 24000.00, 1129, 29);
+INSERT INTO Order_Bill VALUES (130, '2022-10-13', 10000.00, 1130, 30);
+INSERT INTO Order_Bill VALUES (131, '2022-10-14', 20000.00, 1131, 31);
+INSERT INTO Order_Bill VALUES (132, '2022-10-15', 15000.00, 1132, 32);
+INSERT INTO Order_Bill VALUES (133, '2022-10-16', 12000.00, 1133, 33);
+INSERT INTO Order_Bill VALUES (134, '2022-10-17', 28000.00, 1134, 34);
+INSERT INTO Order_Bill VALUES (135, '2022-10-18', 22000.00, 1135, 35);
+INSERT INTO Order_Bill VALUES (136, '2022-10-19', 10000.00, 1136, 36);
+INSERT INTO Order_Bill VALUES (137, '2022-10-20', 5000.00, 1137, 37);
+INSERT INTO Order_Bill VALUES (138, '2022-10-21', 15000.00, 1138, 38);
+INSERT INTO Order_Bill VALUES (139, '2022-10-22', 18000.00, 1139, 39);
+INSERT INTO Order_Bill VALUES (140, '2022-10-23', 8000.00, 1140, 40);
+INSERT INTO Order_Bill VALUES (141, '2022-10-24', 24000.00, 1141, 41);
+INSERT INTO Order_Bill VALUES (142, '2022-10-25', 10000.00, 1142, 42);
+INSERT INTO Order_Bill VALUES (143, '2022-10-26', 20000.00, 1143, 43);
+INSERT INTO Order_Bill VALUES (144, '2022-10-27', 15000.00, 1144, 44);
+INSERT INTO Order_Bill VALUES (145, '2022-10-28', 12000.00, 1145, 45);
+INSERT INTO Order_Bill VALUES (146, '2022-10-29', 28000.00, 1146, 46);
+INSERT INTO Order_Bill VALUES (147, '2022-10-30', 22000.00, 1147, 47);
+INSERT INTO Order_Bill VALUES (148, '2022-10-31', 10000.00, 1148, 48);
+INSERT INTO Order_Bill VALUES (149, '2022-11-01', 5000.00, 1149, 49);
+INSERT INTO Order_Bill VALUES (150, '2022-11-02', 15000.00, 1150, 50);
+
+INSERT INTO Order_Bill VALUES (151, '2022-11-03', 18000.00, 1151, 51);
+INSERT INTO Order_Bill VALUES (152, '2022-11-04', 8000.00, 1152, 52);
+INSERT INTO Order_Bill VALUES (153, '2022-11-05', 24000.00, 1153, 53);
+INSERT INTO Order_Bill VALUES (154, '2022-11-06', 10000.00, 1154, 54);
+INSERT INTO Order_Bill VALUES (155, '2022-11-07', 20000.00, 1155, 55);
+INSERT INTO Order_Bill VALUES (156, '2022-11-08', 15000.00, 1156, 56);
+INSERT INTO Order_Bill VALUES (157, '2022-11-09', 12000.00, 1157, 57);
+INSERT INTO Order_Bill VALUES (158, '2022-11-10', 28000.00, 1158, 58);
+INSERT INTO Order_Bill VALUES (159, '2022-11-11', 22000.00, 1159, 59);
+INSERT INTO Order_Bill VALUES (160, '2022-11-12', 10000.00, 1160, 60);
+INSERT INTO Order_Bill VALUES (161, '2022-11-13', 5000.00, 1161, 61);
+INSERT INTO Order_Bill VALUES (162, '2022-11-14', 15000.00, 1162, 62);
+INSERT INTO Order_Bill VALUES (163, '2022-11-15', 18000.00, 1163, 63);
+INSERT INTO Order_Bill VALUES (164, '2022-11-16', 8000.00, 1164, 64);
+INSERT INTO Order_Bill VALUES (165, '2022-11-17', 24000.00, 1165, 65);
+INSERT INTO Order_Bill VALUES (166, '2022-11-18', 10000.00, 1166, 66);
+INSERT INTO Order_Bill VALUES (167, '2022-11-19', 20000.00, 1167, 67);
+INSERT INTO Order_Bill VALUES (168, '2022-11-20', 15000.00, 1168, 68);
+INSERT INTO Order_Bill VALUES (169, '2022-11-21', 12000.00, 1169, 69);
+INSERT INTO Order_Bill VALUES (170, '2022-11-22', 28000.00, 1170, 70);
+INSERT INTO Order_Bill VALUES (171, '2022-11-23', 22000.00, 1171, 71);
+INSERT INTO Order_Bill VALUES (172, '2022-11-24', 10000.00, 1172, 72);
+INSERT INTO Order_Bill VALUES (173, '2022-11-25', 5000.00, 1173, 73);
+INSERT INTO Order_Bill VALUES (174, '2022-11-26', 15000.00, 1174, 74);
+INSERT INTO Order_Bill VALUES (175, '2022-11-27', 18000.00, 1175, 75);
+
+INSERT INTO Order_Bill VALUES (176, '2022-11-28', 8000.00, 1176, 76);
+INSERT INTO Order_Bill VALUES (177, '2022-11-29', 24000.00, 1177, 77);
+INSERT INTO Order_Bill VALUES (178, '2022-11-30', 10000.00, 1178, 78);
+INSERT INTO Order_Bill VALUES (179, '2022-12-01', 20000.00, 1179, 79);
+INSERT INTO Order_Bill VALUES (180, '2022-12-02', 15000.00, 1180, 80);
+INSERT INTO Order_Bill VALUES (181, '2022-12-03', 12000.00, 1181, 81);
+INSERT INTO Order_Bill VALUES (182, '2022-12-04', 28000.00, 1182, 82);
+INSERT INTO Order_Bill VALUES (183, '2022-12-05', 22000.00, 1183, 83);
+INSERT INTO Order_Bill VALUES (184, '2022-12-06', 10000.00, 1184, 84);
+INSERT INTO Order_Bill VALUES (185, '2022-12-07', 5000.00, 1185, 85);
+INSERT INTO Order_Bill VALUES (186, '2022-12-08', 15000.00, 1186, 86);
+INSERT INTO Order_Bill VALUES (187, '2022-12-09', 18000.00, 1187, 87);
+INSERT INTO Order_Bill VALUES (188, '2022-12-10', 8000.00, 1188, 88);
+INSERT INTO Order_Bill VALUES (189, '2022-12-11', 24000.00, 1189, 89);
+INSERT INTO Order_Bill VALUES (190, '2022-12-12', 10000.00, 1190, 90);
+INSERT INTO Order_Bill VALUES (191, '2022-12-13', 20000.00, 1191, 91);
+INSERT INTO Order_Bill VALUES (192, '2022-12-14', 15000.00, 1192, 92);
+INSERT INTO Order_Bill VALUES (193, '2022-12-15', 12000.00, 1193, 93);
+INSERT INTO Order_Bill VALUES (194, '2022-12-16', 28000.00, 1194, 94);
+INSERT INTO Order_Bill VALUES (195, '2022-12-17', 22000.00, 1195, 95);
+INSERT INTO Order_Bill VALUES (196, '2022-12-18', 10000.00, 1196, 96);
+INSERT INTO Order_Bill VALUES (197, '2022-12-19', 5000.00, 1197, 97);
+INSERT INTO Order_Bill VALUES (198, '2022-12-20', 15000.00, 1198, 98);
+INSERT INTO Order_Bill VALUES (199, '2022-12-21', 18000.00, 1199, 99);
+INSERT INTO Order_Bill VALUES (200, '2022-12-22', 8000.00, 1200, 100);
+
+INSERT INTO Order_Bill VALUES (201, '2022-12-23', 24000.00, 1201, 1);
+INSERT INTO Order_Bill VALUES (202, '2022-12-24', 10000.00, 1202, 2);
+INSERT INTO Order_Bill VALUES (203, '2022-12-25', 20000.00, 1203, 3);
+INSERT INTO Order_Bill VALUES (204, '2022-12-26', 15000.00, 1204, 4);
+INSERT INTO Order_Bill VALUES (205, '2022-12-27', 12000.00, 1205, 5);
+INSERT INTO Order_Bill VALUES (206, '2022-12-28', 28000.00, 1206, 6);
+INSERT INTO Order_Bill VALUES (207, '2022-12-29', 22000.00, 1207, 7);
+INSERT INTO Order_Bill VALUES (208, '2022-12-30', 10000.00, 1208, 8);
+INSERT INTO Order_Bill VALUES (209, '2022-12-31', 5000.00, 1209, 9);
+INSERT INTO Order_Bill VALUES (210, '2023-01-01', 15000.00, 1210, 10);
+INSERT INTO Order_Bill VALUES (211, '2023-01-02', 18000.00, 1211, 11);
+INSERT INTO Order_Bill VALUES (212, '2023-01-03', 8000.00, 1212, 12);
+INSERT INTO Order_Bill VALUES (213, '2023-01-04', 24000.00, 1213, 13);
+INSERT INTO Order_Bill VALUES (214, '2023-01-05', 10000.00, 1214, 14);
+INSERT INTO Order_Bill VALUES (215, '2023-01-06', 20000.00, 1215, 15);
+INSERT INTO Order_Bill VALUES (216, '2023-01-07', 15000.00, 1216, 16);
+INSERT INTO Order_Bill VALUES (217, '2023-01-08', 12000.00, 1217, 17);
+INSERT INTO Order_Bill VALUES (218, '2023-01-09', 28000.00, 1218, 18);
+INSERT INTO Order_Bill VALUES (219, '2023-01-10', 22000.00, 1219, 19);
+INSERT INTO Order_Bill VALUES (220, '2023-01-11', 10000.00, 1220, 20);
+INSERT INTO Order_Bill VALUES (221, '2023-01-12', 5000.00, 1221, 21);
+INSERT INTO Order_Bill VALUES (222, '2023-01-13', 15000.00, 1222, 22);
+INSERT INTO Order_Bill VALUES (223, '2023-01-14', 18000.00, 1223, 23);
+INSERT INTO Order_Bill VALUES (224, '2023-01-15', 8000.00, 1224, 24);
+INSERT INTO Order_Bill VALUES (225, '2023-01-16', 24000.00, 1225, 25);
+
+INSERT INTO Order_Bill VALUES (226, '2023-01-17', 10000.00, 1226, 26);
+INSERT INTO Order_Bill VALUES (227, '2023-01-18', 20000.00, 1227, 27);
+INSERT INTO Order_Bill VALUES (228, '2023-01-19', 15000.00, 1228, 28);
+INSERT INTO Order_Bill VALUES (229, '2023-01-20', 12000.00, 1229, 29);
+INSERT INTO Order_Bill VALUES (230, '2023-01-21', 28000.00, 1230, 30);
+INSERT INTO Order_Bill VALUES (231, '2023-01-22', 22000.00, 1001, 31);
+INSERT INTO Order_Bill VALUES (232, '2023-01-23', 10000.00, 1002, 32);
+INSERT INTO Order_Bill VALUES (233, '2023-01-24', 5000.00, 1003, 33);
+INSERT INTO Order_Bill VALUES (234, '2023-01-25', 15000.00, 1004, 34);
+INSERT INTO Order_Bill VALUES (235, '2023-01-26', 18000.00, 1005, 35);
+INSERT INTO Order_Bill VALUES (236, '2023-01-27', 8000.00, 1006, 36);
+INSERT INTO Order_Bill VALUES (237, '2023-01-28', 24000.00, 1007, 37);
+INSERT INTO Order_Bill VALUES (238, '2023-01-29', 10000.00, 1008, 38);
+INSERT INTO Order_Bill VALUES (239, '2023-01-30', 20000.00, 1009, 39);
+INSERT INTO Order_Bill VALUES (240, '2023-01-31', 15000.00, 1010, 40);
+INSERT INTO Order_Bill VALUES (241, '2023-02-01', 12000.00, 1011, 41);
+INSERT INTO Order_Bill VALUES (242, '2023-02-02', 28000.00, 1012, 42);
+INSERT INTO Order_Bill VALUES (243, '2023-02-03', 22000.00, 1013, 43);
+INSERT INTO Order_Bill VALUES (244, '2023-02-04', 10000.00, 1014, 44);
+INSERT INTO Order_Bill VALUES (245, '2023-02-05', 5000.00, 1015, 45);
+INSERT INTO Order_Bill VALUES (246, '2023-02-06', 15000.00, 1016, 46);
+INSERT INTO Order_Bill VALUES (247, '2023-02-07', 18000.00, 1017, 47);
+INSERT INTO Order_Bill VALUES (248, '2023-02-08', 8000.00, 1018, 48);
+INSERT INTO Order_Bill VALUES (249, '2023-02-09', 24000.00, 1019, 49);
+INSERT INTO Order_Bill VALUES (250, '2023-02-10', 10000.00, 1020, 50);
+
+INSERT INTO Order_Bill VALUES (251, '2023-02-11', 20000.00, 1021, 51);
+INSERT INTO Order_Bill VALUES (252, '2023-02-12', 15000.00, 1022, 52);
+INSERT INTO Order_Bill VALUES (253, '2023-02-13', 12000.00, 1023, 53);
+INSERT INTO Order_Bill VALUES (254, '2023-02-14', 28000.00, 1024, 54);
+INSERT INTO Order_Bill VALUES (255, '2023-02-15', 22000.00, 1025, 55);
+INSERT INTO Order_Bill VALUES (256, '2023-02-16', 10000.00, 1026, 56);
+INSERT INTO Order_Bill VALUES (257, '2023-02-17', 5000.00, 1027, 57);
+INSERT INTO Order_Bill VALUES (258, '2023-02-18', 15000.00, 1028, 58);
+INSERT INTO Order_Bill VALUES (259, '2023-02-19', 18000.00, 1029, 59);
+INSERT INTO Order_Bill VALUES (260, '2023-02-20', 8000.00, 1030, 60);
+INSERT INTO Order_Bill VALUES (261, '2023-02-21', 24000.00, 1031, 61);
+INSERT INTO Order_Bill VALUES (262, '2023-02-22', 10000.00, 1032, 62);
+INSERT INTO Order_Bill VALUES (263, '2023-02-23', 20000.00, 1033, 63);
+INSERT INTO Order_Bill VALUES (264, '2023-02-24', 15000.00, 1034, 64);
+INSERT INTO Order_Bill VALUES (265, '2023-02-25', 12000.00, 1035, 65);
+INSERT INTO Order_Bill VALUES (266, '2023-02-26', 28000.00, 1036, 66);
+INSERT INTO Order_Bill VALUES (267, '2023-02-27', 22000.00, 1037, 67);
+INSERT INTO Order_Bill VALUES (268, '2023-02-28', 10000.00, 1038, 68);
+INSERT INTO Order_Bill VALUES (269, '2023-03-01', 5000.00, 1039, 69);
+INSERT INTO Order_Bill VALUES (270, '2023-03-02', 15000.00, 1040, 70);
+INSERT INTO Order_Bill VALUES (271, '2023-03-03', 18000.00, 1041, 71);
+INSERT INTO Order_Bill VALUES (272, '2023-03-04', 8000.00, 1042, 72);
+INSERT INTO Order_Bill VALUES (273, '2023-03-05', 24000.00, 1043, 73);
+INSERT INTO Order_Bill VALUES (274, '2023-03-06', 10000.00, 1044, 74);
+INSERT INTO Order_Bill VALUES (275, '2023-03-07', 20000.00, 1045, 75);
+
+-- INSERT INTO Order_Bill VALUES (277, '2023-03-09', 15000.00, 1046, 76);       aa tuple database ma insert karta bhulai gayel che 
+INSERT INTO Order_Bill VALUES (277, '2023-03-09', 15000.00, 1046, 76);
+INSERT INTO Order_Bill VALUES (278, '2023-03-10', 12000.00, 1047, 77);
+INSERT INTO Order_Bill VALUES (279, '2023-03-11', 28000.00, 1048, 78);
+INSERT INTO Order_Bill VALUES (280, '2023-03-12', 22000.00, 1049, 79);
+INSERT INTO Order_Bill VALUES (281, '2023-03-13', 10000.00, 1050, 80);
+INSERT INTO Order_Bill VALUES (282, '2023-03-14', 5000.00, 1051, 81);
+INSERT INTO Order_Bill VALUES (283, '2023-03-15', 15000.00, 1052, 82);
+INSERT INTO Order_Bill VALUES (284, '2023-03-16', 18000.00, 1053, 83);
+INSERT INTO Order_Bill VALUES (285, '2023-03-17', 8000.00, 1054, 84);
+INSERT INTO Order_Bill VALUES (286, '2023-03-18', 24000.00, 1055, 85);
+INSERT INTO Order_Bill VALUES (287, '2023-03-19', 10000.00, 1056, 86);
+INSERT INTO Order_Bill VALUES (288, '2023-03-20', 20000.00, 1057, 87);
+INSERT INTO Order_Bill VALUES (289, '2023-03-21', 15000.00, 1058, 88);
+INSERT INTO Order_Bill VALUES (290, '2023-03-22', 12000.00, 1059, 89);
+INSERT INTO Order_Bill VALUES (291, '2023-03-23', 28000.00, 1060, 90);
+INSERT INTO Order_Bill VALUES (292, '2023-03-24', 22000.00, 1061, 91);
+INSERT INTO Order_Bill VALUES (293, '2023-03-25', 10000.00, 1062, 92);
+INSERT INTO Order_Bill VALUES (294, '2023-03-26', 5000.00, 1063, 93);
+INSERT INTO Order_Bill VALUES (295, '2023-03-27', 15000.00, 1064, 94);
+INSERT INTO Order_Bill VALUES (296, '2023-03-28', 18000.00, 1065, 95);
+INSERT INTO Order_Bill VALUES (297, '2023-03-29', 8000.00, 1066, 96);
+INSERT INTO Order_Bill VALUES (298, '2023-03-30', 24000.00, 1067, 97);
+INSERT INTO Order_Bill VALUES (299, '2023-03-31', 10000.00, 1068, 98);
+INSERT INTO Order_Bill VALUES (300, '2023-04-01', 20000.00, 1069, 99);
+
+INSERT INTO Order_Bill VALUES (301, '2023-04-02', 15000.00, 1070, 100);
+INSERT INTO Order_Bill VALUES (302, '2023-04-03', 12000.00, 1071, 1);
+INSERT INTO Order_Bill VALUES (303, '2023-04-04', 28000.00, 1072, 2);
+INSERT INTO Order_Bill VALUES (304, '2023-04-05', 22000.00, 1073, 3);
+INSERT INTO Order_Bill VALUES (305, '2023-04-06', 10000.00, 1074, 4);
+INSERT INTO Order_Bill VALUES (306, '2023-04-07', 5000.00, 1075, 5);
+INSERT INTO Order_Bill VALUES (307, '2023-04-08', 15000.00, 1076, 6);
+INSERT INTO Order_Bill VALUES (308, '2023-04-09', 18000.00, 1077, 7);
+INSERT INTO Order_Bill VALUES (309, '2023-04-10', 8000.00, 1078, 8);
+INSERT INTO Order_Bill VALUES (310, '2023-04-11', 24000.00, 1079, 9);
+
+INSERT INTO Order_Bill VALUES (311, '2023-04-12', 18000.00, 1080, 10);
+INSERT INTO Order_Bill VALUES (312, '2023-04-13', 9000.00, 1081, 11);
+INSERT INTO Order_Bill VALUES (313, '2023-04-14', 6000.00, 1082, 12);
+INSERT INTO Order_Bill VALUES (314, '2023-04-15', 13000.00, 1083, 13);
+INSERT INTO Order_Bill VALUES (315, '2023-04-16', 11000.00, 1084, 14);
+INSERT INTO Order_Bill VALUES (316, '2023-04-17', 15000.00, 1085, 15);
+INSERT INTO Order_Bill VALUES (317, '2023-04-18', 17000.00, 1086, 16);
+INSERT INTO Order_Bill VALUES (318, '2023-04-19', 7000.00, 1087, 17);
+INSERT INTO Order_Bill VALUES (319, '2023-04-20', 19000.00, 1088, 18);
+INSERT INTO Order_Bill VALUES (320, '2023-04-21', 21000.00, 1089, 19);
+
+INSERT INTO Order_Bill VALUES (321, '2023-04-22', 17000.00, 1090, 20);
+INSERT INTO Order_Bill VALUES (322, '2023-04-23', 23000.00, 1091, 21);
+INSERT INTO Order_Bill VALUES (323, '2023-04-24', 8000.00, 1092, 22);
+INSERT INTO Order_Bill VALUES (324, '2023-04-25', 19000.00, 1093, 23);
+INSERT INTO Order_Bill VALUES (325, '2023-04-26', 14000.00, 1094, 24);
+INSERT INTO Order_Bill VALUES (326, '2023-04-27', 10000.00, 1095, 25);
+INSERT INTO Order_Bill VALUES (327, '2023-04-28', 17000.00, 1096, 26);
+INSERT INTO Order_Bill VALUES (328, '2023-04-29', 21000.00, 1097, 27);
+INSERT INTO Order_Bill VALUES (329, '2023-04-30', 11000.00, 1098, 28);
+INSERT INTO Order_Bill VALUES (330, '2023-05-01', 18000.00, 1099, 29);
+
+-- select * from Order_Bill;
