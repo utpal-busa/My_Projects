@@ -1,0 +1,269 @@
+\documentclass[12pt]{article}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage[backend=bibtex]{biblatex}
+\usepackage{amsmath}
+\addbibresource{201901161.bib}
+
+\begin{document}
+
+\title{\textcolor{blue}{CRYPTOGRAPHY IN SECURE COMMUNICATION}}
+\begin{center}
+\Huge
+{\bf \textcolor{blue}{ 
+{ FINAL PROJECT OF DISCRETE MATHEMATICS }       \\
+}
+}
+\vspace{2 cm}
+\huge\bf
+{ 
+  Assigned by : Professor Manish K. Gupta  \\
+  COURSE      : SC 205   \\
+  DA-IICT      \\
+  GANDHINAGAR  \\
+}
+\vspace{5 cm}
+\LARGE{
+{ 
+  Made by: \textcolor{blue}{GAUTAM MAKHIJA }   \\
+  ID  : \textcolor{cyan}{201901161} \\
+    \includegraphics[scale = 2.0]{DA-IICT.jpg}\\
+
+}
+}
+\end{center}
+\author{
+         GAUTAM MAKHIJA 
+         201901161,\\
+         DA-IICT,\\
+         GANDHINAGAR,\\
+         INDIA\\
+         \texttt{201901161@daiict.ac.in}
+      }  
+\date{\today}
+\maketitle
+\begin{center}
+\LARGE{\textbf{\textcolor{red}{Abstract}}}\\
+\Large{\textbf{\textcolor{cyan}{{This model gives a brief introduction about how cryptography used in data transfer and communication.One such model I dicussed below,which is about communication between two person.}}}}
+\end{center}
+\newpage
+\Large
+\section{\textcolor{red}{INTRODUCTION}}
+\hspace{1 cm}
+   In banks,industry and many other places they have to keep their data and information safe and confidential. And if they want to send their information or data to someone else, they want their data and information to be secure and private and no third party can read the message.So,this kind of problem can be solved using cryptography.
+
+    Here I will discuss about a secure communication problem.
+            
+\section{\textcolor{red}{ A FORMAL STATEMENT OF THE PROBLEM \cite{1} }}
+\hspace{1 cm}
+        Suppose two person want to communicate each other but they want that their message become safe and private and no one can read their message.
+        
+        1.Do encryption: convert This plain text into ciphertext(data into a different form which is incomprehensible).
+        
+         2.Do decryption:convert received ciphertext into plain text.
+\section{\textcolor{red}{AN ANALYTICAL SOLUTION OF PROBLEM}}
+\hspace{1 cm}
+    Suppose we want to send the message:"hello world".\\
+    
+    Let's first encrypt this message:
+    
+    1st we denote numbers to each alphabet:
+    
+        If it is space then take space =0 , otherwise take it’s ASCII value and minus 96, - - (1)
+        
+    Like a = (ASCII value of a) – 96 = 97 – 96 = 1. 
+    
+    
+    So,from above "hello world" become:
+ 
+    \begin{center}"8 5 12 12 15 0 23 15 18 12 4" - - -  (2).
+    \end{center}
+    
+    Take our public key n=27 and private key as 2x2 matrix.
+    
+    $$\textbf{key} = 
+    \begin{bmatrix}
+        3 & 2 \\
+        0 & 1 
+    \end{bmatrix}
+    \quad
+    $$
+    
+    now  convert (2) in matrix whose column is 2.
+    
+    So we get,
+    
+    $$\textbf{A} =
+    \begin{bmatrix}
+        8 & 5\\
+        12 & 12\\
+        15 & 0\\
+        23 & 15\\
+        18 & 12\\
+        4 & 0
+    \end{bmatrix}
+    \quad
+    $$
+    
+    Here last index is empty so we add 0(space) there.
+    
+    Now  multiply A with key.
+    
+     $$\textbf{A x key} =
+     \begin{bmatrix}
+         8 & 5\\
+        12 & 12\\
+        15 & 0\\
+        23 & 15\\
+        18 & 12\\
+        4 & 0
+    \end{bmatrix}
+    %
+    \begin{bmatrix}
+         3 & 2\\
+        0 & 1
+    \end{bmatrix}
+    $$
+    
+    $$\textbf{A x key} =
+    \begin{bmatrix}
+         24 & 21\\
+        36 & 36\\
+        45 & 30\\
+        69 & 61\\
+        54 & 48\\
+        12 & 8
+    \end{bmatrix}
+    $$
+    
+    
+    Now  divide all numbers of this matrix  with n so  we get,
+    
+    Reminder: : 24 21 9 9 18 3 15 7 0 21 12 8, and
+    
+    Quotient: 0 0 1 1 1 1 2 2 2 1 0 0.\\
+    
+   Now convert all numbers of reminder in alphabet using (1) 
+   
+   Like : 24 +96 = 120 = x(ASCII value OF x = 120)\\
+   so we get:
+	\begin{center}
+        "xuiircog ulh".
+    \end{center}
+    
+    Send this above message and quotient to the receiver.
+    
+    
+    Now we can do decryption of this received message:
+    
+    Here receiver get this message "xuiircog ulh" and quotient.
+    
+    1st convert this alphabet into numbers using (1).
+    
+    we get,24 21 9 9 18 3 15 7 0 21 12 8
+    
+    Take multiplication of  quotient's each number with n and add reminder in it.
+    
+    1st number we get is  $ Y1=27\times0 + 24 = 24.$
+    
+    then $ Y2=27\times0 + 21 = 21. $
+    
+    Like this,$ Y4=27\times1 + 9 = 36 $.
+    
+   upto  $Y12 = 27\times0 + 8 = 8$.
+    
+    So we get,
+    \begin{center}
+        24 21 36 36 45 30 69 61 54 48 12 8.
+    \end{center}
+    
+    convert these numbers in  matrix whose column is 2.
+    
+    $$\textbf{B} =
+    \begin{bmatrix}
+         24 & 21\\
+        36 & 36\\
+        45 & 30\\
+        69 & 61\\
+        54 & 48\\
+        12 & 8
+    \end{bmatrix}
+    $$
+    
+    Now multiply B with $key^{-1}$
+    
+     So, we get our original matrix.
+    
+    Here,
+    $$\textsf{key} =
+    \begin{bmatrix}
+         3 & 2\\
+        0 & 1
+    \end{bmatrix}
+    $$
+    So,
+    
+    \[ key^{-1} = \frac{1}{3}
+    \begin{bmatrix}
+         1 & -2\\
+        0 & 3
+    \end{bmatrix}\]
+    
+   Now,
+   \[ Y = B\times key^{-1}\]
+   
+   \[\textsf{Y} =
+   \begin{bmatrix}
+         24 & 21\\
+        36 & 36\\
+        45 & 30\\
+        69 & 61\\
+        54 & 48\\
+        12   & 8
+    \end{bmatrix} \frac{1}{3}
+    %
+    \begin{bmatrix}
+         1 & -2\\
+        0 & 3
+    \end{bmatrix}\]
+    $$\textsf{Y} =
+   \begin{bmatrix}
+         8 & 5\\
+        12 & 12\\
+        15 & 0\\
+        23 & 15\\
+        18 & 12\\
+        4 & 0
+    \end{bmatrix}
+    $$
+    
+    Now convert Y's each number in alphabet.
+    
+    So,we get:
+    \textbf{"hello world "}
+    
+    Here last space is negligible so remove that space and we get:
+    $$\textbf{"hello world"}$$
+    This is our original message.
+    
+    So,we encrypt our message securely and decrypt using some particular method so that only receiver can read the message.\\
+    
+    \includegraphics[scale = 0.75]{Solution.jpg}
+
+\section{\textcolor{blue}{ APPLICATION OF THIS MODEL \cite{2} }}
+\textsf
+	This model is useful to communicate secretly, allowing the world to see the encrypted message in case anyone is listening in, while not allowing them to know the actual message. Only the intended recipient can read it. 
+
+	
+	There are many more benefits of this model:
+	
+	
+	[1].This model is used almost exclusively in security related areas. It can limit only approved people to access secret data.
+
+	[2]. This model is used in  Securely storing data on your computer, like your password keeper.
+	
+	[3]. This model is used in financial, government, medical, even multiplayer games to secure data and information.
+
+\printbibliography
+ 
+\end{document}
